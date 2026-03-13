@@ -1,15 +1,15 @@
 {
-  "generated": "2026-03-13 12:44",
+  "generated": "2026-03-13 12:29",
   "summary": {
-    "total_sessions": 103,
-    "cycling_sessions": 63,
+    "total_sessions": 104,
+    "cycling_sessions": 64,
     "running_sessions": 40,
-    "current_ctl": 19.1,
-    "current_atl": 37.1,
-    "current_tsb": -17.9,
+    "current_ctl": 20.0,
+    "current_atl": 39.7,
+    "current_tsb": -19.7,
     "date_range": {
       "from": "2026-01-30",
-      "to": "2026-03-12"
+      "to": "2026-03-13"
     }
   },
   "pmc_chart": [
@@ -836,6 +836,14 @@
       "atl": 37.1,
       "tsb": -17.9,
       "type": "cycling"
+    },
+    {
+      "date": "2026-03-13",
+      "tss": 56.7,
+      "ctl": 20.0,
+      "atl": 39.7,
+      "tsb": -19.7,
+      "type": "indoor_cycling"
     }
   ],
   "cei_series": [
@@ -1054,9 +1062,42 @@
       "avg_power_w": 200.5,
       "avg_hr_bpm": 125,
       "is_indoor": true
+    },
+    {
+      "date": "2026-03-13",
+      "cei_inv": 1.581,
+      "cei": 0.6324,
+      "avg_power_w": 219.8,
+      "avg_hr_bpm": 139,
+      "is_indoor": true
     }
   ],
   "recent_sessions": [
+    {
+      "date": "2026-03-13",
+      "type": "indoor_cycling",
+      "is_indoor": true,
+      "duration": "33m 27s",
+      "distance_km": 16.66,
+      "elevation_m": 0,
+      "avg_hr": 139,
+      "max_hr": 168,
+      "avg_hrr_pct": 73.8,
+      "avg_cadence": 76,
+      "avg_power_w": 219.8,
+      "norm_power_w": 254.2,
+      "tss": 56.7,
+      "if": 1.009,
+      "avg_speed_kph": 29.9,
+      "avg_pace": null,
+      "hr_zones": {
+        "Z1 Recovery": 0.2,
+        "Z2 Endurance": 44.6,
+        "Z3 Tempo": 40.7,
+        "Z4 Threshold": 12.7,
+        "Z5 VO2max": 1.8
+      }
+    },
     {
       "date": "2026-03-12",
       "type": "cycling",
@@ -1281,40 +1322,15 @@
         "Z4 Threshold": 0.0,
         "Z5 VO2max": 0.0
       }
-    },
-    {
-      "date": "2026-03-09",
-      "type": "running",
-      "is_indoor": false,
-      "duration": "43m 27s",
-      "distance_km": 7.18,
-      "elevation_m": 8,
-      "avg_hr": 117,
-      "max_hr": 132,
-      "avg_hrr_pct": 56.9,
-      "avg_cadence": 83,
-      "avg_power_w": null,
-      "norm_power_w": null,
-      "tss": null,
-      "if": null,
-      "avg_speed_kph": 9.9,
-      "avg_pace": "6:02 /km",
-      "hr_zones": {
-        "Z1 Recovery": 40.4,
-        "Z2 Endurance": 59.6,
-        "Z3 Tempo": 0.0,
-        "Z4 Threshold": 0.0,
-        "Z5 VO2max": 0.0
-      }
     }
   ],
   "indoor_outdoor_delta": {
     "indoor": {
-      "n": 26,
-      "avg_power_w": 197.0,
-      "avg_np_w": 219.6,
-      "avg_hr_bpm": 124.4,
-      "avg_cei": 0.6315
+      "n": 27,
+      "avg_power_w": 197.8,
+      "avg_np_w": 220.9,
+      "avg_hr_bpm": 125.0,
+      "avg_cei": 0.632
     },
     "outdoor": {
       "n": 2,
