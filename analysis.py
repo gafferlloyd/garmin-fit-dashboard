@@ -160,30 +160,53 @@ def training_load_summary(sessions: list[dict]) -> list[dict]:
     ATL_DECAY = math.exp(-1 / 7)
     CTL_DECAY = math.exp(-1 / 42)
 
+    # ── Aggregate TSS by calendar day ────────────────────────────────────────
+    # Multiple sessions on the same day should be summed before PMC decay,
+    # otherwise each session triggers a full day's decay independently.
+    from collections import defaultdict, OrderedDict
+
+    # Build ordered dict: date → list of sessions
+    days: dict[str, list] = OrderedDict()
+    for s in sessions:
+        date = s.get("file", "")[:10]   # YYYY-MM-DD from filename
+        if date not in days:
+            days[date] = []
+        days[date].append(s)
+
     atl = 0.0
     ctl = 0.0
     result = []
 
-    for s in sessions:
-        tss  = s.get("tss")          # cycling with power
-        rtss = running_tss(s)        # running — derived from threshold pace
+    for date, day_sessions in days.items():
+        day_tss  = 0.0
+        day_has_tss = False
 
-        # Combined session stress — use whichever is available
-        session_tss = tss if tss is not None else rtss
+        for s in day_sessions:
+            tss  = s.get("tss")
+            rtss = running_tss(s)
+            stss = tss if tss is not None else rtss
+            if stss is not None:
+                day_tss += stss
+                day_has_tss = True
 
-        if session_tss is not None:
-            atl = atl * ATL_DECAY + session_tss * (1 - ATL_DECAY)
-            ctl = ctl * CTL_DECAY + session_tss * (1 - CTL_DECAY)
+        if day_has_tss:
+            atl = atl * ATL_DECAY + day_tss * (1 - ATL_DECAY)
+            ctl = ctl * CTL_DECAY + day_tss * (1 - CTL_DECAY)
 
-        result.append({
-            "file"  : s.get("file"),
-            "tss"   : tss,
-            "rtss"  : rtss,
-            "stss"  : session_tss,   # combined stress score
-            "atl"   : round(atl, 1),
-            "ctl"   : round(ctl, 1),
-            "tsb"   : round(ctl - atl, 1),
-        })
+        # Emit one PMC row per session, all sharing the day's ATL/CTL
+        for s in day_sessions:
+            tss  = s.get("tss")
+            rtss = running_tss(s)
+            stss = tss if tss is not None else rtss
+            result.append({
+                "file"  : s.get("file"),
+                "tss"   : tss,
+                "rtss"  : rtss,
+                "stss"  : stss,
+                "atl"   : round(atl, 1),
+                "ctl"   : round(ctl, 1),
+                "tsb"   : round(ctl - atl, 1),
+            })
 
     return result
 
