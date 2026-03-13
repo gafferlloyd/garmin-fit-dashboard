@@ -1,0 +1,36 @@
+{
+  "file": "2026-01-29_09-03-12_cycling_21698708006.fit",
+  "activity_type": "indoor_cycling",
+  "is_indoor": true,
+  "duration": "1h 00m 03s",
+  "duration_s": 3604,
+  "distance_km": 26.67,
+  "elevation_m": 0,
+  "heart_rate": {
+    "avg_bpm": 107,
+    "max_bpm": 152,
+    "min_bpm": 66,
+    "avg_hrr_pct": 49.2
+  },
+  "hr_zones_pct": {
+    "Z1 Recovery": 90.2,
+    "Z2 Endurance": 7.4,
+    "Z3 Tempo": 1.8,
+    "Z4 Threshold": 0.7,
+    "Z5 VO2max": 0.0
+  },
+  "cadence": {
+    "avg_rpm": 74,
+    "max_rpm": 92
+  },
+  "avg_speed_kph": 26.6,
+  "max_speed_kph": 37.9,
+  "avg_power_w": 166.6,
+  "max_power_w": 430,
+  "norm_power_w": 183.8,
+  "intensity_factor": 0.729,
+  "tss": 53.2,
+  "ftp_used_w": 252,
+  "w_per_kg": 2.45,
+  "np_per_kg": 2.7
+}

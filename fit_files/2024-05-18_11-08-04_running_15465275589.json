@@ -1,0 +1,23 @@
+{
+  "file": "2024-05-18_11-08-04_running_15465275589.fit",
+  "activity_type": "running",
+  "is_indoor": false,
+  "duration": "6m 00s",
+  "duration_s": 360,
+  "distance_km": 1.2,
+  "elevation_m": 0,
+  "heart_rate": {
+    "avg_bpm": null,
+    "max_bpm": null,
+    "min_bpm": null,
+    "avg_hrr_pct": null
+  },
+  "hr_zones_pct": {},
+  "cadence": {
+    "avg_rpm": null,
+    "max_rpm": null
+  },
+  "avg_pace": "5:00 /km",
+  "max_pace": "--",
+  "avg_speed_kph": 12.0
+}

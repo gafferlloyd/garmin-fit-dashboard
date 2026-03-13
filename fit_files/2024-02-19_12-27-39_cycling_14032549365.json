@@ -1,0 +1,28 @@
+{
+  "file": "2024-02-19_12-27-39_cycling_14032549365.fit",
+  "activity_type": "cycling",
+  "is_indoor": false,
+  "duration": "24m 44s",
+  "duration_s": 1484,
+  "distance_km": 7.63,
+  "elevation_m": 61,
+  "heart_rate": {
+    "avg_bpm": 106,
+    "max_bpm": 126,
+    "min_bpm": 79,
+    "avg_hrr_pct": 48.5
+  },
+  "hr_zones_pct": {
+    "Z1 Recovery": 75.9,
+    "Z2 Endurance": 24.1,
+    "Z3 Tempo": 0.0,
+    "Z4 Threshold": 0.0,
+    "Z5 VO2max": 0.0
+  },
+  "cadence": {
+    "avg_rpm": null,
+    "max_rpm": null
+  },
+  "avg_speed_kph": 18.7,
+  "max_speed_kph": 26.4
+}

@@ -1,0 +1,22 @@
+{
+  "file": "2024-08-15_13-55-28_cycling_16769274711.fit",
+  "activity_type": "cycling",
+  "is_indoor": false,
+  "duration": "19m 00s",
+  "duration_s": 1140,
+  "distance_km": 7.2,
+  "elevation_m": 0,
+  "heart_rate": {
+    "avg_bpm": null,
+    "max_bpm": null,
+    "min_bpm": null,
+    "avg_hrr_pct": null
+  },
+  "hr_zones_pct": {},
+  "cadence": {
+    "avg_rpm": null,
+    "max_rpm": null
+  },
+  "avg_speed_kph": 22.7,
+  "max_speed_kph": 0.0
+}

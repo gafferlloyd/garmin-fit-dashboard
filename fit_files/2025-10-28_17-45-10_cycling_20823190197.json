@@ -1,0 +1,28 @@
+{
+  "file": "2025-10-28_17-45-10_cycling_20823190197.fit",
+  "activity_type": "cycling",
+  "is_indoor": false,
+  "duration": "25m 36s",
+  "duration_s": 1536,
+  "distance_km": 7.51,
+  "elevation_m": 10,
+  "heart_rate": {
+    "avg_bpm": 97,
+    "max_bpm": 124,
+    "min_bpm": 70,
+    "avg_hrr_pct": 41.5
+  },
+  "hr_zones_pct": {
+    "Z1 Recovery": 89.7,
+    "Z2 Endurance": 10.3,
+    "Z3 Tempo": 0.0,
+    "Z4 Threshold": 0.0,
+    "Z5 VO2max": 0.0
+  },
+  "cadence": {
+    "avg_rpm": null,
+    "max_rpm": null
+  },
+  "avg_speed_kph": 17.6,
+  "max_speed_kph": 28.1
+}

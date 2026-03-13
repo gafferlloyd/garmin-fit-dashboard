@@ -1,0 +1,29 @@
+{
+  "file": "2024-09-18_11-31-54_running_17065103012.fit",
+  "activity_type": "running",
+  "is_indoor": false,
+  "duration": "44m 12s",
+  "duration_s": 2653,
+  "distance_km": 7.3,
+  "elevation_m": 241,
+  "heart_rate": {
+    "avg_bpm": 112,
+    "max_bpm": 127,
+    "min_bpm": 77,
+    "avg_hrr_pct": 53.1
+  },
+  "hr_zones_pct": {
+    "Z1 Recovery": 74.1,
+    "Z2 Endurance": 25.9,
+    "Z3 Tempo": 0.0,
+    "Z4 Threshold": 0.0,
+    "Z5 VO2max": 0.0
+  },
+  "cadence": {
+    "avg_rpm": 85,
+    "max_rpm": 89
+  },
+  "avg_pace": "5:59 /km",
+  "max_pace": "5:18 /km",
+  "avg_speed_kph": 10.0
+}

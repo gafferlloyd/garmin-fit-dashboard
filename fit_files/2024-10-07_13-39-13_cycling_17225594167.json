@@ -1,0 +1,36 @@
+{
+  "file": "2024-10-07_13-39-13_cycling_17225594167.fit",
+  "activity_type": "road_biking",
+  "is_indoor": false,
+  "duration": "2h 06m 48s",
+  "duration_s": 7609,
+  "distance_km": 57.65,
+  "elevation_m": 370,
+  "heart_rate": {
+    "avg_bpm": 114,
+    "max_bpm": 136,
+    "min_bpm": 76,
+    "avg_hrr_pct": 54.6
+  },
+  "hr_zones_pct": {
+    "Z1 Recovery": 42.2,
+    "Z2 Endurance": 57.8,
+    "Z3 Tempo": 0.0,
+    "Z4 Threshold": 0.0,
+    "Z5 VO2max": 0.0
+  },
+  "cadence": {
+    "avg_rpm": 72,
+    "max_rpm": 95
+  },
+  "avg_speed_kph": 27.3,
+  "max_speed_kph": 53.9,
+  "avg_power_w": 165.0,
+  "max_power_w": 525,
+  "norm_power_w": 174.8,
+  "intensity_factor": 0.588,
+  "tss": 73.2,
+  "ftp_used_w": 297,
+  "w_per_kg": 2.43,
+  "np_per_kg": 2.57
+}

@@ -1,0 +1,29 @@
+{
+  "file": "2025-08-28_18-37-06_cycling_20208717288.fit",
+  "activity_type": "virtual_ride",
+  "is_indoor": false,
+  "duration": "57m 59s",
+  "duration_s": 3479,
+  "distance_km": 26.98,
+  "elevation_m": 467,
+  "heart_rate": {
+    "avg_bpm": 132,
+    "max_bpm": 171,
+    "min_bpm": 66,
+    "avg_hrr_pct": 68.5
+  },
+  "hr_zones_pct": {
+    "Z1 Recovery": 20.3,
+    "Z2 Endurance": 24.8,
+    "Z3 Tempo": 40.4,
+    "Z4 Threshold": 14.1,
+    "Z5 VO2max": 0.3
+  },
+  "cadence": {
+    "avg_rpm": 87,
+    "max_rpm": 120
+  },
+  "avg_pace": "2:09 /km",
+  "max_pace": "0:49 /km",
+  "avg_speed_kph": 27.9
+}
