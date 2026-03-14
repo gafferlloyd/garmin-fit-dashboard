@@ -139,6 +139,18 @@ def build_dashboard_data() -> dict:
             "last_updated"  : cloud_raw.get("last_updated", ""),
         }
 
+    # ── Cycling power curve ─────────────────────────────────────────────────────
+    cycling_curve = {}
+    curve_file = _Path("cycling_curve.json")
+    if curve_file.exists():
+        cycling_curve = _json.loads(curve_file.read_text())
+
+    # ── Running bests ─────────────────────────────────────────────────────────
+    running_bests = {}
+    bests_file = _Path("running_bests.json")
+    if bests_file.exists():
+        running_bests = _json.loads(bests_file.read_text())
+
     # ── Cycling power/HR cloud ───────────────────────────────────────────────
     cycling_cloud = {}
     cycling_file = _Path("cycling_cloud.json")
@@ -159,6 +171,8 @@ def build_dashboard_data() -> dict:
         "indoor_outdoor_delta": delta,
         "running_cloud"       : running_cloud,
         "cycling_cloud"       : cycling_cloud,
+        "cycling_curve"       : cycling_curve,
+        "running_bests"       : running_bests,
     }
 
 

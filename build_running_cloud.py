@@ -28,7 +28,6 @@ import zipfile
 from datetime import datetime, timedelta
 from pathlib import Path
 
-import fitparse
 import numpy as np
 
 from athlete_config import (
@@ -55,43 +54,7 @@ def pace_label(sec_per_km: float) -> str:
     return f"{m}:{s:02d}"
 
 
-def open_fit(path: Path) -> fitparse.FitFile:
-    raw = path.read_bytes()
-    if raw[:2] == b'PK':
-        with zipfile.ZipFile(io.BytesIO(raw)) as zf:
-            fit_name = next(n for n in zf.namelist() if n.endswith('.fit'))
-            fit_bytes = zf.read(fit_name)
-        return fitparse.FitFile(io.BytesIO(fit_bytes))
-    return fitparse.FitFile(str(path))
-
-
-def extract_windows(fit_path: Path) -> list[tuple[float, float]]:
-    fitfile = open_fit(fit_path)
-    records = []
-    for rec in fitfile.get_messages("record"):
-        data = {f.name: f.value for f in rec}
-        ts  = data.get("timestamp")
-        spd = data.get("enhanced_speed") or data.get("speed")
-        hr  = data.get("heart_rate")
-        if ts and spd and hr and spd > 0:
-            pace = 1000 / spd
-            if PACE_MIN_SEC <= pace <= PACE_MAX_SEC and HR_MIN <= hr <= HR_MAX:
-                records.append((ts, pace, float(hr)))
-
-    if len(records) < WINDOW_SECS:
-        return []
-
-    results = []
-    step = WINDOW_SECS // 2
-    for i in range(0, len(records) - WINDOW_SECS, step):
-        window = records[i:i + WINDOW_SECS]
-        dt = (window[-1][0] - window[0][0]).total_seconds()
-        if not (45 <= dt <= 90):
-            continue
-        avg_pace = sum(r[1] for r in window) / len(window)
-        avg_hr   = sum(r[2] for r in window) / len(window)
-        results.append((round(avg_pace, 1), round(avg_hr, 1)))
-    return results
+# extract_windows replaced by fit_window_extractor.extract_clean_windows
 
 
 def bucket_index(pace_sec: float) -> int | None:
@@ -237,7 +200,13 @@ def build_running_cloud() -> None:
         sk_year  = f"year_{year}"
 
         try:
-            windows = extract_windows(fit_path)
+            windows = extract_clean_windows(
+                fit_path,
+                is_indoor   = False,   # running is always outdoor
+                effort_field= "pace",
+                effort_min  = PACE_MIN_SEC,
+                effort_max  = PACE_MAX_SEC,
+            )
         except Exception as exc:
             print(f"  ✗ {name}: {exc}")
             processed.add(name)

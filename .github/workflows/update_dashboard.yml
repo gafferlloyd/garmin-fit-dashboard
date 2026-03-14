@@ -38,6 +38,12 @@ jobs:
       - name: Build cycling cloud (incremental)
         run: python build_cycling_cloud.py
 
+      - name: Build cycling power curve (incremental)
+        run: python build_cycling_curve.py
+
+      - name: Build running bests (incremental)
+        run: python build_running_bests.py
+
       - name: Build dashboard data
         run: python build_data.py
 
@@ -45,6 +51,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add fit_files/*.json dashboard_data.json running_cloud.json cycling_cloud.json || true
+          git add fit_files/*.json dashboard_data.json running_cloud.json cycling_cloud.json cycling_curve.json running_bests.json || true
           git diff --cached --quiet && echo "No changes to commit" || \
             git commit -m "Dashboard update $(date -u '+%Y-%m-%d %H:%M UTC')" && git push

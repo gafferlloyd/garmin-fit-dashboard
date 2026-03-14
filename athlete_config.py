@@ -80,5 +80,13 @@ PLATEAU_PACE_SEC = (
     lambda s: int(s.split(":")[0]) * 60 + int(s.split(":")[1])
 )(cfg["running"]["plateau_pace_per_km"])
 
+# ── Data quality ─────────────────────────────────────────────────────────────
+DQ = cfg.get("data_quality", {})
+OUTDOOR_WARMUP_MIN   = DQ.get("outdoor_warmup_min",   10)
+INDOOR_WARMUP_MIN    = DQ.get("indoor_warmup_min",     5)
+PRIMARY_WINDOW_MIN   = DQ.get("primary_window_min",   70)
+EXTENSION_BLOCK_MIN  = DQ.get("extension_block_min",  30)
+DRIFT_THRESHOLD_BPM  = DQ.get("drift_threshold_bpm",   5)
+
 # ── Athlete ───────────────────────────────────────────────────────────────────
 WEIGHT_KG     = cfg["athlete"]["weight_kg"]

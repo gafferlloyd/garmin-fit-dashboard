@@ -29,7 +29,6 @@ from collections import defaultdict
 from datetime import datetime, timedelta
 from pathlib import Path
 
-import fitparse
 import numpy as np
 
 from athlete_config import (
@@ -37,6 +36,7 @@ from athlete_config import (
     HRR_MARKERS_PCT, hrr_to_bpm,
     FTP_INDOOR, FTP_OUTDOOR,
 )
+from fit_window_extractor import extract_clean_windows, open_fit
 
 # ── Config ────────────────────────────────────────────────────────────────────
 FIT_DIR       = Path("fit_files")
@@ -52,49 +52,7 @@ MIN_POINTS    = 5        # minimum points per bucket to include
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
-def open_fit(path: Path) -> fitparse.FitFile:
-    raw = path.read_bytes()
-    if raw[:2] == b'PK':
-        with zipfile.ZipFile(io.BytesIO(raw)) as zf:
-            fit_name = next(n for n in zf.namelist() if n.endswith('.fit'))
-            fit_bytes = zf.read(fit_name)
-        return fitparse.FitFile(io.BytesIO(fit_bytes))
-    return fitparse.FitFile(str(path))
-
-
-def extract_windows(fit_path: Path) -> list[tuple[float, float]]:
-    """
-    Extract 1-minute averaged (power_w, hr_bpm) pairs from a .fit file.
-    Returns list of (power, hr) tuples within configured range.
-    """
-    fitfile = open_fit(fit_path)
-
-    records = []
-    for rec in fitfile.get_messages("record"):
-        data = {f.name: f.value for f in rec}
-        ts  = data.get("timestamp")
-        pwr = data.get("power")
-        hr  = data.get("heart_rate")
-        if ts and pwr and hr:
-            if POWER_MIN <= pwr <= POWER_MAX and HR_MIN <= hr <= HR_MAX:
-                records.append((ts, float(pwr), float(hr)))
-
-    if len(records) < WINDOW_SECS:
-        return []
-
-    results = []
-    step = WINDOW_SECS // 2   # 50% overlap
-
-    for i in range(0, len(records) - WINDOW_SECS, step):
-        window = records[i:i + WINDOW_SECS]
-        dt = (window[-1][0] - window[0][0]).total_seconds()
-        if not (45 <= dt <= 90):
-            continue
-        avg_pwr = sum(r[1] for r in window) / len(window)
-        avg_hr  = sum(r[2] for r in window) / len(window)
-        results.append((round(avg_pwr, 1), round(avg_hr, 1)))
-
-    return results
+# extract_windows replaced by fit_window_extractor.extract_clean_windows
 
 
 def bucket_index(power_w: float) -> int | None:
@@ -238,7 +196,13 @@ def build_cycling_cloud() -> None:
         sk = series_key(name, is_indoor)
 
         try:
-            windows = extract_windows(fit_path)
+            windows = extract_clean_windows(
+                fit_path,
+                is_indoor   = is_indoor,
+                effort_field= "power",
+                effort_min  = POWER_MIN,
+                effort_max  = POWER_MAX,
+            )
         except Exception as exc:
             print(f"  ✗ {name}: {exc}")
             processed.add(name)
