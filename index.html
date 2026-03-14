@@ -54,7 +54,16 @@
     text-transform: uppercase;
   }
   header h1 span { color: var(--accent); }
-  #generated-time { color: var(--dim); font-size: 11px; margin-left: auto; }
+  #generated-time { color: var(--dim); font-size: 11px; margin-left: auto; cursor: pointer; }
+  #generated-time:hover { color: var(--text); }
+  #diag-toast {
+    position: fixed; bottom: 24px; right: 24px;
+    background: var(--surface); border: 1px solid var(--accent);
+    color: var(--accent); font-family: var(--font-mono); font-size: 11px;
+    padding: 10px 16px; border-radius: 2px; opacity: 0;
+    transition: opacity 0.3s; pointer-events: none; z-index: 999;
+  }
+  #diag-toast.show { opacity: 1; }
 
   /* ── Layout ── */
   main { padding: 24px 32px; display: grid; gap: 24px; }
@@ -247,8 +256,9 @@
 
 <header>
   <h1>Training <span>Dashboard</span></h1>
-  <span id="generated-time"></span>
+  <span id="generated-time" title="Click to copy diagnostic report"></span>
 </header>
+<div id="diag-toast">Diagnostic copied to clipboard</div>
 
 <main>
   <div class="summary-strip" id="summary-strip">
@@ -317,7 +327,8 @@
           <thead>
             <tr>
               <th>Date</th>
-              <th>Type</th>
+              <th>Sport</th>
+              <th>Env</th>
               <th>Duration</th>
               <th class="num">Dist km</th>
               <th class="num">Elev m</th>
@@ -354,10 +365,14 @@ function n(v, dec=0) {
   return typeof v === 'number' ? v.toFixed(dec) : v;
 }
 
-function badge(type, isIndoor) {
-  if (type && type.includes('run')) return '<span class="badge badge-running">Run</span>';
-  if (isIndoor) return '<span class="badge badge-indoor">Indoor</span>';
-  return '<span class="badge badge-outdoor">Outdoor</span>';
+function sportEmoji(type) {
+  if (type && type.includes('run'))  return '🏃';
+  if (type && (type.includes('swim'))) return '🏊';
+  return '🚲';
+}
+function envEmoji(type, isIndoor) {
+  if (type && type.includes('run')) return isIndoor ? '🏠' : '🌳';
+  return isIndoor ? '🏠' : '🌳';
 }
 
 function zoneBars(zones) {
@@ -390,7 +405,31 @@ async function init() {
   document.getElementById('s-from').textContent  = s.date_range?.from ?? '—';
   document.getElementById('s-to').textContent    = '→ ' + (s.date_range?.to ?? '—');
   document.getElementById('s-gen').textContent   = data.generated?.slice(0,10) ?? '—';
-  document.getElementById('generated-time').textContent = 'built ' + (data.generated ?? '');
+  const genEl = document.getElementById('generated-time');
+  genEl.textContent = 'built ' + (data.generated ?? '') + ' · click to copy diagnostic';
+  genEl.addEventListener('click', () => {
+    const diag = {
+      generated      : data.generated,
+      sessions       : data.summary?.total_sessions,
+      cycling        : data.summary?.cycling_sessions,
+      running        : data.summary?.running_sessions,
+      current_ctl    : data.summary?.current_ctl,
+      current_atl    : data.summary?.current_atl,
+      current_tsb    : data.summary?.current_tsb,
+      date_range     : data.summary?.date_range,
+      pmc_rows       : data.pmc_chart?.length,
+      cei_points     : data.cei_series?.length,
+      running_cloud  : Object.keys(data.running_cloud?.series || {}).join(', '),
+      cycling_cloud  : Object.keys(data.cycling_cloud?.series || {}).join(', '),
+      user_agent     : navigator.userAgent,
+      url            : window.location.href,
+    };
+    navigator.clipboard.writeText(JSON.stringify(diag, null, 2)).then(() => {
+      const toast = document.getElementById('diag-toast');
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 2500);
+    });
+  });
   document.getElementById('summary-strip').classList.add('visible');
 
   // PMC Chart
@@ -406,7 +445,8 @@ async function init() {
   data.recent_sessions.forEach(s => {
     tbody.innerHTML += `<tr>
       <td>${s.date}</td>
-      <td>${badge(s.type, s.is_indoor)}</td>
+      <td style="font-size:16px;text-align:center">${sportEmoji(s.type)}</td>
+      <td style="font-size:16px;text-align:center">${envEmoji(s.type, s.is_indoor)}</td>
       <td>${s.duration || '—'}</td>
       <td class="num">${n(s.distance_km,1)}</td>
       <td class="num">${n(s.elevation_m)}</td>
