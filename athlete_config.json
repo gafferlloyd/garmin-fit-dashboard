@@ -1,0 +1,39 @@
+{
+  "_comment": "Personal athlete configuration — update these values as fitness changes.",
+  "_last_updated": "2026-03-14",
+
+  "athlete": {
+    "name"            : "Gareth Lloyd",
+    "weight_kg"       : 68.0,
+    "height_cm"       : 177
+  },
+
+  "heart_rate": {
+    "rest_bpm"        : 43,
+    "max_bpm"         : 173,
+    "hrr"             : 130,
+    "threshold_bpm"   : 156,
+    "vt1_bpm"         : 116,
+    "zone_method"     : "percent_hrr",
+    "zones": {
+      "Z1_upper_pct"  : 0.55,
+      "Z2_upper_pct"  : 0.72,
+      "Z3_upper_pct"  : 0.82,
+      "Z4_upper_pct"  : 0.92,
+      "Z5_upper_pct"  : 1.01
+    },
+    "hrr_markers_pct" : [50, 60, 70, 80, 90]
+  },
+
+  "cycling": {
+    "ftp_indoor_w"    : 252,
+    "ftp_outdoor_w"   : 297,
+    "np_window_s"     : 30
+  },
+
+  "running": {
+    "threshold_pace_per_km" : "4:00",
+    "vt1_pace_per_km"       : null,
+    "plateau_pace_per_km"   : "6:40"
+  }
+}

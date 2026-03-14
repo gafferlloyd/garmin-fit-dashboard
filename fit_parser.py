@@ -29,32 +29,16 @@ from typing import Optional
 
 import fitparse
 
-# ── User config ───────────────────────────────────────────────────────────────
-FTP_INDOOR  = 252          # watts
-FTP_OUTDOOR = 297          # watts
-
-HR_REST     = 43           # bpm  (resting HR)
-HR_MAX      = 173          # bpm  (max HR)
-HRR         = HR_MAX - HR_REST   # Heart Rate Reserve = 130 bpm
-
-NP_WINDOW   = 30           # seconds (standard 30 s rolling average for NP)
-
-# 5-zone %HRR boundaries (Karvonen) — upper boundary of each zone
-# Zone 1: 0–55%, Z2: 55–72%, Z3: 72–82%, Z4: 82–92%, Z5: 92–100%
-HRR_ZONE_UPPER_PCT = [0.55, 0.72, 0.82, 0.92, 1.01]   # 1.01 catches max
-
-ZONE_LABELS = ["Z1 Recovery", "Z2 Endurance", "Z3 Tempo",
-               "Z4 Threshold", "Z5 VO2max"]
+# ── Config — loaded from athlete_config.json ─────────────────────────────────
+from athlete_config import (
+    HR_REST, HR_MAX, HRR, HRR_ZONE_UPPER_PCT, ZONE_LABELS,
+    FTP_INDOOR, FTP_OUTDOOR, NP_WINDOW, WEIGHT_KG,
+    hrr_zone as _hrr_zone,
+)
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
-def hrr_zone(bpm: float) -> int:
-    """Return 1-based HR zone (1–5) for a given heart rate (bpm)."""
-    pct = (bpm - HR_REST) / HRR
-    for i, upper in enumerate(HRR_ZONE_UPPER_PCT):
-        if pct <= upper:
-            return i + 1
-    return 5
+hrr_zone = _hrr_zone   # imported from athlete_config
 
 
 def normalised_power(power_series: list[float], window: int = NP_WINDOW) -> float:
@@ -270,8 +254,8 @@ def parse_fit(filepath: str | Path, activity_type: str) -> dict:
             "intensity_factor": round(IF, 3),
             "tss"          : round(tss, 1),
             "ftp_used_w"   : ftp,
-            "w_per_kg"     : round(avg_pwr / 68, 2),   # 68 kg — update if weight changes
-            "np_per_kg"    : round(np / 68, 2),
+            "w_per_kg"     : round(avg_pwr / WEIGHT_KG, 2),
+            "np_per_kg"    : round(np / WEIGHT_KG, 2),
         }
 
     # Speed / pace formatting

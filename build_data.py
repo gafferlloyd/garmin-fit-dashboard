@@ -20,7 +20,10 @@ from analysis import (
     training_load_summary,
     indoor_outdoor_delta,
     running_tss,
+    detect_linear_region,
 )
+from pathlib import Path as _Path
+import json as _json
 
 FIT_DIR    = Path("fit_files")
 OUTPUT     = Path("dashboard_data.json")
@@ -122,6 +125,31 @@ def build_dashboard_data() -> dict:
         },
     }
 
+    # ── Running pace/HR cloud ─────────────────────────────────────────────────
+    running_cloud = {}
+    cloud_file = _Path("running_cloud.json")
+    if cloud_file.exists():
+        cloud_raw = _json.loads(cloud_file.read_text())
+        bucket_stats = cloud_raw.get("bucket_stats", {})
+        linear       = detect_linear_region(bucket_stats)
+        running_cloud = {
+            "bucket_stats"  : bucket_stats,
+            "recent_points" : cloud_raw.get("recent_points", []),
+            "linear_fit"    : linear,
+            "last_updated"  : cloud_raw.get("last_updated", ""),
+        }
+
+    # ── Cycling power/HR cloud ───────────────────────────────────────────────
+    cycling_cloud = {}
+    cycling_file = _Path("cycling_cloud.json")
+    if cycling_file.exists():
+        cycling_raw = _json.loads(cycling_file.read_text())
+        cycling_cloud = {
+            "series"      : cycling_raw.get("series", {}),
+            "hrr_markers" : cycling_raw.get("hrr_markers", {}),
+            "last_updated": cycling_raw.get("last_updated", ""),
+        }
+
     return {
         "generated"     : __import__("datetime").datetime.now().strftime("%Y-%m-%d %H:%M"),
         "summary"       : summary,
@@ -129,6 +157,8 @@ def build_dashboard_data() -> dict:
         "cei_series"    : cei_series,
         "recent_sessions": recent,
         "indoor_outdoor_delta": delta,
+        "running_cloud"       : running_cloud,
+        "cycling_cloud"       : cycling_cloud,
     }
 
 
