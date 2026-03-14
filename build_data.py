@@ -20,7 +20,6 @@ from analysis import (
     training_load_summary,
     indoor_outdoor_delta,
     running_tss,
-    detect_linear_region,
 )
 from pathlib import Path as _Path
 import json as _json
@@ -155,15 +154,13 @@ def build_dashboard_data() -> dict:
     if cloud_file.exists():
         cloud_raw    = _json.loads(cloud_file.read_text())
         series_raw   = cloud_raw.get("series", {})
-        # Compute linear fit for each series
+        # Pass through pre-computed linear fits from build_running_cloud.py
         output_series = {}
         for sk, s in series_raw.items():
-            stats  = s.get("bucket_stats", {})
-            fit    = detect_linear_region(stats) if stats else None
             output_series[sk] = {
-                "bucket_stats"  : stats,
+                "bucket_stats"  : s.get("bucket_stats", {}),
                 "recent_points" : s.get("recent_points", []),
-                "linear_fit"    : fit,
+                "linear_fit"    : s.get("linear_fit"),   # already computed with markers
                 "n_windows"     : s.get("n_windows", 0),
             }
         running_cloud = {
