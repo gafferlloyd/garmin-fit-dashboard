@@ -52,7 +52,7 @@ MIN_POINTS    = 5        # minimum points per bucket to include
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
-# extract_windows replaced by fit_window_extractor.extract_clean_windows
+from fit_window_extractor import extract_clean_windows
 
 
 def bucket_index(power_w: float) -> int | None:

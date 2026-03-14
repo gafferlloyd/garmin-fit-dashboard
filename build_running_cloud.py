@@ -54,7 +54,7 @@ def pace_label(sec_per_km: float) -> str:
     return f"{m}:{s:02d}"
 
 
-# extract_windows replaced by fit_window_extractor.extract_clean_windows
+from fit_window_extractor import extract_clean_windows
 
 
 def bucket_index(pace_sec: float) -> int | None:

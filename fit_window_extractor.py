@@ -121,7 +121,17 @@ def extract_clean_windows(
         return []
 
     # ── Apply warm-up exclusion ───────────────────────────────────────────────
-    t_start    = records[0][0]
+    # Use the FIRST timestamp in the entire file (not first in-range record)
+    # to avoid double-penalising slow warm-up paces
+    fitfile2  = open_fit(fit_path)
+    all_ts    = []
+    for rec in fitfile2.get_messages("record"):
+        data = {f.name: f.value for f in rec}
+        ts   = data.get("timestamp")
+        if ts:
+            all_ts.append(ts)
+    t_start    = all_ts[0] if all_ts else records[0][0]
+
     warmup_min = INDOOR_WARMUP_MIN if is_indoor else OUTDOOR_WARMUP_MIN
     warmup_end = t_start.timestamp() + warmup_min * 60
     primary_end= t_start.timestamp() + PRIMARY_WINDOW_MIN * 60
