@@ -419,7 +419,7 @@ async function init() {
       date_range     : data.summary?.date_range,
       pmc_rows       : data.pmc_chart?.length,
       cei_points     : data.cei_series?.length,
-      running_cloud  : Object.keys(data.running_cloud?.series || {}).join(', '),
+      running_cloud  : Object.keys(data.running_cloud?.series || {}).join(', ') || "missing",
       cycling_cloud  : Object.keys(data.cycling_cloud?.series || {}).join(', '),
       user_agent     : navigator.userAgent,
       url            : window.location.href,

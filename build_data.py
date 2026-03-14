@@ -129,14 +129,23 @@ def build_dashboard_data() -> dict:
     running_cloud = {}
     cloud_file = _Path("running_cloud.json")
     if cloud_file.exists():
-        cloud_raw = _json.loads(cloud_file.read_text())
-        bucket_stats = cloud_raw.get("bucket_stats", {})
-        linear       = detect_linear_region(bucket_stats)
+        cloud_raw    = _json.loads(cloud_file.read_text())
+        series_raw   = cloud_raw.get("series", {})
+        # Compute linear fit for each series
+        output_series = {}
+        for sk, s in series_raw.items():
+            stats  = s.get("bucket_stats", {})
+            fit    = detect_linear_region(stats) if stats else None
+            output_series[sk] = {
+                "bucket_stats"  : stats,
+                "recent_points" : s.get("recent_points", []),
+                "linear_fit"    : fit,
+                "n_windows"     : s.get("n_windows", 0),
+            }
         running_cloud = {
-            "bucket_stats"  : bucket_stats,
-            "recent_points" : cloud_raw.get("recent_points", []),
-            "linear_fit"    : linear,
-            "last_updated"  : cloud_raw.get("last_updated", ""),
+            "series"      : output_series,
+            "hrr_markers" : cloud_raw.get("hrr_markers", {}),
+            "last_updated": cloud_raw.get("last_updated", ""),
         }
 
     # ── Cycling power curve ─────────────────────────────────────────────────────

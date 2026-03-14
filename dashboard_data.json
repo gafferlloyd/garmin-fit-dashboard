@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-14 14:10",
+  "generated": "2026-03-14 14:22",
   "summary": {
     "total_sessions": 1663,
     "cycling_sessions": 986,
@@ -19020,9 +19020,16 @@
     "note": "Interpret delta carefully \u2014 indoor/outdoor sessions differ in intensity, duration, and conditions. Normalise by IF or power band for a cleaner comparison."
   },
   "running_cloud": {
-    "bucket_stats": {},
-    "recent_points": [],
-    "linear_fit": null,
+    "series": {},
+    "hrr_markers": {
+      "50": 108.0,
+      "60": 121.0,
+      "70": 134.0,
+      "80": 147.0,
+      "90": 160.0,
+      "vt1": 116.0,
+      "threshold": 156.0
+    },
     "last_updated": "2026-03-14 13:16"
   },
   "cycling_cloud": {
