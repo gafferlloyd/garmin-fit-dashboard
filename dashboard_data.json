@@ -1,12 +1,12 @@
 {
-  "generated": "2026-03-14 22:08",
+  "generated": "2026-03-14 22:26",
   "summary": {
-    "total_sessions": 2404,
-    "cycling_sessions": 1393,
+    "total_sessions": 2394,
+    "cycling_sessions": 1383,
     "running_sessions": 1009,
-    "current_ctl": 90.6,
-    "current_atl": 109.2,
-    "current_tsb": -18.6,
+    "current_ctl": 85.2,
+    "current_atl": 84.9,
+    "current_tsb": 0.3,
     "date_range": {
       "from": "2023-01-01",
       "to": "2026-03-13"
@@ -16,9 +16,9 @@
         "2023": 360859,
         "2024": 391322,
         "2025": 431272,
-        "2026": 78637
+        "2026": 75772
       },
-      "annualised_42d": 401309
+      "annualised_42d": 376411
     }
   },
   "pmc_chart": [
@@ -23807,9 +23807,9 @@
       "tss": 11.0,
       "rtss": null,
       "stss": 11.0,
-      "ctl": 86.7,
-      "atl": 92.2,
-      "tsb": -5.5,
+      "ctl": 85.2,
+      "atl": 83.9,
+      "tsb": 1.3,
       "type": "indoor_cycling"
     },
     {
@@ -23817,9 +23817,9 @@
       "tss": 46.3,
       "rtss": null,
       "stss": 46.3,
-      "ctl": 86.7,
-      "atl": 92.2,
-      "tsb": -5.5,
+      "ctl": 85.2,
+      "atl": 83.9,
+      "tsb": 1.3,
       "type": "indoor_cycling"
     },
     {
@@ -23827,29 +23827,19 @@
       "tss": null,
       "rtss": 33.0,
       "stss": 33.0,
-      "ctl": 86.7,
-      "atl": 92.2,
-      "tsb": -5.5,
+      "ctl": 85.2,
+      "atl": 83.9,
+      "tsb": 1.3,
       "type": "running"
-    },
-    {
-      "date": "2026-03-09",
-      "tss": 62.2,
-      "rtss": null,
-      "stss": 62.2,
-      "ctl": 86.7,
-      "atl": 92.2,
-      "tsb": -5.5,
-      "type": "cycling"
     },
     {
       "date": "2026-03-09",
       "tss": null,
       "rtss": 31.6,
       "stss": 31.6,
-      "ctl": 86.7,
-      "atl": 92.2,
-      "tsb": -5.5,
+      "ctl": 85.2,
+      "atl": 83.9,
+      "tsb": 1.3,
       "type": "running"
     },
     {
@@ -23857,29 +23847,9 @@
       "tss": null,
       "rtss": null,
       "stss": null,
-      "ctl": 89.4,
-      "atl": 106.7,
-      "tsb": -17.3,
-      "type": "cycling"
-    },
-    {
-      "date": "2026-03-10",
-      "tss": null,
-      "rtss": null,
-      "stss": null,
-      "ctl": 89.4,
-      "atl": 106.7,
-      "tsb": -17.3,
-      "type": "cycling"
-    },
-    {
-      "date": "2026-03-10",
-      "tss": 77.9,
-      "rtss": null,
-      "stss": 77.9,
-      "ctl": 89.4,
-      "atl": 106.7,
-      "tsb": -17.3,
+      "ctl": 84.8,
+      "atl": 81.5,
+      "tsb": 3.3,
       "type": "cycling"
     },
     {
@@ -23887,69 +23857,39 @@
       "tss": null,
       "rtss": 35.9,
       "stss": 35.9,
-      "ctl": 89.4,
-      "atl": 106.7,
-      "tsb": -17.3,
+      "ctl": 84.8,
+      "atl": 81.5,
+      "tsb": 3.3,
       "type": "running"
-    },
-    {
-      "date": "2026-03-10",
-      "tss": 57.3,
-      "rtss": null,
-      "stss": 57.3,
-      "ctl": 89.4,
-      "atl": 106.7,
-      "tsb": -17.3,
-      "type": "cycling"
     },
     {
       "date": "2026-03-10",
       "tss": null,
       "rtss": 29.7,
       "stss": 29.7,
-      "ctl": 89.4,
-      "atl": 106.7,
-      "tsb": -17.3,
+      "ctl": 84.8,
+      "atl": 81.5,
+      "tsb": 3.3,
       "type": "running"
-    },
-    {
-      "date": "2026-03-11",
-      "tss": 23.0,
-      "rtss": null,
-      "stss": 23.0,
-      "ctl": 89.9,
-      "atl": 107.3,
-      "tsb": -17.4,
-      "type": "cycling"
     },
     {
       "date": "2026-03-11",
       "tss": 31.9,
       "rtss": null,
       "stss": 31.9,
-      "ctl": 89.9,
-      "atl": 107.3,
-      "tsb": -17.4,
+      "ctl": 84.3,
+      "atl": 79.3,
+      "tsb": 5.0,
       "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-03-11",
-      "tss": 23.6,
-      "rtss": null,
-      "stss": 23.6,
-      "ctl": 89.9,
-      "atl": 107.3,
-      "tsb": -17.4,
-      "type": "cycling"
     },
     {
       "date": "2026-03-11",
       "tss": 32.9,
       "rtss": null,
       "stss": 32.9,
-      "ctl": 89.9,
-      "atl": 107.3,
-      "tsb": -17.4,
+      "ctl": 84.3,
+      "atl": 79.3,
+      "tsb": 5.0,
       "type": "indoor_cycling"
     },
     {
@@ -23957,9 +23897,9 @@
       "tss": null,
       "rtss": null,
       "stss": null,
-      "ctl": 89.9,
-      "atl": 107.3,
-      "tsb": -17.4,
+      "ctl": 84.3,
+      "atl": 79.3,
+      "tsb": 5.0,
       "type": "cycling"
     },
     {
@@ -23967,29 +23907,9 @@
       "tss": null,
       "rtss": null,
       "stss": null,
-      "ctl": 89.9,
-      "atl": 107.3,
-      "tsb": -17.4,
-      "type": "cycling"
-    },
-    {
-      "date": "2026-03-11",
-      "tss": null,
-      "rtss": null,
-      "stss": null,
-      "ctl": 89.9,
-      "atl": 107.3,
-      "tsb": -17.4,
-      "type": "cycling"
-    },
-    {
-      "date": "2026-03-11",
-      "tss": null,
-      "rtss": null,
-      "stss": null,
-      "ctl": 89.9,
-      "atl": 107.3,
-      "tsb": -17.4,
+      "ctl": 84.3,
+      "atl": 79.3,
+      "tsb": 5.0,
       "type": "cycling"
     },
     {
@@ -23997,9 +23917,9 @@
       "tss": null,
       "rtss": null,
       "stss": null,
-      "ctl": 89.9,
-      "atl": 107.3,
-      "tsb": -17.4,
+      "ctl": 84.3,
+      "atl": 79.3,
+      "tsb": 5.0,
       "type": "cycling"
     },
     {
@@ -24007,29 +23927,9 @@
       "tss": null,
       "rtss": null,
       "stss": null,
-      "ctl": 89.9,
-      "atl": 107.3,
-      "tsb": -17.4,
-      "type": "cycling"
-    },
-    {
-      "date": "2026-03-12",
-      "tss": null,
-      "rtss": null,
-      "stss": null,
-      "ctl": 89.9,
-      "atl": 107.3,
-      "tsb": -17.4,
-      "type": "cycling"
-    },
-    {
-      "date": "2026-03-12",
-      "tss": null,
-      "rtss": null,
-      "stss": null,
-      "ctl": 89.9,
-      "atl": 107.3,
-      "tsb": -17.4,
+      "ctl": 84.3,
+      "atl": 79.3,
+      "tsb": 5.0,
       "type": "cycling"
     },
     {
@@ -24037,9 +23937,9 @@
       "tss": 56.7,
       "rtss": null,
       "stss": 56.7,
-      "ctl": 90.6,
-      "atl": 109.2,
-      "tsb": -18.6,
+      "ctl": 85.2,
+      "atl": 84.9,
+      "tsb": 0.3,
       "type": "indoor_cycling"
     },
     {
@@ -24047,9 +23947,9 @@
       "tss": null,
       "rtss": 35.4,
       "stss": 35.4,
-      "ctl": 90.6,
-      "atl": 109.2,
-      "tsb": -18.6,
+      "ctl": 85.2,
+      "atl": 84.9,
+      "tsb": 0.3,
       "type": "running"
     },
     {
@@ -24057,9 +23957,9 @@
       "tss": null,
       "rtss": 29.6,
       "stss": 29.6,
-      "ctl": 90.6,
-      "atl": 109.2,
-      "tsb": -18.6,
+      "ctl": 85.2,
+      "atl": 84.9,
+      "tsb": 0.3,
       "type": "running"
     }
   ],
@@ -26257,52 +26157,12 @@
       "is_indoor": true
     },
     {
-      "date": "2026-03-09",
-      "cei_inv": 2.345,
-      "cei": 0.4264,
-      "avg_power_w": 274.4,
-      "avg_hr_bpm": 117,
-      "is_indoor": false
-    },
-    {
-      "date": "2026-03-10",
-      "cei_inv": 2.552,
-      "cei": 0.3918,
-      "avg_power_w": 308.8,
-      "avg_hr_bpm": 121,
-      "is_indoor": false
-    },
-    {
-      "date": "2026-03-10",
-      "cei_inv": 2.214,
-      "cei": 0.4517,
-      "avg_power_w": 254.6,
-      "avg_hr_bpm": 115,
-      "is_indoor": false
-    },
-    {
-      "date": "2026-03-11",
-      "cei_inv": 1.657,
-      "cei": 0.6037,
-      "avg_power_w": 202.1,
-      "avg_hr_bpm": 122,
-      "is_indoor": false
-    },
-    {
       "date": "2026-03-11",
       "cei_inv": 1.657,
       "cei": 0.6037,
       "avg_power_w": 202.1,
       "avg_hr_bpm": 122,
       "is_indoor": true
-    },
-    {
-      "date": "2026-03-11",
-      "cei_inv": 1.604,
-      "cei": 0.6234,
-      "avg_power_w": 200.5,
-      "avg_hr_bpm": 125,
-      "is_indoor": false
     },
     {
       "date": "2026-03-11",
@@ -26426,31 +26286,6 @@
       "date": "2026-03-12",
       "type": "cycling",
       "is_indoor": false,
-      "duration": "26m 32s",
-      "distance_km": 7.51,
-      "elevation_m": 14,
-      "avg_hr": 76,
-      "max_hr": 102,
-      "avg_hrr_pct": 25.4,
-      "avg_cadence": null,
-      "avg_power_w": null,
-      "norm_power_w": null,
-      "tss": null,
-      "if": null,
-      "avg_speed_kph": 17.0,
-      "avg_pace": null,
-      "hr_zones": {
-        "Z1 Recovery": 100.0,
-        "Z2 Endurance": 0.0,
-        "Z3 Tempo": 0.0,
-        "Z4 Threshold": 0.0,
-        "Z5 VO2max": 0.0
-      }
-    },
-    {
-      "date": "2026-03-12",
-      "type": "cycling",
-      "is_indoor": false,
       "duration": "37m 36s",
       "distance_km": 7.46,
       "elevation_m": 6,
@@ -26467,56 +26302,6 @@
       "hr_zones": {
         "Z1 Recovery": 100.0,
         "Z2 Endurance": 0.0,
-        "Z3 Tempo": 0.0,
-        "Z4 Threshold": 0.0,
-        "Z5 VO2max": 0.0
-      }
-    },
-    {
-      "date": "2026-03-12",
-      "type": "cycling",
-      "is_indoor": false,
-      "duration": "37m 36s",
-      "distance_km": 7.46,
-      "elevation_m": 6,
-      "avg_hr": 81,
-      "max_hr": 106,
-      "avg_hrr_pct": 29.2,
-      "avg_cadence": null,
-      "avg_power_w": null,
-      "norm_power_w": null,
-      "tss": null,
-      "if": null,
-      "avg_speed_kph": 11.9,
-      "avg_pace": null,
-      "hr_zones": {
-        "Z1 Recovery": 100.0,
-        "Z2 Endurance": 0.0,
-        "Z3 Tempo": 0.0,
-        "Z4 Threshold": 0.0,
-        "Z5 VO2max": 0.0
-      }
-    },
-    {
-      "date": "2026-03-11",
-      "type": "cycling",
-      "is_indoor": false,
-      "duration": "23m 28s",
-      "distance_km": 7.3,
-      "elevation_m": 10,
-      "avg_hr": 89,
-      "max_hr": 115,
-      "avg_hrr_pct": 35.4,
-      "avg_cadence": null,
-      "avg_power_w": null,
-      "norm_power_w": null,
-      "tss": null,
-      "if": null,
-      "avg_speed_kph": 18.7,
-      "avg_pace": null,
-      "hr_zones": {
-        "Z1 Recovery": 99.8,
-        "Z2 Endurance": 0.2,
         "Z3 Tempo": 0.0,
         "Z4 Threshold": 0.0,
         "Z5 VO2max": 0.0
@@ -26571,6 +26356,81 @@
         "Z4 Threshold": 0.0,
         "Z5 VO2max": 0.0
       }
+    },
+    {
+      "date": "2026-03-11",
+      "type": "indoor_cycling",
+      "is_indoor": true,
+      "duration": "27m 05s",
+      "distance_km": 13.82,
+      "elevation_m": 0,
+      "avg_hr": 125,
+      "max_hr": 147,
+      "avg_hrr_pct": 63.1,
+      "avg_cadence": 58,
+      "avg_power_w": 200.5,
+      "norm_power_w": 215.0,
+      "tss": 32.9,
+      "if": 0.853,
+      "avg_speed_kph": 30.6,
+      "avg_pace": null,
+      "hr_zones": {
+        "Z1 Recovery": 24.0,
+        "Z2 Endurance": 60.7,
+        "Z3 Tempo": 15.2,
+        "Z4 Threshold": 0.0,
+        "Z5 VO2max": 0.0
+      }
+    },
+    {
+      "date": "2026-03-11",
+      "type": "indoor_cycling",
+      "is_indoor": true,
+      "duration": "23m 30s",
+      "distance_km": 11.98,
+      "elevation_m": 0,
+      "avg_hr": 122,
+      "max_hr": 150,
+      "avg_hrr_pct": 60.8,
+      "avg_cadence": 66,
+      "avg_power_w": 202.1,
+      "norm_power_w": 227.3,
+      "tss": 31.9,
+      "if": 0.902,
+      "avg_speed_kph": 30.6,
+      "avg_pace": null,
+      "hr_zones": {
+        "Z1 Recovery": 31.6,
+        "Z2 Endurance": 52.2,
+        "Z3 Tempo": 15.9,
+        "Z4 Threshold": 0.4,
+        "Z5 VO2max": 0.0
+      }
+    },
+    {
+      "date": "2026-03-10",
+      "type": "running",
+      "is_indoor": false,
+      "duration": "46m 25s",
+      "distance_km": 7.17,
+      "elevation_m": 8,
+      "avg_hr": 115,
+      "max_hr": 128,
+      "avg_hrr_pct": 55.4,
+      "avg_cadence": 84,
+      "avg_power_w": null,
+      "norm_power_w": null,
+      "tss": null,
+      "if": null,
+      "avg_speed_kph": 9.3,
+      "avg_pace": "6:26 /km",
+      "hr_zones": {
+        "Z1 Recovery": 50.2,
+        "Z2 Endurance": 49.8,
+        "Z3 Tempo": 0.0,
+        "Z4 Threshold": 0.0,
+        "Z5 VO2max": 0.0
+      }
     }
   ],
   "indoor_outdoor_delta": {
@@ -26582,11 +26442,11 @@
       "avg_cei": 0.6826
     },
     "outdoor": {
-      "n": 117,
-      "avg_power_w": 182.3,
-      "avg_np_w": 204.4,
-      "avg_hr_bpm": 119.5,
-      "avg_cei": 0.6555
+      "n": 112,
+      "avg_power_w": 179.4,
+      "avg_np_w": 201.9,
+      "avg_hr_bpm": 119.4,
+      "avg_cei": 0.6656
     },
     "note": "Interpret delta carefully \u2014 indoor/outdoor sessions differ in intensity, duration, and conditions. Normalise by IF or power band for a cleaner comparison."
   },
