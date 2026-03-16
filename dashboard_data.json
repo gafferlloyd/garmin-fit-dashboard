@@ -1,9 +1,9 @@
 {
-  "generated": "2026-03-16 21:46",
+  "generated": "2026-03-16 21:53",
   "summary": {
-    "total_sessions": 2458,
-    "cycling_sessions": 1357,
-    "running_sessions": 987,
+    "total_sessions": 2404,
+    "cycling_sessions": 1321,
+    "running_sessions": 969,
     "current_ctl": 80.5,
     "current_atl": 76.4,
     "current_tsb": 4.1,
@@ -17,9 +17,9 @@
         "2023": 360859,
         "2024": 391322,
         "2025": 431272,
-        "2026": 58154
+        "2026": 35544
       },
-      "annualised_42d": 196492
+      "annualised_42d": 0
     }
   },
   "pmc_chart": [
@@ -15657,221 +15657,6 @@
       "date": "2026-02-01",
       "stss": 120.3,
       "type": "running"
-    },
-    {
-      "date": "2026-02-03",
-      "stss": 34.7,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-02-03",
-      "stss": 38.1,
-      "type": "running"
-    },
-    {
-      "date": "2026-02-06",
-      "stss": 35.6,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-02-06",
-      "stss": 33.5,
-      "type": "running"
-    },
-    {
-      "date": "2026-02-08",
-      "stss": 136.4,
-      "type": "running"
-    },
-    {
-      "date": "2026-02-10",
-      "stss": 36.0,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-02-10",
-      "stss": 37.0,
-      "type": "running"
-    },
-    {
-      "date": "2026-02-10",
-      "stss": 36.5,
-      "type": "running"
-    },
-    {
-      "date": "2026-02-11",
-      "stss": 48.5,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-02-12",
-      "stss": 72.2,
-      "type": "running"
-    },
-    {
-      "date": "2026-02-13",
-      "stss": 46.8,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-02-13",
-      "stss": 29.9,
-      "type": "running"
-    },
-    {
-      "date": "2026-02-14",
-      "stss": 91.7,
-      "type": "running"
-    },
-    {
-      "date": "2026-02-14",
-      "stss": 70.0,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-02-18",
-      "stss": 14.8,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-02-18",
-      "stss": 27.5,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-02-18",
-      "stss": 24.4,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-02-18",
-      "stss": 30.7,
-      "type": "running"
-    },
-    {
-      "date": "2026-02-20",
-      "stss": 63.4,
-      "type": "running"
-    },
-    {
-      "date": "2026-02-21",
-      "stss": 58.1,
-      "type": "running"
-    },
-    {
-      "date": "2026-02-23",
-      "stss": 27.9,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-02-23",
-      "stss": 24.4,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-02-23",
-      "stss": 38.3,
-      "type": "running"
-    },
-    {
-      "date": "2026-02-23",
-      "stss": 34.4,
-      "type": "running"
-    },
-    {
-      "date": "2026-02-24",
-      "stss": 54.2,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-02-25",
-      "stss": 37.3,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-02-25",
-      "stss": 42.8,
-      "type": "running"
-    },
-    {
-      "date": "2026-02-25",
-      "stss": 33.4,
-      "type": "running"
-    },
-    {
-      "date": "2026-02-27",
-      "stss": 57.2,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-03-02",
-      "stss": 27.8,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-03-02",
-      "stss": 24.3,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-03-04",
-      "stss": 36.5,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-03-04",
-      "stss": 30.6,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-03-06",
-      "stss": 71.3,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-03-09",
-      "stss": 11.0,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-03-09",
-      "stss": 46.3,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-03-09",
-      "stss": 33.0,
-      "type": "running"
-    },
-    {
-      "date": "2026-03-09",
-      "stss": 31.6,
-      "type": "running"
-    },
-    {
-      "date": "2026-03-11",
-      "stss": 31.9,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-03-11",
-      "stss": 32.9,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-03-13",
-      "stss": 56.7,
-      "type": "indoor_cycling"
-    },
-    {
-      "date": "2026-03-13",
-      "stss": 35.4,
-      "type": "running"
-    },
-    {
-      "date": "2026-03-16",
-      "stss": 44.1,
-      "type": "indoor_cycling"
     }
   ],
   "icu_summary": {
@@ -17889,198 +17674,6 @@
       "avg_power_w": 234.3,
       "avg_hr_bpm": 144,
       "is_indoor": true
-    },
-    {
-      "date": "2026-02-03",
-      "cei_inv": 1.615,
-      "cei": 0.619,
-      "avg_power_w": 210.0,
-      "avg_hr_bpm": 130,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-02-06",
-      "cei_inv": 1.511,
-      "cei": 0.662,
-      "avg_power_w": 199.4,
-      "avg_hr_bpm": 132,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-02-10",
-      "cei_inv": 1.62,
-      "cei": 0.6174,
-      "avg_power_w": 213.8,
-      "avg_hr_bpm": 132,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-02-11",
-      "cei_inv": 1.592,
-      "cei": 0.6281,
-      "avg_power_w": 200.6,
-      "avg_hr_bpm": 126,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-02-13",
-      "cei_inv": 1.568,
-      "cei": 0.6376,
-      "avg_power_w": 218.0,
-      "avg_hr_bpm": 139,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-02-14",
-      "cei_inv": 1.607,
-      "cei": 0.6224,
-      "avg_power_w": 192.8,
-      "avg_hr_bpm": 120,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-02-18",
-      "cei_inv": 1.538,
-      "cei": 0.6503,
-      "avg_power_w": 187.6,
-      "avg_hr_bpm": 122,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-02-18",
-      "cei_inv": 1.482,
-      "cei": 0.6747,
-      "avg_power_w": 173.4,
-      "avg_hr_bpm": 117,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-02-23",
-      "cei_inv": 1.637,
-      "cei": 0.6107,
-      "avg_power_w": 188.3,
-      "avg_hr_bpm": 115,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-02-23",
-      "cei_inv": 1.494,
-      "cei": 0.6694,
-      "avg_power_w": 173.3,
-      "avg_hr_bpm": 116,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-02-24",
-      "cei_inv": 1.578,
-      "cei": 0.6338,
-      "avg_power_w": 190.9,
-      "avg_hr_bpm": 121,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-02-25",
-      "cei_inv": 1.659,
-      "cei": 0.6029,
-      "avg_power_w": 217.3,
-      "avg_hr_bpm": 131,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-02-27",
-      "cei_inv": 1.619,
-      "cei": 0.6178,
-      "avg_power_w": 226.6,
-      "avg_hr_bpm": 140,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-03-02",
-      "cei_inv": 1.618,
-      "cei": 0.618,
-      "avg_power_w": 187.7,
-      "avg_hr_bpm": 116,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-03-02",
-      "cei_inv": 1.536,
-      "cei": 0.6509,
-      "avg_power_w": 173.6,
-      "avg_hr_bpm": 113,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-03-04",
-      "cei_inv": 1.623,
-      "cei": 0.616,
-      "avg_power_w": 186.7,
-      "avg_hr_bpm": 115,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-03-04",
-      "cei_inv": 1.553,
-      "cei": 0.644,
-      "avg_power_w": 194.1,
-      "avg_hr_bpm": 125,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-03-06",
-      "cei_inv": 1.543,
-      "cei": 0.6483,
-      "avg_power_w": 206.7,
-      "avg_hr_bpm": 134,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-03-09",
-      "cei_inv": 1.679,
-      "cei": 0.5955,
-      "avg_power_w": 186.4,
-      "avg_hr_bpm": 111,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-03-09",
-      "cei_inv": 1.619,
-      "cei": 0.6175,
-      "avg_power_w": 200.8,
-      "avg_hr_bpm": 124,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-03-11",
-      "cei_inv": 1.657,
-      "cei": 0.6037,
-      "avg_power_w": 202.1,
-      "avg_hr_bpm": 122,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-03-11",
-      "cei_inv": 1.604,
-      "cei": 0.6234,
-      "avg_power_w": 200.5,
-      "avg_hr_bpm": 125,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-03-13",
-      "cei_inv": 1.581,
-      "cei": 0.6324,
-      "avg_power_w": 219.8,
-      "avg_hr_bpm": 139,
-      "is_indoor": true
-    },
-    {
-      "date": "2026-03-16",
-      "cei_inv": 1.657,
-      "cei": 0.6034,
-      "avg_power_w": 228.7,
-      "avg_hr_bpm": 138,
-      "is_indoor": true
     }
   ],
   "recent_sessions": [
@@ -18111,31 +17704,6 @@
     },
     {
       "date": "2026-03-16",
-      "type": "indoor_cycling",
-      "is_indoor": true,
-      "duration": "27m 41s",
-      "distance_km": 14.99,
-      "elevation_m": 0,
-      "avg_hr": 138,
-      "max_hr": 168,
-      "avg_hrr_pct": 73.1,
-      "avg_cadence": 74,
-      "avg_power_w": 228.7,
-      "norm_power_w": 246.4,
-      "tss": 44.1,
-      "if": 0.978,
-      "avg_speed_kph": 32.5,
-      "avg_pace": null,
-      "hr_zones": {
-        "Z1 Recovery": 0.5,
-        "Z2 Endurance": 43.3,
-        "Z3 Tempo": 52.0,
-        "Z4 Threshold": 2.5,
-        "Z5 VO2max": 1.7
-      }
-    },
-    {
-      "date": "2026-03-16",
       "type": "Ride",
       "is_indoor": false,
       "duration": "25m 11s",
@@ -18161,31 +17729,6 @@
     },
     {
       "date": "2026-03-16",
-      "type": "cycling",
-      "is_indoor": false,
-      "duration": "25m 10s",
-      "distance_km": 7.51,
-      "elevation_m": 12,
-      "avg_hr": 78,
-      "max_hr": 108,
-      "avg_hrr_pct": 26.9,
-      "avg_cadence": null,
-      "avg_power_w": null,
-      "norm_power_w": null,
-      "tss": null,
-      "if": null,
-      "avg_speed_kph": 17.9,
-      "avg_pace": null,
-      "hr_zones": {
-        "Z1 Recovery": 100.0,
-        "Z2 Endurance": 0.0,
-        "Z3 Tempo": 0.0,
-        "Z4 Threshold": 0.0,
-        "Z5 VO2max": 0.0
-      }
-    },
-    {
-      "date": "2026-03-16",
       "type": "Ride",
       "is_indoor": false,
       "duration": "28m 10s",
@@ -18201,31 +17744,6 @@
       "if": null,
       "avg_speed_kph": 16.2,
       "avg_pace": "3:42 /km",
-      "hr_zones": {
-        "Z1 Recovery": 81.3,
-        "Z2 Endurance": 18.7,
-        "Z3 Tempo": 0.0,
-        "Z4 Threshold": 0.0,
-        "Z5 VO2max": 0.0
-      }
-    },
-    {
-      "date": "2026-03-16",
-      "type": "cycling",
-      "is_indoor": false,
-      "duration": "28m 09s",
-      "distance_km": 7.59,
-      "elevation_m": 18,
-      "avg_hr": 93,
-      "max_hr": 131,
-      "avg_hrr_pct": 38.5,
-      "avg_cadence": null,
-      "avg_power_w": null,
-      "norm_power_w": null,
-      "tss": null,
-      "if": null,
-      "avg_speed_kph": 16.2,
-      "avg_pace": null,
       "hr_zones": {
         "Z1 Recovery": 81.3,
         "Z2 Endurance": 18.7,
@@ -18333,15 +17851,90 @@
         "Z4 Threshold": 0.0,
         "Z5 VO2max": 0.0
       }
+    },
+    {
+      "date": "2026-03-13",
+      "type": "VirtualRide",
+      "is_indoor": true,
+      "duration": "34m 53s",
+      "distance_km": 20.96,
+      "elevation_m": 148,
+      "avg_hr": 139,
+      "max_hr": 168,
+      "avg_hrr_pct": 73.8,
+      "avg_cadence": 75,
+      "avg_power_w": null,
+      "norm_power_w": null,
+      "tss": null,
+      "if": null,
+      "avg_speed_kph": 36.0,
+      "avg_pace": "1:39 /km",
+      "hr_zones": {
+        "Z1 Recovery": 0.3,
+        "Z2 Endurance": 44.7,
+        "Z3 Tempo": 40.6,
+        "Z4 Threshold": 12.7,
+        "Z5 VO2max": 1.7
+      }
+    },
+    {
+      "date": "2026-03-12",
+      "type": "Ride",
+      "is_indoor": false,
+      "duration": "26m 32s",
+      "distance_km": 7.51,
+      "elevation_m": 14,
+      "avg_hr": 76,
+      "max_hr": 102,
+      "avg_hrr_pct": 25.4,
+      "avg_cadence": null,
+      "avg_power_w": null,
+      "norm_power_w": null,
+      "tss": null,
+      "if": null,
+      "avg_speed_kph": 17.0,
+      "avg_pace": "3:31 /km",
+      "hr_zones": {
+        "Z1 Recovery": 100.0,
+        "Z2 Endurance": 0.0,
+        "Z3 Tempo": 0.0,
+        "Z4 Threshold": 0.0,
+        "Z5 VO2max": 0.0
+      }
+    },
+    {
+      "date": "2026-03-12",
+      "type": "Ride",
+      "is_indoor": false,
+      "duration": "37m 36s",
+      "distance_km": 7.46,
+      "elevation_m": 6,
+      "avg_hr": 81,
+      "max_hr": 106,
+      "avg_hrr_pct": 29.2,
+      "avg_cadence": null,
+      "avg_power_w": null,
+      "norm_power_w": null,
+      "tss": null,
+      "if": null,
+      "avg_speed_kph": 11.9,
+      "avg_pace": "5:02 /km",
+      "hr_zones": {
+        "Z1 Recovery": 100.0,
+        "Z2 Endurance": 0.0,
+        "Z3 Tempo": 0.0,
+        "Z4 Threshold": 0.0,
+        "Z5 VO2max": 0.0
+      }
     }
   ],
   "indoor_outdoor_delta": {
     "indoor": {
-      "n": 199,
-      "avg_power_w": 181.6,
-      "avg_np_w": 206.8,
-      "avg_hr_bpm": 124.0,
-      "avg_cei": 0.6828
+      "n": 174,
+      "avg_power_w": 179.5,
+      "avg_np_w": 205.1,
+      "avg_hr_bpm": 123.9,
+      "avg_cei": 0.6903
     },
     "outdoor": {
       "n": 110,
