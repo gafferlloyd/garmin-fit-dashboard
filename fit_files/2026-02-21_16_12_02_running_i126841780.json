@@ -2,6 +2,8 @@
   "file": "2026-02-21_16_12_02_running_i126841780.fit",
   "activity_type": "Run",
   "is_indoor": false,
+  "duration": "1h 20m 02s",
+  "duration_s": 4802,
   "distance_km": 13.19,
   "elevation_m": 82,
   "calories_kcal": null,

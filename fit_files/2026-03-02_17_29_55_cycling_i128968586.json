@@ -2,6 +2,8 @@
   "file": "2026-03-02_17_29_55_cycling_i128968586.fit",
   "activity_type": "VirtualRide",
   "is_indoor": true,
+  "duration": "23m 40s",
+  "duration_s": 1420,
   "distance_km": 10.69,
   "elevation_m": 132,
   "calories_kcal": null,
@@ -22,8 +24,15 @@
     "avg_rpm": 61,
     "max_rpm": 85
   },
-  "avg_pace": "2:12 /km",
-  "max_pace": "0:59 /km",
   "avg_speed_kph": 27.1,
+  "max_speed_kph": 60.4,
+  "avg_power_w": 185.3,
+  "max_power_w": 348,
+  "norm_power_w": 209.9,
+  "intensity_factor": 0.833,
+  "tss": 27.4,
+  "ftp_used_w": 252,
+  "w_per_kg": 2.73,
+  "np_per_kg": 3.09,
   "icu_activity_id": "i128968586"
 }

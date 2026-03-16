@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-16 22:01",
+  "generated": "2026-03-16 22:02",
   "summary": {
     "total_sessions": 2404,
     "cycling_sessions": 1321,
@@ -15657,6 +15657,171 @@
       "date": "2026-02-01",
       "stss": 120.3,
       "type": "running"
+    },
+    {
+      "date": "2026-02-03",
+      "stss": 35.0,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-02-06",
+      "stss": 42.8,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-02-10",
+      "stss": 36.8,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-02-11",
+      "stss": 49.1,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-02-13",
+      "stss": 48.5,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-02-14",
+      "stss": 70.7,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-02-16",
+      "stss": 1.0,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-02-16",
+      "stss": 1.0,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-02-16",
+      "stss": 35.9,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-02-18",
+      "stss": 15.0,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-02-18",
+      "stss": 27.8,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-02-18",
+      "stss": 24.5,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-02-23",
+      "stss": 28.1,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-02-23",
+      "stss": 24.6,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-02-24",
+      "stss": 19.8,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-02-24",
+      "stss": 32.2,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-02-25",
+      "stss": 37.2,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-02-27",
+      "stss": 61.2,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-03-02",
+      "stss": 27.4,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-03-02",
+      "stss": 24.5,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-03-04",
+      "stss": 1.2,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-03-04",
+      "stss": 37.2,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-03-04",
+      "stss": 30.8,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-03-06",
+      "stss": 2.7,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-03-06",
+      "stss": 72.2,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-03-07",
+      "stss": 55.6,
+      "type": "Ride"
+    },
+    {
+      "date": "2026-03-08",
+      "stss": 44.6,
+      "type": "Ride"
+    },
+    {
+      "date": "2026-03-09",
+      "stss": 11.0,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-03-09",
+      "stss": 46.6,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-03-11",
+      "stss": 32.0,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-03-11",
+      "stss": 33.1,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-03-13",
+      "stss": 57.5,
+      "type": "VirtualRide"
+    },
+    {
+      "date": "2026-03-16",
+      "stss": 46.6,
+      "type": "VirtualRide"
     }
   ],
   "icu_summary": {
@@ -17674,6 +17839,230 @@
       "avg_power_w": 234.3,
       "avg_hr_bpm": 144,
       "is_indoor": true
+    },
+    {
+      "date": "2026-02-03",
+      "cei_inv": 1.603,
+      "cei": 0.6238,
+      "avg_power_w": 208.4,
+      "avg_hr_bpm": 130,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-02-06",
+      "cei_inv": 1.406,
+      "cei": 0.7111,
+      "avg_power_w": 181.4,
+      "avg_hr_bpm": 129,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-02-10",
+      "cei_inv": 1.574,
+      "cei": 0.6353,
+      "avg_power_w": 206.2,
+      "avg_hr_bpm": 131,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-02-11",
+      "cei_inv": 1.604,
+      "cei": 0.6234,
+      "avg_power_w": 200.5,
+      "avg_hr_bpm": 125,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-02-13",
+      "cei_inv": 1.479,
+      "cei": 0.6762,
+      "avg_power_w": 202.6,
+      "avg_hr_bpm": 137,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-02-14",
+      "cei_inv": 1.595,
+      "cei": 0.627,
+      "avg_power_w": 191.4,
+      "avg_hr_bpm": 120,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-02-16",
+      "cei_inv": 1.67,
+      "cei": 0.5987,
+      "avg_power_w": 213.8,
+      "avg_hr_bpm": 128,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-02-18",
+      "cei_inv": 1.535,
+      "cei": 0.6514,
+      "avg_power_w": 187.3,
+      "avg_hr_bpm": 122,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-02-18",
+      "cei_inv": 1.48,
+      "cei": 0.6755,
+      "avg_power_w": 173.2,
+      "avg_hr_bpm": 117,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-02-23",
+      "cei_inv": 1.646,
+      "cei": 0.6074,
+      "avg_power_w": 187.7,
+      "avg_hr_bpm": 114,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-02-23",
+      "cei_inv": 1.491,
+      "cei": 0.6705,
+      "avg_power_w": 173.0,
+      "avg_hr_bpm": 116,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-02-24",
+      "cei_inv": 1.877,
+      "cei": 0.5329,
+      "avg_power_w": 215.8,
+      "avg_hr_bpm": 115,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-02-24",
+      "cei_inv": 1.561,
+      "cei": 0.6407,
+      "avg_power_w": 195.1,
+      "avg_hr_bpm": 125,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-02-25",
+      "cei_inv": 1.644,
+      "cei": 0.6082,
+      "avg_power_w": 215.4,
+      "avg_hr_bpm": 131,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-02-27",
+      "cei_inv": 1.547,
+      "cei": 0.6465,
+      "avg_power_w": 211.9,
+      "avg_hr_bpm": 137,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-03-02",
+      "cei_inv": 1.597,
+      "cei": 0.626,
+      "avg_power_w": 185.3,
+      "avg_hr_bpm": 116,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-03-02",
+      "cei_inv": 1.536,
+      "cei": 0.6512,
+      "avg_power_w": 172.0,
+      "avg_hr_bpm": 112,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-03-04",
+      "cei_inv": 1.626,
+      "cei": 0.6149,
+      "avg_power_w": 185.4,
+      "avg_hr_bpm": 114,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-03-04",
+      "cei_inv": 1.551,
+      "cei": 0.6447,
+      "avg_power_w": 193.9,
+      "avg_hr_bpm": 125,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-03-06",
+      "cei_inv": 1.51,
+      "cei": 0.6624,
+      "avg_power_w": 202.3,
+      "avg_hr_bpm": 134,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-03-07",
+      "cei_inv": 1.743,
+      "cei": 0.5739,
+      "avg_power_w": 221.3,
+      "avg_hr_bpm": 127,
+      "is_indoor": false
+    },
+    {
+      "date": "2026-03-08",
+      "cei_inv": 1.542,
+      "cei": 0.6487,
+      "avg_power_w": 181.9,
+      "avg_hr_bpm": 118,
+      "is_indoor": false
+    },
+    {
+      "date": "2026-03-09",
+      "cei_inv": 1.684,
+      "cei": 0.5939,
+      "avg_power_w": 186.9,
+      "avg_hr_bpm": 111,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-03-09",
+      "cei_inv": 1.619,
+      "cei": 0.6178,
+      "avg_power_w": 200.7,
+      "avg_hr_bpm": 124,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-03-11",
+      "cei_inv": 1.644,
+      "cei": 0.6082,
+      "avg_power_w": 200.6,
+      "avg_hr_bpm": 122,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-03-11",
+      "cei_inv": 1.594,
+      "cei": 0.6275,
+      "avg_power_w": 199.2,
+      "avg_hr_bpm": 125,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-03-13",
+      "cei_inv": 1.541,
+      "cei": 0.6489,
+      "avg_power_w": 214.2,
+      "avg_hr_bpm": 139,
+      "is_indoor": true
+    },
+    {
+      "date": "2026-03-16",
+      "cei_inv": 1.561,
+      "cei": 0.6408,
+      "avg_power_w": 213.8,
+      "avg_hr_bpm": 137,
+      "is_indoor": true
     }
   ],
   "recent_sessions": [
@@ -17681,19 +18070,19 @@
       "date": "2026-03-16",
       "type": "VirtualRide",
       "is_indoor": true,
-      "duration": "",
+      "duration": "30m 58s",
       "distance_km": 19.43,
       "elevation_m": 20,
       "avg_hr": 137,
       "max_hr": 168,
       "avg_hrr_pct": 72.3,
       "avg_cadence": 72,
-      "avg_power_w": null,
-      "norm_power_w": null,
-      "tss": null,
-      "if": null,
+      "avg_power_w": 213.8,
+      "norm_power_w": 239.6,
+      "tss": 46.6,
+      "if": 0.951,
       "avg_speed_kph": 37.6,
-      "avg_pace": "1:35 /km",
+      "avg_pace": null,
       "hr_zones": {
         "Z1 Recovery": 3.6,
         "Z2 Endurance": 43.6,
@@ -17706,7 +18095,7 @@
       "date": "2026-03-16",
       "type": "Ride",
       "is_indoor": false,
-      "duration": "",
+      "duration": "25m 10s",
       "distance_km": 7.51,
       "elevation_m": 12,
       "avg_hr": 78,
@@ -17718,7 +18107,7 @@
       "tss": null,
       "if": null,
       "avg_speed_kph": 17.9,
-      "avg_pace": "3:21 /km",
+      "avg_pace": null,
       "hr_zones": {
         "Z1 Recovery": 100.0,
         "Z2 Endurance": 0.0,
@@ -17731,7 +18120,7 @@
       "date": "2026-03-16",
       "type": "Ride",
       "is_indoor": false,
-      "duration": "",
+      "duration": "28m 09s",
       "distance_km": 7.59,
       "elevation_m": 18,
       "avg_hr": 93,
@@ -17743,7 +18132,7 @@
       "tss": null,
       "if": null,
       "avg_speed_kph": 16.2,
-      "avg_pace": "3:42 /km",
+      "avg_pace": null,
       "hr_zones": {
         "Z1 Recovery": 81.3,
         "Z2 Endurance": 18.7,
@@ -17756,7 +18145,7 @@
       "date": "2026-03-15",
       "type": "Run",
       "is_indoor": false,
-      "duration": "",
+      "duration": "2h 06m 00s",
       "distance_km": 23.41,
       "elevation_m": 216,
       "avg_hr": 118,
@@ -17781,7 +18170,7 @@
       "date": "2026-03-14",
       "type": "Run",
       "is_indoor": false,
-      "duration": "",
+      "duration": "1h 28m 38s",
       "distance_km": 13.57,
       "elevation_m": 144,
       "avg_hr": 100,
@@ -17806,7 +18195,7 @@
       "date": "2026-03-13",
       "type": "Run",
       "is_indoor": false,
-      "duration": "",
+      "duration": "46m 10s",
       "distance_km": 7.18,
       "elevation_m": 68,
       "avg_hr": 110,
@@ -17831,7 +18220,7 @@
       "date": "2026-03-13",
       "type": "Run",
       "is_indoor": false,
-      "duration": "",
+      "duration": "40m 12s",
       "distance_km": 7.26,
       "elevation_m": 76,
       "avg_hr": 119,
@@ -17856,19 +18245,19 @@
       "date": "2026-03-13",
       "type": "VirtualRide",
       "is_indoor": true,
-      "duration": "",
+      "duration": "34m 52s",
       "distance_km": 20.96,
       "elevation_m": 148,
       "avg_hr": 139,
       "max_hr": 168,
       "avg_hrr_pct": 73.8,
       "avg_cadence": 75,
-      "avg_power_w": null,
-      "norm_power_w": null,
-      "tss": null,
-      "if": null,
+      "avg_power_w": 214.2,
+      "norm_power_w": 250.7,
+      "tss": 57.5,
+      "if": 0.995,
       "avg_speed_kph": 36.0,
-      "avg_pace": "1:39 /km",
+      "avg_pace": null,
       "hr_zones": {
         "Z1 Recovery": 0.3,
         "Z2 Endurance": 44.7,
@@ -17881,7 +18270,7 @@
       "date": "2026-03-12",
       "type": "Ride",
       "is_indoor": false,
-      "duration": "",
+      "duration": "26m 31s",
       "distance_km": 7.51,
       "elevation_m": 14,
       "avg_hr": 76,
@@ -17893,7 +18282,7 @@
       "tss": null,
       "if": null,
       "avg_speed_kph": 17.0,
-      "avg_pace": "3:31 /km",
+      "avg_pace": null,
       "hr_zones": {
         "Z1 Recovery": 100.0,
         "Z2 Endurance": 0.0,
@@ -17906,7 +18295,7 @@
       "date": "2026-03-12",
       "type": "Ride",
       "is_indoor": false,
-      "duration": "",
+      "duration": "37m 35s",
       "distance_km": 7.46,
       "elevation_m": 6,
       "avg_hr": 81,
@@ -17918,7 +18307,7 @@
       "tss": null,
       "if": null,
       "avg_speed_kph": 11.9,
-      "avg_pace": "5:02 /km",
+      "avg_pace": null,
       "hr_zones": {
         "Z1 Recovery": 100.0,
         "Z2 Endurance": 0.0,
@@ -17930,11 +18319,11 @@
   ],
   "indoor_outdoor_delta": {
     "indoor": {
-      "n": 174,
-      "avg_power_w": 179.5,
-      "avg_np_w": 205.1,
-      "avg_hr_bpm": 123.9,
-      "avg_cei": 0.6903
+      "n": 205,
+      "avg_power_w": 180.2,
+      "avg_np_w": 205.4,
+      "avg_hr_bpm": 123.3,
+      "avg_cei": 0.6842
     },
     "outdoor": {
       "n": 110,
