@@ -273,7 +273,9 @@ def build_cycling_cloud() -> None:
         # Defensive: ensure raw_buckets exists (handles any edge case)
         for s_key in [sk, "recent"]:
             if s_key in series and "raw_buckets" not in series[s_key]:
+                print(f"  DEBUG: {s_key} missing raw_buckets, keys={list(series[s_key].keys())}")
                 series[s_key]["raw_buckets"] = {}
+        print(f"  DEBUG: sk={sk} keys={list(series[sk].keys()) if sk in series else 'NOT IN SERIES'}")
 
         for pwr, hr in windows:
             idx = bucket_index(pwr)
