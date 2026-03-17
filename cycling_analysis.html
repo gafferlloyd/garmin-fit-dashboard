@@ -319,8 +319,8 @@ function buildCloudCharts(cloudSeries, hrrMarkers){
 // ── Gradient table ────────────────────────────────────────────────────────────
 function buildGradTable(cloudSeries, hrrMarkers){
   const table = document.getElementById('grad-table');
-  const HRR_KEYS = ['50','60','70','80','90','vt1','threshold'];
-  const HRR_ROW  = {'50':'50% HRR','60':'60% HRR','70':'70% HRR',
+  const HRR_KEYS = ['60','70','80','90','vt1','threshold'];
+  const HRR_ROW  = {'60':'60% HRR','70':'70% HRR',
                     '80':'80% HRR','90':'90% HRR','vt1':'VT1','threshold':'Threshold'};
   const groups = [
     {label:'2023', keys:['outdoor_2023']},
