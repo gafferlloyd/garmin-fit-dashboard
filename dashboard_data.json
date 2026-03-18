@@ -1,16 +1,16 @@
 {
-  "generated": "2026-03-17 23:33",
+  "generated": "2026-03-18 23:31",
   "summary": {
-    "total_sessions": 2408,
+    "total_sessions": 2410,
     "cycling_sessions": 1321,
     "running_sessions": 969,
-    "current_ctl": 80.1,
-    "current_atl": 74.6,
-    "current_tsb": 5.5,
-    "ramp_rate": -1.31,
+    "current_ctl": 79.9,
+    "current_atl": 74.2,
+    "current_tsb": 5.7,
+    "ramp_rate": -1.35,
     "date_range": {
       "from": "2023-01-01",
-      "to": "2026-03-17"
+      "to": "2026-03-18"
     },
     "calories": {
       "by_year": {
@@ -9398,6 +9398,14 @@
       "tsb": 5.5,
       "rampRate": -1.31,
       "load": 60.0
+    },
+    {
+      "date": "2026-03-18",
+      "ctl": 79.9,
+      "atl": 74.2,
+      "tsb": 5.7,
+      "rampRate": -1.35,
+      "load": 72.0
     }
   ],
   "session_tss": [
@@ -16210,14 +16218,24 @@
       "date": "2026-03-17",
       "stss": 51.6,
       "type": "VirtualRide"
+    },
+    {
+      "date": "2026-03-18",
+      "stss": 36.4,
+      "type": "Run"
+    },
+    {
+      "date": "2026-03-18",
+      "stss": 29.9,
+      "type": "Run"
     }
   ],
   "icu_summary": {
-    "ctl": 80.1,
-    "atl": 74.6,
-    "tsb": 5.5,
-    "rampRate": -1.31,
-    "as_of": "2026-03-17"
+    "ctl": 79.9,
+    "atl": 74.2,
+    "tsb": 5.7,
+    "rampRate": -1.35,
+    "as_of": "2026-03-18"
   },
   "cei_series": [
     {
@@ -18463,6 +18481,56 @@
   ],
   "recent_sessions": [
     {
+      "date": "2026-03-18",
+      "type": "Run",
+      "is_indoor": false,
+      "duration": "46m 08s",
+      "distance_km": 7.17,
+      "elevation_m": 76,
+      "avg_hr": 98,
+      "max_hr": 117,
+      "avg_hrr_pct": 42.3,
+      "avg_cadence": 83,
+      "avg_power_w": null,
+      "norm_power_w": null,
+      "tss": 29.9,
+      "if": 0.624,
+      "avg_speed_kph": 9.4,
+      "avg_pace": "6:24 /km",
+      "hr_zones": {
+        "Z1 Recovery": 94.6,
+        "Z2 Endurance": 5.4,
+        "Z3 Tempo": 0.0,
+        "Z4 Threshold": 0.0,
+        "Z5 VO2max": 0.0
+      }
+    },
+    {
+      "date": "2026-03-18",
+      "type": "Run",
+      "is_indoor": false,
+      "duration": "39m 28s",
+      "distance_km": 7.25,
+      "elevation_m": 86,
+      "avg_hr": 116,
+      "max_hr": 147,
+      "avg_hrr_pct": 56.2,
+      "avg_cadence": 85,
+      "avg_power_w": null,
+      "norm_power_w": null,
+      "tss": 36.4,
+      "if": 0.744,
+      "avg_speed_kph": 11.2,
+      "avg_pace": "5:22 /km",
+      "hr_zones": {
+        "Z1 Recovery": 59.2,
+        "Z2 Endurance": 28.2,
+        "Z3 Tempo": 12.6,
+        "Z4 Threshold": 0.0,
+        "Z5 VO2max": 0.0
+      }
+    },
+    {
       "date": "2026-03-17",
       "type": "VirtualRide",
       "is_indoor": true,
@@ -18658,56 +18726,6 @@
         "Z1 Recovery": 47.7,
         "Z2 Endurance": 34.4,
         "Z3 Tempo": 17.8,
-        "Z4 Threshold": 0.0,
-        "Z5 VO2max": 0.0
-      }
-    },
-    {
-      "date": "2026-03-14",
-      "type": "Run",
-      "is_indoor": false,
-      "duration": "1h 28m 38s",
-      "distance_km": 13.57,
-      "elevation_m": 144,
-      "avg_hr": 100,
-      "max_hr": 130,
-      "avg_hrr_pct": 43.8,
-      "avg_cadence": 82,
-      "avg_power_w": null,
-      "norm_power_w": null,
-      "tss": 55.8,
-      "if": 0.614,
-      "avg_speed_kph": 9.2,
-      "avg_pace": "6:30 /km",
-      "hr_zones": {
-        "Z1 Recovery": 86.6,
-        "Z2 Endurance": 13.4,
-        "Z3 Tempo": 0.0,
-        "Z4 Threshold": 0.0,
-        "Z5 VO2max": 0.0
-      }
-    },
-    {
-      "date": "2026-03-13",
-      "type": "Run",
-      "is_indoor": false,
-      "duration": "46m 10s",
-      "distance_km": 7.18,
-      "elevation_m": 68,
-      "avg_hr": 110,
-      "max_hr": 122,
-      "avg_hrr_pct": 51.5,
-      "avg_cadence": 83,
-      "avg_power_w": null,
-      "norm_power_w": null,
-      "tss": 29.7,
-      "if": 0.622,
-      "avg_speed_kph": 9.3,
-      "avg_pace": "6:26 /km",
-      "hr_zones": {
-        "Z1 Recovery": 90.0,
-        "Z2 Endurance": 10.0,
-        "Z3 Tempo": 0.0,
         "Z4 Threshold": 0.0,
         "Z5 VO2max": 0.0
       }
@@ -19866,8 +19884,8 @@
             "pace_sec": 317.5,
             "pace_label": "5:17",
             "avg_hr": 119.34,
-            "std_hr": 7.23,
-            "count": 173
+            "std_hr": 7.21,
+            "count": 174
           },
           "28": {
             "pace_sec": 322.5,
@@ -19879,9 +19897,9 @@
           "26": {
             "pace_sec": 312.5,
             "pace_label": "5:12",
-            "avg_hr": 120.74,
-            "std_hr": 9.46,
-            "count": 102
+            "avg_hr": 120.67,
+            "std_hr": 9.44,
+            "count": 103
           },
           "25": {
             "pace_sec": 307.5,
@@ -19893,135 +19911,135 @@
           "23": {
             "pace_sec": 297.5,
             "pace_label": "4:57",
-            "avg_hr": 127.73,
-            "std_hr": 9.97,
-            "count": 78
+            "avg_hr": 127.76,
+            "std_hr": 9.86,
+            "count": 80
           },
           "24": {
             "pace_sec": 302.5,
             "pace_label": "5:02",
             "avg_hr": 126.35,
-            "std_hr": 10.15,
-            "count": 76
+            "std_hr": 10.06,
+            "count": 78
           },
           "22": {
             "pace_sec": 292.5,
             "pace_label": "4:52",
-            "avg_hr": 127.39,
-            "std_hr": 9.19,
-            "count": 79
+            "avg_hr": 127.67,
+            "std_hr": 9.25,
+            "count": 81
           },
           "21": {
             "pace_sec": 287.5,
             "pace_label": "4:47",
-            "avg_hr": 128.19,
-            "std_hr": 10.46,
-            "count": 73
+            "avg_hr": 128.09,
+            "std_hr": 10.42,
+            "count": 74
           },
           "20": {
             "pace_sec": 282.5,
             "pace_label": "4:42",
-            "avg_hr": 131.19,
-            "std_hr": 8.03,
-            "count": 72
+            "avg_hr": 130.95,
+            "std_hr": 8.23,
+            "count": 73
           },
           "19": {
             "pace_sec": 277.5,
             "pace_label": "4:37",
-            "avg_hr": 128.75,
-            "std_hr": 9.71,
-            "count": 85
+            "avg_hr": 128.65,
+            "std_hr": 9.7,
+            "count": 86
           },
           "16": {
             "pace_sec": 262.5,
             "pace_label": "4:22",
-            "avg_hr": 138.96,
-            "std_hr": 7.2,
-            "count": 150
+            "avg_hr": 138.87,
+            "std_hr": 7.25,
+            "count": 151
           },
           "14": {
             "pace_sec": 252.5,
             "pace_label": "4:12",
-            "avg_hr": 142.11,
-            "std_hr": 6.02,
-            "count": 268
+            "avg_hr": 141.99,
+            "std_hr": 6.21,
+            "count": 270
           },
           "15": {
             "pace_sec": 257.5,
             "pace_label": "4:17",
-            "avg_hr": 142.11,
-            "std_hr": 5.65,
-            "count": 202
+            "avg_hr": 142.01,
+            "std_hr": 5.71,
+            "count": 204
           },
           "35": {
             "pace_sec": 357.5,
             "pace_label": "5:57",
-            "avg_hr": 113.16,
-            "std_hr": 8.57,
-            "count": 493
+            "avg_hr": 113.15,
+            "std_hr": 8.51,
+            "count": 502
           },
           "32": {
             "pace_sec": 342.5,
             "pace_label": "5:42",
-            "avg_hr": 116.07,
-            "std_hr": 8.86,
-            "count": 463
+            "avg_hr": 116.01,
+            "std_hr": 8.83,
+            "count": 471
           },
           "33": {
             "pace_sec": 347.5,
             "pace_label": "5:47",
-            "avg_hr": 115.21,
-            "std_hr": 8.35,
-            "count": 479
+            "avg_hr": 115.23,
+            "std_hr": 8.34,
+            "count": 483
           },
           "42": {
             "pace_sec": 392.5,
             "pace_label": "6:32",
-            "avg_hr": 108.32,
-            "std_hr": 8.44,
-            "count": 179
+            "avg_hr": 107.38,
+            "std_hr": 9.37,
+            "count": 188
           },
           "30": {
             "pace_sec": 332.5,
             "pace_label": "5:32",
-            "avg_hr": 117.14,
-            "std_hr": 7.12,
-            "count": 419
+            "avg_hr": 117.09,
+            "std_hr": 7.11,
+            "count": 423
           },
           "40": {
             "pace_sec": 382.5,
             "pace_label": "6:22",
-            "avg_hr": 111.05,
-            "std_hr": 8.37,
-            "count": 324
+            "avg_hr": 110.94,
+            "std_hr": 8.48,
+            "count": 326
           },
           "43": {
             "pace_sec": 397.5,
             "pace_label": "6:37",
-            "avg_hr": 106.85,
-            "std_hr": 8.31,
-            "count": 171
+            "avg_hr": 105.23,
+            "std_hr": 9.87,
+            "count": 185
           },
           "44": {
             "pace_sec": 402.5,
             "pace_label": "6:42",
-            "avg_hr": 105.59,
-            "std_hr": 8.71,
-            "count": 152
+            "avg_hr": 104.68,
+            "std_hr": 9.53,
+            "count": 159
           },
           "45": {
             "pace_sec": 407.5,
             "pace_label": "6:47",
-            "avg_hr": 104.98,
-            "std_hr": 7.28,
-            "count": 110
+            "avg_hr": 104.06,
+            "std_hr": 8.31,
+            "count": 115
           },
           "41": {
             "pace_sec": 387.5,
             "pace_label": "6:27",
-            "avg_hr": 109.77,
-            "std_hr": 8.32,
-            "count": 266
+            "avg_hr": 109.54,
+            "std_hr": 8.46,
+            "count": 271
           },
           "9": {
             "pace_sec": 227.5,
@@ -20040,65 +20058,65 @@
           "31": {
             "pace_sec": 337.5,
             "pace_label": "5:37",
-            "avg_hr": 116.94,
+            "avg_hr": 116.91,
             "std_hr": 7.01,
-            "count": 457
+            "count": 460
           },
           "34": {
             "pace_sec": 352.5,
             "pace_label": "5:52",
-            "avg_hr": 114.27,
-            "std_hr": 7.25,
-            "count": 608
+            "avg_hr": 114.26,
+            "std_hr": 7.23,
+            "count": 613
           },
           "29": {
             "pace_sec": 327.5,
             "pace_label": "5:27",
-            "avg_hr": 117.09,
-            "std_hr": 7.32,
-            "count": 308
+            "avg_hr": 117.1,
+            "std_hr": 7.31,
+            "count": 310
           },
           "36": {
             "pace_sec": 362.5,
             "pace_label": "6:02",
             "avg_hr": 112.55,
-            "std_hr": 7.8,
-            "count": 475
+            "std_hr": 7.77,
+            "count": 478
           },
           "13": {
             "pace_sec": 247.5,
             "pace_label": "4:07",
-            "avg_hr": 143.6,
-            "std_hr": 7.29,
-            "count": 149
+            "avg_hr": 143.41,
+            "std_hr": 7.37,
+            "count": 153
           },
           "38": {
             "pace_sec": 372.5,
             "pace_label": "6:12",
-            "avg_hr": 111.96,
-            "std_hr": 8.61,
-            "count": 483
+            "avg_hr": 111.91,
+            "std_hr": 8.6,
+            "count": 487
           },
           "37": {
             "pace_sec": 367.5,
             "pace_label": "6:07",
-            "avg_hr": 111.78,
-            "std_hr": 7.81,
-            "count": 523
+            "avg_hr": 111.71,
+            "std_hr": 7.76,
+            "count": 533
           },
           "12": {
             "pace_sec": 242.5,
             "pace_label": "4:02",
-            "avg_hr": 145.32,
-            "std_hr": 5.79,
-            "count": 104
+            "avg_hr": 145.24,
+            "std_hr": 5.76,
+            "count": 106
           },
           "17": {
             "pace_sec": 267.5,
             "pace_label": "4:27",
-            "avg_hr": 134.53,
-            "std_hr": 7.1,
-            "count": 97
+            "avg_hr": 134.57,
+            "std_hr": 7.08,
+            "count": 98
           },
           "10": {
             "pace_sec": 232.5,
@@ -20110,16 +20128,16 @@
           "39": {
             "pace_sec": 377.5,
             "pace_label": "6:17",
-            "avg_hr": 111.85,
+            "avg_hr": 111.7,
             "std_hr": 8.64,
-            "count": 388
+            "count": 395
           },
           "46": {
             "pace_sec": 412.5,
             "pace_label": "6:52",
-            "avg_hr": 105.14,
-            "std_hr": 6.5,
-            "count": 69
+            "avg_hr": 104.55,
+            "std_hr": 7.27,
+            "count": 71
           },
           "18": {
             "pace_sec": 272.5,
@@ -20152,9 +20170,9 @@
         },
         "recent_points": [],
         "linear_fit": {
-          "slope": -0.2906,
-          "intercept": 213.29,
-          "r2": 0.9487,
+          "slope": -0.2903,
+          "intercept": 213.17,
+          "r2": 0.9497,
           "plateau_pace_sec": 417.5,
           "fit_hr_range": [
             120.0,
@@ -20168,67 +20186,67 @@
               "hr": 108.0
             },
             "60": {
-              "pace_sec": 317.6,
+              "pace_sec": 317.5,
               "pace_label": "5:17",
               "hr": 121.0
             },
             "70": {
-              "pace_sec": 272.8,
+              "pace_sec": 272.7,
               "pace_label": "4:32",
               "hr": 134.0
             },
             "80": {
-              "pace_sec": 228.1,
-              "pace_label": "3:48",
+              "pace_sec": 227.9,
+              "pace_label": "3:47",
               "hr": 147.0
             },
             "90": {
-              "pace_sec": 183.4,
+              "pace_sec": 183.1,
               "pace_label": "3:03",
               "hr": 160.0
             },
             "vt1": {
-              "pace_sec": 334.8,
+              "pace_sec": 334.7,
               "pace_label": "5:34",
               "hr": 116
             },
             "threshold": {
-              "pace_sec": 197.1,
-              "pace_label": "3:17",
+              "pace_sec": 196.9,
+              "pace_label": "3:16",
               "hr": 156
             }
           },
           "regression_line": [
             {
-              "pace_sec": 321.0,
+              "pace_sec": 320.9,
               "hr": 120.0
             },
             {
-              "pace_sec": 318.9,
+              "pace_sec": 318.8,
               "hr": 120.61
             },
             {
-              "pace_sec": 316.8,
+              "pace_sec": 316.7,
               "hr": 121.22
             },
             {
-              "pace_sec": 314.7,
+              "pace_sec": 314.6,
               "hr": 121.84
             },
             {
-              "pace_sec": 312.6,
+              "pace_sec": 312.5,
               "hr": 122.45
             },
             {
-              "pace_sec": 310.5,
+              "pace_sec": 310.4,
               "hr": 123.06
             },
             {
-              "pace_sec": 308.4,
+              "pace_sec": 308.3,
               "hr": 123.67
             },
             {
-              "pace_sec": 306.3,
+              "pace_sec": 306.2,
               "hr": 124.29
             },
             {
@@ -20240,254 +20258,254 @@
               "hr": 125.51
             },
             {
-              "pace_sec": 299.9,
+              "pace_sec": 299.8,
               "hr": 126.12
             },
             {
-              "pace_sec": 297.8,
+              "pace_sec": 297.7,
               "hr": 126.73
             },
             {
-              "pace_sec": 295.7,
+              "pace_sec": 295.6,
               "hr": 127.35
             },
             {
-              "pace_sec": 293.6,
+              "pace_sec": 293.5,
               "hr": 127.96
             },
             {
-              "pace_sec": 291.5,
+              "pace_sec": 291.4,
               "hr": 128.57
             },
             {
-              "pace_sec": 289.4,
+              "pace_sec": 289.3,
               "hr": 129.18
             },
             {
-              "pace_sec": 287.3,
+              "pace_sec": 287.2,
               "hr": 129.8
             },
             {
-              "pace_sec": 285.2,
+              "pace_sec": 285.1,
               "hr": 130.41
             },
             {
-              "pace_sec": 283.1,
+              "pace_sec": 283.0,
               "hr": 131.02
             },
             {
-              "pace_sec": 281.0,
+              "pace_sec": 280.9,
               "hr": 131.63
             },
             {
-              "pace_sec": 278.9,
+              "pace_sec": 278.8,
               "hr": 132.24
             },
             {
-              "pace_sec": 276.8,
+              "pace_sec": 276.6,
               "hr": 132.86
             },
             {
-              "pace_sec": 274.7,
+              "pace_sec": 274.5,
               "hr": 133.47
             },
             {
-              "pace_sec": 272.5,
+              "pace_sec": 272.4,
               "hr": 134.08
             },
             {
-              "pace_sec": 270.4,
+              "pace_sec": 270.3,
               "hr": 134.69
             },
             {
-              "pace_sec": 268.3,
+              "pace_sec": 268.2,
               "hr": 135.31
             },
             {
-              "pace_sec": 266.2,
+              "pace_sec": 266.1,
               "hr": 135.92
             },
             {
-              "pace_sec": 264.1,
+              "pace_sec": 264.0,
               "hr": 136.53
             },
             {
-              "pace_sec": 262.0,
+              "pace_sec": 261.9,
               "hr": 137.14
             },
             {
-              "pace_sec": 259.9,
+              "pace_sec": 259.8,
               "hr": 137.76
             },
             {
-              "pace_sec": 257.8,
+              "pace_sec": 257.7,
               "hr": 138.37
             },
             {
-              "pace_sec": 255.7,
+              "pace_sec": 255.6,
               "hr": 138.98
             },
             {
-              "pace_sec": 253.6,
+              "pace_sec": 253.4,
               "hr": 139.59
             },
             {
-              "pace_sec": 251.5,
+              "pace_sec": 251.3,
               "hr": 140.2
             },
             {
-              "pace_sec": 249.4,
+              "pace_sec": 249.2,
               "hr": 140.82
             },
             {
-              "pace_sec": 247.3,
+              "pace_sec": 247.1,
               "hr": 141.43
             },
             {
-              "pace_sec": 245.2,
+              "pace_sec": 245.0,
               "hr": 142.04
             },
             {
-              "pace_sec": 243.1,
+              "pace_sec": 242.9,
               "hr": 142.65
             },
             {
-              "pace_sec": 240.9,
+              "pace_sec": 240.8,
               "hr": 143.27
             },
             {
-              "pace_sec": 238.8,
+              "pace_sec": 238.7,
               "hr": 143.88
             },
             {
-              "pace_sec": 236.7,
+              "pace_sec": 236.6,
               "hr": 144.49
             },
             {
-              "pace_sec": 234.6,
+              "pace_sec": 234.5,
               "hr": 145.1
             },
             {
-              "pace_sec": 232.5,
+              "pace_sec": 232.4,
               "hr": 145.71
             },
             {
-              "pace_sec": 230.4,
+              "pace_sec": 230.2,
               "hr": 146.33
             },
             {
-              "pace_sec": 228.3,
+              "pace_sec": 228.1,
               "hr": 146.94
             },
             {
-              "pace_sec": 226.2,
+              "pace_sec": 226.0,
               "hr": 147.55
             },
             {
-              "pace_sec": 224.1,
+              "pace_sec": 223.9,
               "hr": 148.16
             },
             {
-              "pace_sec": 222.0,
+              "pace_sec": 221.8,
               "hr": 148.78
             },
             {
-              "pace_sec": 219.9,
+              "pace_sec": 219.7,
               "hr": 149.39
             },
             {
-              "pace_sec": 217.8,
+              "pace_sec": 217.6,
               "hr": 150.0
             }
           ]
         },
-        "n_windows": 8548
+        "n_windows": 8674
       },
       "recent": {
         "bucket_stats": {
           "36": {
             "pace_sec": 362.5,
             "pace_label": "6:02",
-            "avg_hr": 112.61,
-            "std_hr": 8.15,
-            "count": 353
+            "avg_hr": 112.6,
+            "std_hr": 8.12,
+            "count": 356
           },
           "40": {
             "pace_sec": 382.5,
             "pace_label": "6:22",
-            "avg_hr": 111.03,
-            "std_hr": 8.37,
-            "count": 220
+            "avg_hr": 110.87,
+            "std_hr": 8.53,
+            "count": 222
           },
           "41": {
             "pace_sec": 387.5,
             "pace_label": "6:27",
-            "avg_hr": 109.34,
-            "std_hr": 7.78,
-            "count": 168
+            "avg_hr": 108.99,
+            "std_hr": 8.0,
+            "count": 173
           },
           "38": {
             "pace_sec": 372.5,
             "pace_label": "6:12",
-            "avg_hr": 112.41,
-            "std_hr": 9.17,
-            "count": 338
+            "avg_hr": 112.32,
+            "std_hr": 9.15,
+            "count": 342
           },
           "35": {
             "pace_sec": 357.5,
             "pace_label": "5:57",
-            "avg_hr": 112.63,
-            "std_hr": 8.96,
-            "count": 360
+            "avg_hr": 112.62,
+            "std_hr": 8.88,
+            "count": 369
           },
           "37": {
             "pace_sec": 367.5,
             "pace_label": "6:07",
-            "avg_hr": 111.76,
-            "std_hr": 7.91,
-            "count": 373
+            "avg_hr": 111.65,
+            "std_hr": 7.84,
+            "count": 383
           },
           "39": {
             "pace_sec": 377.5,
             "pace_label": "6:17",
-            "avg_hr": 112.25,
-            "std_hr": 9.53,
-            "count": 269
+            "avg_hr": 112.03,
+            "std_hr": 9.51,
+            "count": 276
           },
           "34": {
             "pace_sec": 352.5,
             "pace_label": "5:52",
-            "avg_hr": 114.1,
-            "std_hr": 7.13,
-            "count": 482
+            "avg_hr": 114.09,
+            "std_hr": 7.1,
+            "count": 487
           },
           "33": {
             "pace_sec": 347.5,
             "pace_label": "5:47",
-            "avg_hr": 114.67,
-            "std_hr": 8.42,
-            "count": 385
+            "avg_hr": 114.7,
+            "std_hr": 8.41,
+            "count": 389
           },
           "32": {
             "pace_sec": 342.5,
             "pace_label": "5:42",
-            "avg_hr": 115.5,
-            "std_hr": 8.84,
-            "count": 377
+            "avg_hr": 115.44,
+            "std_hr": 8.8,
+            "count": 385
           },
           "31": {
             "pace_sec": 337.5,
             "pace_label": "5:37",
-            "avg_hr": 116.47,
+            "avg_hr": 116.44,
             "std_hr": 6.99,
-            "count": 377
+            "count": 380
           },
           "29": {
             "pace_sec": 327.5,
             "pace_label": "5:27",
-            "avg_hr": 116.59,
-            "std_hr": 7.35,
-            "count": 263
+            "avg_hr": 116.61,
+            "std_hr": 7.34,
+            "count": 265
           },
           "28": {
             "pace_sec": 322.5,
@@ -20499,51 +20517,51 @@
           "43": {
             "pace_sec": 397.5,
             "pace_label": "6:37",
-            "avg_hr": 105.8,
-            "std_hr": 9.49,
-            "count": 76
+            "avg_hr": 102.63,
+            "std_hr": 11.57,
+            "count": 90
           },
           "45": {
             "pace_sec": 407.5,
             "pace_label": "6:47",
-            "avg_hr": 105.13,
-            "std_hr": 8.77,
-            "count": 54
+            "avg_hr": 103.34,
+            "std_hr": 10.25,
+            "count": 59
           },
           "44": {
             "pace_sec": 402.5,
             "pace_label": "6:42",
-            "avg_hr": 104.96,
-            "std_hr": 9.47,
-            "count": 88
+            "avg_hr": 103.47,
+            "std_hr": 10.54,
+            "count": 95
           },
           "42": {
             "pace_sec": 392.5,
             "pace_label": "6:32",
-            "avg_hr": 105.66,
-            "std_hr": 7.84,
-            "count": 93
+            "avg_hr": 104.16,
+            "std_hr": 9.13,
+            "count": 102
           },
           "24": {
             "pace_sec": 302.5,
             "pace_label": "5:02",
-            "avg_hr": 126.6,
-            "std_hr": 10.64,
-            "count": 57
+            "avg_hr": 126.59,
+            "std_hr": 10.53,
+            "count": 59
           },
           "21": {
             "pace_sec": 287.5,
             "pace_label": "4:47",
-            "avg_hr": 128.26,
-            "std_hr": 10.72,
-            "count": 56
+            "avg_hr": 128.13,
+            "std_hr": 10.67,
+            "count": 57
           },
           "19": {
             "pace_sec": 277.5,
             "pace_label": "4:37",
-            "avg_hr": 127.67,
-            "std_hr": 10.36,
-            "count": 55
+            "avg_hr": 127.53,
+            "std_hr": 10.32,
+            "count": 56
           },
           "18": {
             "pace_sec": 272.5,
@@ -20555,23 +20573,23 @@
           "17": {
             "pace_sec": 267.5,
             "pace_label": "4:27",
-            "avg_hr": 134.07,
-            "std_hr": 5.39,
-            "count": 69
+            "avg_hr": 134.13,
+            "std_hr": 5.38,
+            "count": 70
           },
           "20": {
             "pace_sec": 282.5,
             "pace_label": "4:42",
-            "avg_hr": 131.6,
-            "std_hr": 8.69,
-            "count": 51
+            "avg_hr": 131.26,
+            "std_hr": 8.95,
+            "count": 52
           },
           "16": {
             "pace_sec": 262.5,
             "pace_label": "4:22",
-            "avg_hr": 138.26,
-            "std_hr": 5.62,
-            "count": 96
+            "avg_hr": 138.13,
+            "std_hr": 5.73,
+            "count": 97
           },
           "11": {
             "pace_sec": 237.5,
@@ -20583,30 +20601,30 @@
           "22": {
             "pace_sec": 292.5,
             "pace_label": "4:52",
-            "avg_hr": 127.89,
-            "std_hr": 9.86,
-            "count": 62
+            "avg_hr": 128.22,
+            "std_hr": 9.89,
+            "count": 64
           },
           "27": {
             "pace_sec": 317.5,
             "pace_label": "5:17",
             "avg_hr": 118.67,
-            "std_hr": 6.62,
-            "count": 138
+            "std_hr": 6.6,
+            "count": 139
           },
           "30": {
             "pace_sec": 332.5,
             "pace_label": "5:32",
-            "avg_hr": 116.94,
-            "std_hr": 7.44,
-            "count": 344
+            "avg_hr": 116.89,
+            "std_hr": 7.43,
+            "count": 348
           },
           "15": {
             "pace_sec": 257.5,
             "pace_label": "4:17",
-            "avg_hr": 140.9,
-            "std_hr": 4.89,
-            "count": 133
+            "avg_hr": 140.77,
+            "std_hr": 4.98,
+            "count": 135
           },
           "9": {
             "pace_sec": 227.5,
@@ -20618,37 +20636,37 @@
           "12": {
             "pace_sec": 242.5,
             "pace_label": "4:02",
-            "avg_hr": 146.14,
+            "avg_hr": 146.03,
             "std_hr": 5.43,
-            "count": 87
+            "count": 89
           },
           "23": {
             "pace_sec": 297.5,
             "pace_label": "4:57",
-            "avg_hr": 128.15,
-            "std_hr": 10.39,
-            "count": 55
+            "avg_hr": 128.16,
+            "std_hr": 10.23,
+            "count": 57
           },
           "14": {
             "pace_sec": 252.5,
             "pace_label": "4:12",
-            "avg_hr": 141.4,
-            "std_hr": 5.48,
-            "count": 223
+            "avg_hr": 141.26,
+            "std_hr": 5.71,
+            "count": 225
           },
           "26": {
             "pace_sec": 312.5,
             "pace_label": "5:12",
-            "avg_hr": 121.22,
-            "std_hr": 10.82,
-            "count": 66
+            "avg_hr": 121.11,
+            "std_hr": 10.78,
+            "count": 67
           },
           "13": {
             "pace_sec": 247.5,
             "pace_label": "4:07",
-            "avg_hr": 143.77,
-            "std_hr": 6.96,
-            "count": 129
+            "avg_hr": 143.54,
+            "std_hr": 7.06,
+            "count": 133
           },
           "10": {
             "pace_sec": 232.5,
@@ -20667,512 +20685,12 @@
           "46": {
             "pace_sec": 412.5,
             "pace_label": "6:52",
-            "avg_hr": 105.45,
-            "std_hr": 6.47,
-            "count": 44
+            "avg_hr": 104.53,
+            "std_hr": 7.66,
+            "count": 46
           }
         },
         "recent_points": [
-          {
-            "date": "2026-02-03",
-            "pace_sec": 236.5,
-            "hr": 141.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 292.4,
-            "hr": 144.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 354.1,
-            "hr": 134.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 350.3,
-            "hr": 122.0
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 337.7,
-            "hr": 118.0
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 323.2,
-            "hr": 119.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 318.2,
-            "hr": 122.0
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 282.3,
-            "hr": 126.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 236.5,
-            "hr": 138.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 223.3,
-            "hr": 149.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 287.3,
-            "hr": 149.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 354.2,
-            "hr": 140.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 350.5,
-            "hr": 127.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 340.2,
-            "hr": 120.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 334.1,
-            "hr": 120.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 335.8,
-            "hr": 122.0
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 334.7,
-            "hr": 122.0
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 331.9,
-            "hr": 121.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 304.9,
-            "hr": 123.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 255.8,
-            "hr": 135.1
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 229.1,
-            "hr": 147.5
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 221.6,
-            "hr": 152.1
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 241.4,
-            "hr": 154.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 299.1,
-            "hr": 148.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 339.6,
-            "hr": 134.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 339.2,
-            "hr": 127.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 342.2,
-            "hr": 127.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 302.7,
-            "hr": 130.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 250.6,
-            "hr": 141.5
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 312.6,
-            "hr": 148.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 374.5,
-            "hr": 139.1
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 361.6,
-            "hr": 127.0
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 351.9,
-            "hr": 121.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 347.7,
-            "hr": 120.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 297.6,
-            "hr": 126.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 250.9,
-            "hr": 139.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 243.0,
-            "hr": 148.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 303.5,
-            "hr": 149.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 374.0,
-            "hr": 139.1
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 374.4,
-            "hr": 126.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 349.6,
-            "hr": 121.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 287.7,
-            "hr": 130.0
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 258.8,
-            "hr": 145.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 302.6,
-            "hr": 145.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 347.5,
-            "hr": 130.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 358.8,
-            "hr": 120.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 356.4,
-            "hr": 120.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 354.5,
-            "hr": 122.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 350.5,
-            "hr": 122.0
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 350.9,
-            "hr": 121.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 320.3,
-            "hr": 123.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 275.8,
-            "hr": 130.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 285.5,
-            "hr": 136.9
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 299.3,
-            "hr": 138.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 341.7,
-            "hr": 134.9
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 365.9,
-            "hr": 126.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 350.1,
-            "hr": 120.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 340.2,
-            "hr": 118.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 304.8,
-            "hr": 120.9
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 253.3,
-            "hr": 130.1
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 261.9,
-            "hr": 141.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 326.2,
-            "hr": 141.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 367.1,
-            "hr": 131.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 373.0,
-            "hr": 121.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 354.0,
-            "hr": 115.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 295.3,
-            "hr": 119.0
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 250.7,
-            "hr": 128.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 243.8,
-            "hr": 136.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 244.0,
-            "hr": 142.9
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 276.9,
-            "hr": 146.0
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 337.2,
-            "hr": 137.5
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 371.1,
-            "hr": 123.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 381.0,
-            "hr": 116.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 385.7,
-            "hr": 114.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 381.4,
-            "hr": 113.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 372.7,
-            "hr": 114.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 359.4,
-            "hr": 116.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 352.5,
-            "hr": 117.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 304.6,
-            "hr": 121.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 246.5,
-            "hr": 129.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 235.3,
-            "hr": 139.1
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 302.7,
-            "hr": 139.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 372.9,
-            "hr": 129.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 369.9,
-            "hr": 119.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 358.9,
-            "hr": 115.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 347.1,
-            "hr": 117.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 337.9,
-            "hr": 121.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 341.6,
-            "hr": 119.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 321.3,
-            "hr": 120.1
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 277.3,
-            "hr": 128.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 253.0,
-            "hr": 140.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 254.5,
-            "hr": 148.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 318.9,
-            "hr": 143.1
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 377.3,
-            "hr": 130.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 386.2,
-            "hr": 123.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 341.5,
-            "hr": 121.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 344.9,
-            "hr": 128.1
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 346.7,
-            "hr": 131.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 341.6,
-            "hr": 129.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 379.5,
-            "hr": 126.9
-          },
           {
             "date": "2026-02-04",
             "pace_sec": 340.6,
@@ -29782,506 +29300,6 @@
             "date": "2026-03-10",
             "pace_sec": 410.5,
             "hr": 106.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 236.5,
-            "hr": 141.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 292.4,
-            "hr": 144.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 354.1,
-            "hr": 134.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 350.3,
-            "hr": 122.0
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 337.7,
-            "hr": 118.0
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 323.2,
-            "hr": 119.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 318.2,
-            "hr": 122.0
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 282.3,
-            "hr": 126.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 236.5,
-            "hr": 138.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 223.3,
-            "hr": 149.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 287.3,
-            "hr": 149.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 354.2,
-            "hr": 140.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 350.5,
-            "hr": 127.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 340.2,
-            "hr": 120.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 334.1,
-            "hr": 120.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 335.8,
-            "hr": 122.0
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 334.7,
-            "hr": 122.0
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 331.9,
-            "hr": 121.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 304.9,
-            "hr": 123.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 255.8,
-            "hr": 135.1
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 229.1,
-            "hr": 147.5
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 221.6,
-            "hr": 152.1
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 241.4,
-            "hr": 154.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 299.1,
-            "hr": 148.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 339.6,
-            "hr": 134.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 339.2,
-            "hr": 127.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 342.2,
-            "hr": 127.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 302.7,
-            "hr": 130.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 250.6,
-            "hr": 141.5
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 312.6,
-            "hr": 148.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 374.5,
-            "hr": 139.1
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 361.6,
-            "hr": 127.0
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 351.9,
-            "hr": 121.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 347.7,
-            "hr": 120.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 297.6,
-            "hr": 126.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 250.9,
-            "hr": 139.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 243.0,
-            "hr": 148.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 303.5,
-            "hr": 149.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 374.0,
-            "hr": 139.1
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 374.4,
-            "hr": 126.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 349.6,
-            "hr": 121.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 287.7,
-            "hr": 130.0
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 258.8,
-            "hr": 145.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 302.6,
-            "hr": 145.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 347.5,
-            "hr": 130.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 358.8,
-            "hr": 120.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 356.4,
-            "hr": 120.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 354.5,
-            "hr": 122.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 350.5,
-            "hr": 122.0
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 350.9,
-            "hr": 121.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 320.3,
-            "hr": 123.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 275.8,
-            "hr": 130.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 285.5,
-            "hr": 136.9
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 299.3,
-            "hr": 138.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 341.7,
-            "hr": 134.9
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 365.9,
-            "hr": 126.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 350.1,
-            "hr": 120.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 340.2,
-            "hr": 118.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 304.8,
-            "hr": 120.9
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 253.3,
-            "hr": 130.1
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 261.9,
-            "hr": 141.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 326.2,
-            "hr": 141.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 367.1,
-            "hr": 131.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 373.0,
-            "hr": 121.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 354.0,
-            "hr": 115.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 295.3,
-            "hr": 119.0
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 250.7,
-            "hr": 128.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 243.8,
-            "hr": 136.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 244.0,
-            "hr": 142.9
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 276.9,
-            "hr": 146.0
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 337.2,
-            "hr": 137.5
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 371.1,
-            "hr": 123.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 381.0,
-            "hr": 116.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 385.7,
-            "hr": 114.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 381.4,
-            "hr": 113.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 372.7,
-            "hr": 114.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 359.4,
-            "hr": 116.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 352.5,
-            "hr": 117.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 304.6,
-            "hr": 121.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 246.5,
-            "hr": 129.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 235.3,
-            "hr": 139.1
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 302.7,
-            "hr": 139.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 372.9,
-            "hr": 129.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 369.9,
-            "hr": 119.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 358.9,
-            "hr": 115.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 347.1,
-            "hr": 117.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 337.9,
-            "hr": 121.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 341.6,
-            "hr": 119.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 321.3,
-            "hr": 120.1
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 277.3,
-            "hr": 128.3
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 253.0,
-            "hr": 140.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 254.5,
-            "hr": 148.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 318.9,
-            "hr": 143.1
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 377.3,
-            "hr": 130.8
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 386.2,
-            "hr": 123.6
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 341.5,
-            "hr": 121.7
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 344.9,
-            "hr": 128.1
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 346.7,
-            "hr": 131.4
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 341.6,
-            "hr": 129.2
-          },
-          {
-            "date": "2026-02-03",
-            "pace_sec": 379.5,
-            "hr": 126.9
           },
           {
             "date": "2026-02-04",
@@ -39892,12 +38910,512 @@
             "date": "2026-03-15",
             "pace_sec": 316.8,
             "hr": 123.5
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 254.3,
+            "hr": 117.2
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 276.0,
+            "hr": 119.8
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 316.3,
+            "hr": 119.2
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 330.3,
+            "hr": 115.5
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 334.8,
+            "hr": 110.5
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 340.7,
+            "hr": 108.8
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 341.5,
+            "hr": 108.7
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 327.1,
+            "hr": 112.4
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 287.8,
+            "hr": 121.1
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 256.7,
+            "hr": 129.2
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 256.8,
+            "hr": 135.3
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 297.3,
+            "hr": 132.2
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 337.0,
+            "hr": 119.5
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 343.7,
+            "hr": 111.2
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 346.0,
+            "hr": 110.9
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 350.6,
+            "hr": 110.6
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 357.3,
+            "hr": 107.6
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 356.2,
+            "hr": 106.6
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 336.4,
+            "hr": 107.2
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 283.0,
+            "hr": 113.7
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 245.4,
+            "hr": 127.2
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 246.5,
+            "hr": 136.1
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 243.3,
+            "hr": 140.1
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 267.6,
+            "hr": 138.8
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 329.4,
+            "hr": 124.2
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 358.9,
+            "hr": 114.2
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 349.6,
+            "hr": 112.3
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 313.3,
+            "hr": 113.9
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 263.4,
+            "hr": 125.8
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 249.2,
+            "hr": 136.3
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 292.5,
+            "hr": 136.5
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 343.2,
+            "hr": 125.7
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 357.6,
+            "hr": 116.0
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 350.9,
+            "hr": 112.6
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 303.3,
+            "hr": 119.9
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 252.3,
+            "hr": 134.5
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 241.2,
+            "hr": 142.2
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 246.4,
+            "hr": 145.2
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 294.1,
+            "hr": 140.9
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 347.6,
+            "hr": 127.6
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 346.9,
+            "hr": 118.3
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 299.1,
+            "hr": 125.1
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 300.8,
+            "hr": 132.4
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 357.8,
+            "hr": 122.7
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 369.1,
+            "hr": 110.7
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 363.4,
+            "hr": 110.6
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 356.0,
+            "hr": 110.7
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 344.7,
+            "hr": 108.6
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 339.4,
+            "hr": 110.6
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 342.3,
+            "hr": 111.9
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 354.3,
+            "hr": 114.1
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 353.2,
+            "hr": 113.7
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 363.4,
+            "hr": 113.9
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 367.0,
+            "hr": 112.0
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 359.0,
+            "hr": 110.2
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 360.9,
+            "hr": 109.7
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 367.5,
+            "hr": 108.5
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 367.7,
+            "hr": 108.0
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 367.3,
+            "hr": 107.9
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 367.4,
+            "hr": 107.0
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 365.1,
+            "hr": 105.6
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 369.8,
+            "hr": 106.5
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 375.5,
+            "hr": 108.6
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 372.2,
+            "hr": 108.1
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 368.0,
+            "hr": 106.1
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 369.0,
+            "hr": 105.4
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 371.9,
+            "hr": 104.3
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 375.9,
+            "hr": 103.0
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 378.4,
+            "hr": 103.1
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 375.4,
+            "hr": 103.0
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 376.1,
+            "hr": 103.3
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 386.1,
+            "hr": 103.3
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 394.9,
+            "hr": 101.7
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 396.4,
+            "hr": 100.6
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 391.4,
+            "hr": 100.7
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 383.2,
+            "hr": 101.5
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 373.3,
+            "hr": 103.4
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 371.7,
+            "hr": 103.5
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 375.7,
+            "hr": 102.1
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 379.1,
+            "hr": 101.9
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 385.7,
+            "hr": 101.7
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 387.8,
+            "hr": 100.3
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 389.1,
+            "hr": 95.4
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 394.9,
+            "hr": 88.4
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 397.8,
+            "hr": 85.9
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 402.1,
+            "hr": 85.5
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 409.1,
+            "hr": 83.5
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 408.6,
+            "hr": 82.6
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 397.8,
+            "hr": 84.2
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 385.6,
+            "hr": 86.0
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 383.2,
+            "hr": 85.4
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 390.3,
+            "hr": 83.0
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 396.3,
+            "hr": 82.4
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 395.4,
+            "hr": 82.1
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 394.8,
+            "hr": 82.3
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 398.6,
+            "hr": 83.6
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 400.0,
+            "hr": 83.2
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 401.7,
+            "hr": 84.0
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 406.7,
+            "hr": 84.7
+          },
+          {
+            "date": "2026-03-18",
+            "pace_sec": 412.8,
+            "hr": 83.8
           }
         ],
         "linear_fit": {
-          "slope": -0.2828,
-          "intercept": 211.21,
-          "r2": 0.9145,
+          "slope": -0.2821,
+          "intercept": 210.97,
+          "r2": 0.9155,
           "plateau_pace_sec": 412.5,
           "fit_hr_range": [
             120.0,
@@ -39911,23 +39429,23 @@
               "hr": 108.0
             },
             "60": {
-              "pace_sec": 319.0,
-              "pace_label": "5:19",
+              "pace_sec": 318.9,
+              "pace_label": "5:18",
               "hr": 121.0
             },
             "70": {
-              "pace_sec": 273.1,
-              "pace_label": "4:33",
+              "pace_sec": 272.9,
+              "pace_label": "4:32",
               "hr": 134.0
             },
             "80": {
-              "pace_sec": 227.1,
-              "pace_label": "3:47",
+              "pace_sec": 226.8,
+              "pace_label": "3:46",
               "hr": 147.0
             },
             "90": {
-              "pace_sec": 181.1,
-              "pace_label": "3:01",
+              "pace_sec": 180.7,
+              "pace_label": "3:00",
               "hr": 160.0
             },
             "vt1": {
@@ -39936,18 +39454,18 @@
               "hr": 116
             },
             "threshold": {
-              "pace_sec": 195.3,
-              "pace_label": "3:15",
+              "pace_sec": 194.9,
+              "pace_label": "3:14",
               "hr": 156
             }
           },
           "regression_line": [
             {
-              "pace_sec": 322.6,
+              "pace_sec": 322.5,
               "hr": 120.0
             },
             {
-              "pace_sec": 320.4,
+              "pace_sec": 320.3,
               "hr": 120.61
             },
             {
@@ -39955,196 +39473,196 @@
               "hr": 121.22
             },
             {
-              "pace_sec": 316.1,
+              "pace_sec": 316.0,
               "hr": 121.84
             },
             {
-              "pace_sec": 313.9,
+              "pace_sec": 313.8,
               "hr": 122.45
             },
             {
-              "pace_sec": 311.8,
+              "pace_sec": 311.6,
               "hr": 123.06
             },
             {
-              "pace_sec": 309.6,
+              "pace_sec": 309.5,
               "hr": 123.67
             },
             {
-              "pace_sec": 307.4,
+              "pace_sec": 307.3,
               "hr": 124.29
             },
             {
-              "pace_sec": 305.3,
+              "pace_sec": 305.1,
               "hr": 124.9
             },
             {
-              "pace_sec": 303.1,
+              "pace_sec": 303.0,
               "hr": 125.51
             },
             {
-              "pace_sec": 300.9,
+              "pace_sec": 300.8,
               "hr": 126.12
             },
             {
-              "pace_sec": 298.8,
+              "pace_sec": 298.6,
               "hr": 126.73
             },
             {
-              "pace_sec": 296.6,
+              "pace_sec": 296.4,
               "hr": 127.35
             },
             {
-              "pace_sec": 294.4,
+              "pace_sec": 294.3,
               "hr": 127.96
             },
             {
-              "pace_sec": 292.3,
+              "pace_sec": 292.1,
               "hr": 128.57
             },
             {
-              "pace_sec": 290.1,
+              "pace_sec": 289.9,
               "hr": 129.18
             },
             {
-              "pace_sec": 287.9,
+              "pace_sec": 287.8,
               "hr": 129.8
             },
             {
-              "pace_sec": 285.8,
+              "pace_sec": 285.6,
               "hr": 130.41
             },
             {
-              "pace_sec": 283.6,
+              "pace_sec": 283.4,
               "hr": 131.02
             },
             {
-              "pace_sec": 281.4,
+              "pace_sec": 281.3,
               "hr": 131.63
             },
             {
-              "pace_sec": 279.3,
+              "pace_sec": 279.1,
               "hr": 132.24
             },
             {
-              "pace_sec": 277.1,
+              "pace_sec": 276.9,
               "hr": 132.86
             },
             {
-              "pace_sec": 274.9,
+              "pace_sec": 274.7,
               "hr": 133.47
             },
             {
-              "pace_sec": 272.8,
+              "pace_sec": 272.6,
               "hr": 134.08
             },
             {
-              "pace_sec": 270.6,
+              "pace_sec": 270.4,
               "hr": 134.69
             },
             {
-              "pace_sec": 268.4,
+              "pace_sec": 268.2,
               "hr": 135.31
             },
             {
-              "pace_sec": 266.3,
+              "pace_sec": 266.1,
               "hr": 135.92
             },
             {
-              "pace_sec": 264.1,
+              "pace_sec": 263.9,
               "hr": 136.53
             },
             {
-              "pace_sec": 262.0,
+              "pace_sec": 261.7,
               "hr": 137.14
             },
             {
-              "pace_sec": 259.8,
+              "pace_sec": 259.6,
               "hr": 137.76
             },
             {
-              "pace_sec": 257.6,
+              "pace_sec": 257.4,
               "hr": 138.37
             },
             {
-              "pace_sec": 255.5,
+              "pace_sec": 255.2,
               "hr": 138.98
             },
             {
-              "pace_sec": 253.3,
+              "pace_sec": 253.0,
               "hr": 139.59
             },
             {
-              "pace_sec": 251.1,
+              "pace_sec": 250.9,
               "hr": 140.2
             },
             {
-              "pace_sec": 249.0,
+              "pace_sec": 248.7,
               "hr": 140.82
             },
             {
-              "pace_sec": 246.8,
+              "pace_sec": 246.5,
               "hr": 141.43
             },
             {
-              "pace_sec": 244.6,
+              "pace_sec": 244.4,
               "hr": 142.04
             },
             {
-              "pace_sec": 242.5,
+              "pace_sec": 242.2,
               "hr": 142.65
             },
             {
-              "pace_sec": 240.3,
+              "pace_sec": 240.0,
               "hr": 143.27
             },
             {
-              "pace_sec": 238.1,
+              "pace_sec": 237.8,
               "hr": 143.88
             },
             {
-              "pace_sec": 236.0,
+              "pace_sec": 235.7,
               "hr": 144.49
             },
             {
-              "pace_sec": 233.8,
+              "pace_sec": 233.5,
               "hr": 145.1
             },
             {
-              "pace_sec": 231.6,
+              "pace_sec": 231.3,
               "hr": 145.71
             },
             {
-              "pace_sec": 229.5,
+              "pace_sec": 229.2,
               "hr": 146.33
             },
             {
-              "pace_sec": 227.3,
+              "pace_sec": 227.0,
               "hr": 146.94
             },
             {
-              "pace_sec": 225.1,
+              "pace_sec": 224.8,
               "hr": 147.55
             },
             {
-              "pace_sec": 223.0,
+              "pace_sec": 222.7,
               "hr": 148.16
             },
             {
-              "pace_sec": 220.8,
+              "pace_sec": 220.5,
               "hr": 148.78
             },
             {
-              "pace_sec": 218.6,
+              "pace_sec": 218.3,
               "hr": 149.39
             },
             {
-              "pace_sec": 216.5,
+              "pace_sec": 216.1,
               "hr": 150.0
             }
           ]
         },
-        "n_windows": 6269
+        "n_windows": 6395
       },
       "year_2023": {
         "bucket_stats": {
@@ -40713,7 +40231,7 @@
       "vt1": 116.0,
       "threshold": 156.0
     },
-    "last_updated": "2026-03-17 23:33"
+    "last_updated": "2026-03-18 23:31"
   },
   "cycling_cloud": {
     "series": {
@@ -41153,114 +40671,6 @@
           ]
         },
         "recent_points": [
-          {
-            "date": "2026-02-03",
-            "power_w": 261.8,
-            "hr": 120.5,
-            "indoor": true
-          },
-          {
-            "date": "2026-02-03",
-            "power_w": 206.2,
-            "hr": 126.6,
-            "indoor": true
-          },
-          {
-            "date": "2026-02-03",
-            "power_w": 218.5,
-            "hr": 126.6,
-            "indoor": true
-          },
-          {
-            "date": "2026-02-03",
-            "power_w": 297.4,
-            "hr": 131.6,
-            "indoor": true
-          },
-          {
-            "date": "2026-02-03",
-            "power_w": 225.2,
-            "hr": 138.3,
-            "indoor": true
-          },
-          {
-            "date": "2026-02-03",
-            "power_w": 142.4,
-            "hr": 134.1,
-            "indoor": true
-          },
-          {
-            "date": "2026-02-03",
-            "power_w": 138.9,
-            "hr": 123.6,
-            "indoor": true
-          },
-          {
-            "date": "2026-02-03",
-            "power_w": 139.6,
-            "hr": 113.6,
-            "indoor": true
-          },
-          {
-            "date": "2026-02-03",
-            "power_w": 237.4,
-            "hr": 114.2,
-            "indoor": true
-          },
-          {
-            "date": "2026-02-03",
-            "power_w": 342.2,
-            "hr": 131.0,
-            "indoor": true
-          },
-          {
-            "date": "2026-02-03",
-            "power_w": 268.2,
-            "hr": 144.3,
-            "indoor": true
-          },
-          {
-            "date": "2026-02-03",
-            "power_w": 184.1,
-            "hr": 141.7,
-            "indoor": true
-          },
-          {
-            "date": "2026-02-03",
-            "power_w": 261.8,
-            "hr": 137.5,
-            "indoor": true
-          },
-          {
-            "date": "2026-02-03",
-            "power_w": 346.5,
-            "hr": 144.7,
-            "indoor": true
-          },
-          {
-            "date": "2026-02-03",
-            "power_w": 269.8,
-            "hr": 153.4,
-            "indoor": true
-          },
-          {
-            "date": "2026-02-03",
-            "power_w": 184.8,
-            "hr": 150.7,
-            "indoor": true
-          },
-          {
-            "date": "2026-02-03",
-            "power_w": 261.8,
-            "hr": 145.2,
-            "indoor": true
-          },
-          {
-            "date": "2026-02-03",
-            "power_w": 346.2,
-            "hr": 150.4,
-            "indoor": true
-          },
           {
             "date": "2026-02-06",
             "power_w": 169.1,
@@ -50706,7 +50116,7 @@
       "vt1": 116,
       "threshold": 156
     },
-    "last_updated": "2026-03-17 23:33"
+    "last_updated": "2026-03-18 23:31"
   },
   "cycling_curve": {
     "series": {
@@ -53814,7 +53224,7 @@
       "2026-03-17_17_49_51_cycling_i132787869.fit",
       "2026-03-17_18_51_46_cycling_i132806592.fit"
     ],
-    "last_updated": "2026-03-17 23:33"
+    "last_updated": "2026-03-18 23:31"
   },
   "running_bests": {
     "series": {
@@ -53981,7 +53391,7 @@
           "peak_hr_bpm": 157.0,
           "peak_hrr_pct": 87.7
         },
-        "total_distance_km": 1138.5
+        "total_distance_km": 1153.0
       },
       "recent": {
         "best_times": {
@@ -54022,7 +53432,7 @@
           "peak_hr_bpm": 157.0,
           "peak_hrr_pct": 87.7
         },
-        "total_distance_km": 816.7
+        "total_distance_km": 831.2
       },
       "year_2023": {
         "best_times": {
@@ -55133,8 +54543,10 @@
       "2026-03-13_13_56_15_running_i131723222.fit",
       "2026-03-13_17_19_26_running_i131767743.fit",
       "2026-03-14_08_48_30_running_i131887042.fit",
-      "2026-03-15_13_49_55_running_i132206668.fit"
+      "2026-03-15_13_49_55_running_i132206668.fit",
+      "2026-03-18_13_41_50_running_i132989669.fit",
+      "2026-03-18_17_05_19_running_i133034930.fit"
     ],
-    "last_updated": "2026-03-17 23:33"
+    "last_updated": "2026-03-18 23:31"
   }
 }
