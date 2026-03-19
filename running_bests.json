@@ -163,7 +163,7 @@
         "peak_hr_bpm": 157.0,
         "peak_hrr_pct": 87.7
       },
-      "total_distance_km": 1153.0
+      "total_distance_km": 1163.2
     },
     "recent": {
       "best_times": {
@@ -204,7 +204,7 @@
         "peak_hr_bpm": 157.0,
         "peak_hrr_pct": 87.7
       },
-      "total_distance_km": 831.2
+      "total_distance_km": 841.4
     },
     "year_2023": {
       "best_times": {
@@ -1317,7 +1317,8 @@
     "2026-03-14_08_48_30_running_i131887042.fit",
     "2026-03-15_13_49_55_running_i132206668.fit",
     "2026-03-18_13_41_50_running_i132989669.fit",
-    "2026-03-18_17_05_19_running_i133034930.fit"
+    "2026-03-18_17_05_19_running_i133034930.fit",
+    "2026-03-19_14_55_04_running_i133272257.fit"
   ],
-  "last_updated": "2026-03-18 23:31"
+  "last_updated": "2026-03-19 23:30"
 }
