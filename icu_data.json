@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-19 23:29",
+  "generated": "2026-03-20 23:28",
   "athlete_id": "i128043",
   "wellness": [
     {
@@ -9393,6 +9393,14 @@
       "rampRate": -0.51652527,
       "ctlLoad": 45.0,
       "atlLoad": 45.0
+    },
+    {
+      "id": "2026-03-20",
+      "ctl": 77.4788,
+      "atl": 62.3038,
+      "rampRate": -3.0924835,
+      "ctlLoad": 10.0,
+      "atlLoad": 10.0
     }
   ],
   "power_hr_curves": {
@@ -10275,7 +10283,7 @@
     "2026": {
       "athleteId": "i128043",
       "start": "2026-01-01",
-      "end": "2026-03-19",
+      "end": "2026-03-20",
       "minWatts": 0,
       "maxWatts": 495,
       "bucketSize": 5,
@@ -10588,8 +10596,8 @@
     },
     "recent": {
       "athleteId": "i128043",
-      "start": "2026-02-05",
-      "end": "2026-03-19",
+      "start": "2026-02-06",
+      "end": "2026-03-20",
       "minWatts": 15,
       "maxWatts": 450,
       "bucketSize": 5,
@@ -18338,7 +18346,7 @@
     "indoor_2026": {
       "list": [
         {
-          "id": "r.2026-01-01.2026-03-19-f1",
+          "id": "r.2026-01-01.2026-03-20-f1",
           "after_kj": 0,
           "filters": [
             {
@@ -18349,11 +18357,11 @@
               "not": false
             }
           ],
-          "label": "1-Jan 19-Mar-2026",
+          "label": "1-Jan 20-Mar-2026",
           "filter_label": "Indoor / Outdoor is indoor",
           "start_date_local": "2026-01-01",
-          "end_date_local": "2026-03-19T23:59:59",
-          "days": 78,
+          "end_date_local": "2026-03-20T23:59:59",
+          "days": 79,
           "moving_time": 0,
           "training_load": 0,
           "weight": 68.199,
@@ -19483,7 +19491,7 @@
     "outdoor_2026": {
       "list": [
         {
-          "id": "r.2026-01-01.2026-03-19-f1",
+          "id": "r.2026-01-01.2026-03-20-f1",
           "after_kj": 0,
           "filters": [
             {
@@ -19494,11 +19502,11 @@
               "not": false
             }
           ],
-          "label": "1-Jan 19-Mar-2026",
+          "label": "1-Jan 20-Mar-2026",
           "filter_label": "Indoor / Outdoor is outdoor",
           "start_date_local": "2026-01-01",
-          "end_date_local": "2026-03-19T23:59:59",
-          "days": 78,
+          "end_date_local": "2026-03-20T23:59:59",
+          "days": 79,
           "moving_time": 0,
           "training_load": 0,
           "weight": 68.199,
@@ -20451,7 +20459,7 @@
     "indoor_recent": {
       "list": [
         {
-          "id": "r.2026-02-05.2026-03-19-f1",
+          "id": "r.2026-02-06.2026-03-20-f1",
           "after_kj": 0,
           "filters": [
             {
@@ -20462,10 +20470,10 @@
               "not": false
             }
           ],
-          "label": "5-Feb 19-Mar-2026",
+          "label": "6-Feb 20-Mar-2026",
           "filter_label": "Indoor / Outdoor is indoor",
-          "start_date_local": "2026-02-05",
-          "end_date_local": "2026-03-19T23:59:59",
+          "start_date_local": "2026-02-06",
+          "end_date_local": "2026-03-20T23:59:59",
           "days": 43,
           "moving_time": 0,
           "training_load": 0,
@@ -21566,7 +21574,7 @@
     "outdoor_recent": {
       "list": [
         {
-          "id": "r.2026-02-05.2026-03-19-f1",
+          "id": "r.2026-02-06.2026-03-20-f1",
           "after_kj": 0,
           "filters": [
             {
@@ -21577,10 +21585,10 @@
               "not": false
             }
           ],
-          "label": "5-Feb 19-Mar-2026",
+          "label": "6-Feb 20-Mar-2026",
           "filter_label": "Indoor / Outdoor is outdoor",
-          "start_date_local": "2026-02-05",
-          "end_date_local": "2026-03-19T23:59:59",
+          "start_date_local": "2026-02-06",
+          "end_date_local": "2026-03-20T23:59:59",
           "days": 43,
           "moving_time": 0,
           "training_load": 0,
@@ -22533,6 +22541,23 @@
     }
   },
   "activities": [
+    {
+      "id": "i133537240",
+      "start_date_local": "2026-03-20T17:47:27",
+      "type": "Ride",
+      "icu_training_load": 10,
+      "icu_atl": 62.3038,
+      "icu_ctl": 77.4788,
+      "name": "Teguise Road Cycling",
+      "distance": 11116.92,
+      "moving_time": 1969,
+      "total_elevation_gain": 99.0,
+      "max_heartrate": 130,
+      "average_heartrate": 91,
+      "calories": 267,
+      "trimp": 15.048233,
+      "icu_intensity": 36.083088
+    },
     {
       "id": "i133272257",
       "start_date_local": "2026-03-19T14:55:04",
