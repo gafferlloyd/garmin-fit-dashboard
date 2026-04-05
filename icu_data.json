@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-04 23:31",
+  "generated": "2026-04-05 23:34",
   "athlete_id": "i128043",
   "wellness": [
     {
@@ -9521,6 +9521,14 @@
       "rampRate": -8.609421,
       "ctlLoad": 22.0,
       "atlLoad": 22.0
+    },
+    {
+      "id": "2026-04-05",
+      "ctl": 77.65838,
+      "atl": 49.385178,
+      "rampRate": -10.524399,
+      "ctlLoad": 0.0,
+      "atlLoad": 0.0
     }
   ],
   "power_hr_curves": {
@@ -10403,7 +10411,7 @@
     "2026": {
       "athleteId": "i128043",
       "start": "2026-01-01",
-      "end": "2026-04-04",
+      "end": "2026-04-05",
       "minWatts": 0,
       "maxWatts": 495,
       "bucketSize": 5,
@@ -10716,8 +10724,8 @@
     },
     "recent": {
       "athleteId": "i128043",
-      "start": "2026-02-21",
-      "end": "2026-04-04",
+      "start": "2026-02-22",
+      "end": "2026-04-05",
       "minWatts": 0,
       "maxWatts": 450,
       "bucketSize": 5,
@@ -10768,7 +10776,7 @@
         124,
         120,
         119,
-        118,
+        119,
         115,
         112,
         112,
@@ -10778,16 +10786,16 @@
         110,
         112,
         113,
-        113,
+        114,
         114,
         117,
         120,
+        123,
+        121,
+        123,
+        123,
         122,
-        120,
-        122,
-        122,
-        120,
-        120,
+        121,
         123,
         133,
         132,
@@ -10862,7 +10870,7 @@
         70,
         73,
         75,
-        78,
+        77,
         80,
         82,
         82,
@@ -10878,7 +10886,7 @@
         84,
         82,
         82,
-        84,
+        83,
         83,
         84,
         80,
@@ -10952,27 +10960,27 @@
         67,
         58,
         61,
-        60,
-        91,
-        81,
-        91,
+        57,
+        88,
+        75,
+        86,
         96,
-        138,
-        148,
-        142,
-        150,
-        132,
-        137,
-        98,
-        82,
-        76,
-        58,
-        40,
-        43,
-        25,
+        129,
+        144,
+        134,
+        141,
+        130,
+        134,
+        94,
+        81,
+        74,
+        52,
+        38,
+        38,
+        23,
+        16,
+        13,
         19,
-        14,
-        20,
         16,
         16,
         11,
@@ -10999,7 +11007,7 @@
       ],
       "lthr": 157,
       "max_hr": 173,
-      "ftp": 331
+      "ftp": 329
     }
   },
   "mmp_curves": {
@@ -18475,7 +18483,7 @@
     "indoor_2026": {
       "list": [
         {
-          "id": "r.2026-01-01.2026-04-04-f1",
+          "id": "r.2026-01-01.2026-04-05-f1",
           "after_kj": 0,
           "filters": [
             {
@@ -18486,11 +18494,11 @@
               "not": false
             }
           ],
-          "label": "1-Jan 4-Apr-2026",
+          "label": "1-Jan 5-Apr-2026",
           "filter_label": "Indoor / Outdoor is indoor",
           "start_date_local": "2026-01-01",
-          "end_date_local": "2026-04-04T23:59:59",
-          "days": 94,
+          "end_date_local": "2026-04-05T23:59:59",
+          "days": 95,
           "moving_time": 0,
           "training_load": 0,
           "weight": 68.199,
@@ -19629,7 +19637,7 @@
     "outdoor_2026": {
       "list": [
         {
-          "id": "r.2026-01-01.2026-04-04-f1",
+          "id": "r.2026-01-01.2026-04-05-f1",
           "after_kj": 0,
           "filters": [
             {
@@ -19640,11 +19648,11 @@
               "not": false
             }
           ],
-          "label": "1-Jan 4-Apr-2026",
+          "label": "1-Jan 5-Apr-2026",
           "filter_label": "Indoor / Outdoor is outdoor",
           "start_date_local": "2026-01-01",
-          "end_date_local": "2026-04-04T23:59:59",
-          "days": 94,
+          "end_date_local": "2026-04-05T23:59:59",
+          "days": 95,
           "moving_time": 0,
           "training_load": 0,
           "weight": 68.199,
@@ -20892,7 +20900,7 @@
     "indoor_recent": {
       "list": [
         {
-          "id": "r.2026-02-21.2026-04-04-f1",
+          "id": "r.2026-02-22.2026-04-05-f1",
           "after_kj": 0,
           "filters": [
             {
@@ -20903,10 +20911,10 @@
               "not": false
             }
           ],
-          "label": "21-Feb 4-Apr-2026",
+          "label": "22-Feb 5-Apr-2026",
           "filter_label": "Indoor / Outdoor is indoor",
-          "start_date_local": "2026-02-21",
-          "end_date_local": "2026-04-04T23:59:59",
+          "start_date_local": "2026-02-22",
+          "end_date_local": "2026-04-05T23:59:59",
           "days": 43,
           "moving_time": 0,
           "training_load": 0,
@@ -22041,7 +22049,7 @@
     "outdoor_recent": {
       "list": [
         {
-          "id": "r.2026-02-21.2026-04-04-f1",
+          "id": "r.2026-02-22.2026-04-05-f1",
           "after_kj": 0,
           "filters": [
             {
@@ -22052,10 +22060,10 @@
               "not": false
             }
           ],
-          "label": "21-Feb 4-Apr-2026",
+          "label": "22-Feb 5-Apr-2026",
           "filter_label": "Indoor / Outdoor is outdoor",
-          "start_date_local": "2026-02-21",
-          "end_date_local": "2026-04-04T23:59:59",
+          "start_date_local": "2026-02-22",
+          "end_date_local": "2026-04-05T23:59:59",
           "days": 43,
           "moving_time": 0,
           "training_load": 0,
