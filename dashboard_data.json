@@ -1,16 +1,16 @@
 {
-  "generated": "2026-05-10 23:52",
+  "generated": "2026-05-11 23:58",
   "summary": {
-    "total_sessions": 2537,
+    "total_sessions": 2540,
     "cycling_sessions": 1321,
     "running_sessions": 969,
-    "current_ctl": 52.1,
-    "current_atl": 42.4,
-    "current_tsb": 9.8,
-    "ramp_rate": -0.58,
+    "current_ctl": 51.4,
+    "current_atl": 39.6,
+    "current_tsb": 11.8,
+    "ramp_rate": -1.51,
     "date_range": {
       "from": "2023-01-01",
-      "to": "2026-05-09"
+      "to": "2026-05-11"
     },
     "calories": {
       "by_year": {
@@ -9830,6 +9830,14 @@
       "tsb": 9.8,
       "rampRate": -0.58,
       "load": 0.0
+    },
+    {
+      "date": "2026-05-11",
+      "ctl": 51.4,
+      "atl": 39.6,
+      "tsb": 11.8,
+      "rampRate": -1.51,
+      "load": 22.0
     }
   ],
   "session_tss": [
@@ -17115,11 +17123,11 @@
     }
   ],
   "icu_summary": {
-    "ctl": 52.1,
-    "atl": 42.4,
-    "tsb": 9.8,
-    "rampRate": -0.58,
-    "as_of": "2026-05-10"
+    "ctl": 51.4,
+    "atl": 39.6,
+    "tsb": 11.8,
+    "rampRate": -1.51,
+    "as_of": "2026-05-11"
   },
   "cei_series": [
     {
@@ -19573,6 +19581,81 @@
   ],
   "recent_sessions": [
     {
+      "date": "2026-05-11",
+      "type": "Ride",
+      "is_indoor": false,
+      "duration": "26m 33s",
+      "distance_km": 7.5,
+      "elevation_m": 12,
+      "avg_hr": 87,
+      "max_hr": 125,
+      "avg_hrr_pct": 33.8,
+      "avg_cadence": null,
+      "avg_power_w": null,
+      "norm_power_w": null,
+      "tss": null,
+      "if": null,
+      "avg_speed_kph": 16.9,
+      "avg_pace": null,
+      "hr_zones": {
+        "Z1 Recovery": 95.7,
+        "Z2 Endurance": 4.3,
+        "Z3 Tempo": 0.0,
+        "Z4 Threshold": 0.0,
+        "Z5 VO2max": 0.0
+      }
+    },
+    {
+      "date": "2026-05-11",
+      "type": "Ride",
+      "is_indoor": false,
+      "duration": "25m 31s",
+      "distance_km": 7.47,
+      "elevation_m": 8,
+      "avg_hr": 93,
+      "max_hr": 104,
+      "avg_hrr_pct": 38.5,
+      "avg_cadence": null,
+      "avg_power_w": null,
+      "norm_power_w": null,
+      "tss": null,
+      "if": null,
+      "avg_speed_kph": 17.6,
+      "avg_pace": null,
+      "hr_zones": {
+        "Z1 Recovery": 100.0,
+        "Z2 Endurance": 0.0,
+        "Z3 Tempo": 0.0,
+        "Z4 Threshold": 0.0,
+        "Z5 VO2max": 0.0
+      }
+    },
+    {
+      "date": "2026-05-11",
+      "type": "Ride",
+      "is_indoor": false,
+      "duration": "24m 38s",
+      "distance_km": 7.04,
+      "elevation_m": 10,
+      "avg_hr": 97,
+      "max_hr": 126,
+      "avg_hrr_pct": 41.5,
+      "avg_cadence": null,
+      "avg_power_w": null,
+      "norm_power_w": null,
+      "tss": null,
+      "if": null,
+      "avg_speed_kph": 17.1,
+      "avg_pace": null,
+      "hr_zones": {
+        "Z1 Recovery": 69.7,
+        "Z2 Endurance": 30.3,
+        "Z3 Tempo": 0.0,
+        "Z4 Threshold": 0.0,
+        "Z5 VO2max": 0.0
+      }
+    },
+    {
       "date": "2026-05-09",
       "type": "Ride",
       "is_indoor": false,
@@ -19744,81 +19827,6 @@
         "Z2 Endurance": 46.6,
         "Z3 Tempo": 18.3,
         "Z4 Threshold": 5.2,
-        "Z5 VO2max": 0.0
-      }
-    },
-    {
-      "date": "2026-05-07",
-      "type": "Ride",
-      "is_indoor": false,
-      "duration": "24m 34s",
-      "distance_km": 7.49,
-      "elevation_m": 10,
-      "avg_hr": 96,
-      "max_hr": 118,
-      "avg_hrr_pct": 40.8,
-      "avg_cadence": null,
-      "avg_power_w": null,
-      "norm_power_w": null,
-      "tss": null,
-      "if": null,
-      "avg_speed_kph": 18.3,
-      "avg_pace": null,
-      "hr_zones": {
-        "Z1 Recovery": 94.0,
-        "Z2 Endurance": 6.0,
-        "Z3 Tempo": 0.0,
-        "Z4 Threshold": 0.0,
-        "Z5 VO2max": 0.0
-      }
-    },
-    {
-      "date": "2026-05-07",
-      "type": "Ride",
-      "is_indoor": false,
-      "duration": "25m 28s",
-      "distance_km": 7.53,
-      "elevation_m": 11,
-      "avg_hr": 98,
-      "max_hr": 117,
-      "avg_hrr_pct": 42.3,
-      "avg_cadence": null,
-      "avg_power_w": null,
-      "norm_power_w": null,
-      "tss": null,
-      "if": null,
-      "avg_speed_kph": 17.7,
-      "avg_pace": null,
-      "hr_zones": {
-        "Z1 Recovery": 99.0,
-        "Z2 Endurance": 1.0,
-        "Z3 Tempo": 0.0,
-        "Z4 Threshold": 0.0,
-        "Z5 VO2max": 0.0
-      }
-    },
-    {
-      "date": "2026-05-07",
-      "type": "Run",
-      "is_indoor": false,
-      "duration": "22m 25s",
-      "distance_km": 2.95,
-      "elevation_m": 4,
-      "avg_hr": 98,
-      "max_hr": 120,
-      "avg_hrr_pct": 42.3,
-      "avg_cadence": 77,
-      "avg_power_w": null,
-      "norm_power_w": null,
-      "tss": 10.4,
-      "if": 0.527,
-      "avg_speed_kph": 7.9,
-      "avg_pace": "7:35 /km",
-      "hr_zones": {
-        "Z1 Recovery": 80.0,
-        "Z2 Endurance": 20.0,
-        "Z3 Tempo": 0.0,
-        "Z4 Threshold": 0.0,
         "Z5 VO2max": 0.0
       }
     }
@@ -22775,7 +22783,7 @@
       "vt1": 116.0,
       "threshold": 156.0
     },
-    "last_updated": "2026-05-10 23:52"
+    "last_updated": "2026-05-11 23:58"
   },
   "cycling_cloud": {
     "series": {
@@ -23239,414 +23247,6 @@
           ]
         },
         "recent_points": [
-          {
-            "date": "2026-03-29",
-            "power_w": 245.4,
-            "hr": 137.6,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 274.7,
-            "hr": 141.0,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 297.5,
-            "hr": 144.4,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 333.1,
-            "hr": 149.6,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 296.7,
-            "hr": 153.9,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 218.8,
-            "hr": 154.6,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 247.9,
-            "hr": 137.3,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 273.4,
-            "hr": 140.3,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 293.6,
-            "hr": 144.0,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 332.8,
-            "hr": 149.1,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 300.3,
-            "hr": 153.5,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 221.6,
-            "hr": 155.0,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 241.8,
-            "hr": 151.8,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 157.4,
-            "hr": 109.7,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 215.2,
-            "hr": 115.0,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 244.7,
-            "hr": 125.3,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 168.8,
-            "hr": 131.8,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 127.5,
-            "hr": 124.3,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 212.9,
-            "hr": 120.0,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 279.2,
-            "hr": 129.1,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 205.2,
-            "hr": 137.4,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 146.9,
-            "hr": 134.2,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 170.0,
-            "hr": 125.4,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 188.3,
-            "hr": 122.2,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 201.7,
-            "hr": 124.0,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 202.2,
-            "hr": 126.7,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 196.8,
-            "hr": 127.8,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 198.5,
-            "hr": 128.9,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 204.2,
-            "hr": 130.2,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 207.5,
-            "hr": 131.4,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 206.0,
-            "hr": 132.6,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 188.5,
-            "hr": 132.7,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 188.2,
-            "hr": 131.3,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 247.7,
-            "hr": 133.0,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 290.6,
-            "hr": 141.2,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 292.4,
-            "hr": 148.7,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 189.5,
-            "hr": 123.4,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 180.6,
-            "hr": 124.4,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 175.8,
-            "hr": 124.0,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 185.4,
-            "hr": 122.8,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 186.6,
-            "hr": 124.1,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 182.4,
-            "hr": 125.9,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 192.1,
-            "hr": 126.0,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 196.5,
-            "hr": 127.1,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 191.1,
-            "hr": 128.3,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 188.5,
-            "hr": 128.2,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 189.9,
-            "hr": 127.2,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 199.1,
-            "hr": 126.0,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 200.8,
-            "hr": 126.2,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 217.7,
-            "hr": 130.6,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 217.1,
-            "hr": 135.6,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 190.8,
-            "hr": 134.9,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 183.9,
-            "hr": 130.9,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 183.9,
-            "hr": 128.4,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 200.1,
-            "hr": 128.1,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 209.8,
-            "hr": 130.7,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 206.1,
-            "hr": 133.3,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 203.5,
-            "hr": 133.2,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 200.3,
-            "hr": 132.6,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 197.8,
-            "hr": 132.0,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 188.1,
-            "hr": 130.8,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 187.4,
-            "hr": 128.9,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 203.8,
-            "hr": 128.8,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 202.2,
-            "hr": 132.2,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 194.4,
-            "hr": 133.4,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 198.8,
-            "hr": 133.1,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 200.3,
-            "hr": 134.4,
-            "indoor": true
-          },
-          {
-            "date": "2026-03-29",
-            "power_w": 207.8,
-            "hr": 135.1,
-            "indoor": true
-          },
           {
             "date": "2026-03-31",
             "power_w": 170.0,
@@ -37502,7 +37102,7 @@
       "vt1": 116,
       "threshold": 156
     },
-    "last_updated": "2026-05-10 23:52"
+    "last_updated": "2026-05-11 23:58"
   },
   "cycling_curve": {
     "series": {
@@ -40777,9 +40377,12 @@
       "2026-05-08_15_58_31_cycling_i146514356.fit",
       "2026-05-09_08_44_00_cycling_i146648453.fit",
       "2026-05-09_10_03_15_cycling_i146648501.fit",
-      "2026-05-09_14_41_14_cycling_i146754214.fit"
+      "2026-05-09_14_41_14_cycling_i146754214.fit",
+      "2026-05-11_07_52_09_cycling_i147139289.fit",
+      "2026-05-11_10_24_03_cycling_i147158651.fit",
+      "2026-05-11_17_09_00_cycling_i147266348.fit"
     ],
-    "last_updated": "2026-05-10 23:52"
+    "last_updated": "2026-05-11 23:58"
   },
   "running_bests": {
     "series": {
@@ -42117,6 +41720,6 @@
       "2026-05-08_12_07_18_running_i146436632.fit",
       "2026-05-09_09_07_10_running_i146648494.fit"
     ],
-    "last_updated": "2026-05-10 23:52"
+    "last_updated": "2026-05-11 23:58"
   }
 }
