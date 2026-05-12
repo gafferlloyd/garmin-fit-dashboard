@@ -1,16 +1,16 @@
 {
-  "generated": "2026-05-11 23:58",
+  "generated": "2026-05-12 23:59",
   "summary": {
-    "total_sessions": 2540,
+    "total_sessions": 2544,
     "cycling_sessions": 1321,
     "running_sessions": 969,
-    "current_ctl": 51.4,
-    "current_atl": 39.6,
-    "current_tsb": 11.8,
-    "ramp_rate": -1.51,
+    "current_ctl": 51.9,
+    "current_atl": 43.9,
+    "current_tsb": 8.0,
+    "ramp_rate": -0.79,
     "date_range": {
       "from": "2023-01-01",
-      "to": "2026-05-11"
+      "to": "2026-05-12"
     },
     "calories": {
       "by_year": {
@@ -9838,6 +9838,14 @@
       "tsb": 11.8,
       "rampRate": -1.51,
       "load": 22.0
+    },
+    {
+      "date": "2026-05-12",
+      "ctl": 51.9,
+      "atl": 43.9,
+      "tsb": 8.0,
+      "rampRate": -0.79,
+      "load": 72.0
     }
   ],
   "session_tss": [
@@ -17120,14 +17128,24 @@
       "date": "2026-05-09",
       "stss": 95.3,
       "type": "Ride"
+    },
+    {
+      "date": "2026-05-12",
+      "stss": 19.9,
+      "type": "Run"
+    },
+    {
+      "date": "2026-05-12",
+      "stss": 34.0,
+      "type": "VirtualRide"
     }
   ],
   "icu_summary": {
-    "ctl": 51.4,
-    "atl": 39.6,
-    "tsb": 11.8,
-    "rampRate": -1.51,
-    "as_of": "2026-05-11"
+    "ctl": 51.9,
+    "atl": 43.9,
+    "tsb": 8.0,
+    "rampRate": -0.79,
+    "as_of": "2026-05-12"
   },
   "cei_series": [
     {
@@ -19577,9 +19595,117 @@
       "avg_power_w": 177.2,
       "avg_hr_bpm": 115,
       "is_indoor": false
+    },
+    {
+      "date": "2026-05-12",
+      "cei_inv": 1.191,
+      "cei": 0.8396,
+      "avg_power_w": 158.4,
+      "avg_hr_bpm": 133,
+      "is_indoor": true
     }
   ],
   "recent_sessions": [
+    {
+      "date": "2026-05-12",
+      "type": "Ride",
+      "is_indoor": false,
+      "duration": "27m 37s",
+      "distance_km": 7.53,
+      "elevation_m": 15,
+      "avg_hr": 89,
+      "max_hr": 109,
+      "avg_hrr_pct": 35.4,
+      "avg_cadence": null,
+      "avg_power_w": null,
+      "norm_power_w": null,
+      "tss": null,
+      "if": null,
+      "avg_speed_kph": 16.4,
+      "avg_pace": null,
+      "hr_zones": {
+        "Z1 Recovery": 100.0,
+        "Z2 Endurance": 0.0,
+        "Z3 Tempo": 0.0,
+        "Z4 Threshold": 0.0,
+        "Z5 VO2max": 0.0
+      }
+    },
+    {
+      "date": "2026-05-12",
+      "type": "Ride",
+      "is_indoor": false,
+      "duration": "26m 22s",
+      "distance_km": 7.61,
+      "elevation_m": 18,
+      "avg_hr": 107,
+      "max_hr": 131,
+      "avg_hrr_pct": 49.2,
+      "avg_cadence": null,
+      "avg_power_w": null,
+      "norm_power_w": null,
+      "tss": null,
+      "if": null,
+      "avg_speed_kph": 17.3,
+      "avg_pace": null,
+      "hr_zones": {
+        "Z1 Recovery": 84.5,
+        "Z2 Endurance": 15.5,
+        "Z3 Tempo": 0.0,
+        "Z4 Threshold": 0.0,
+        "Z5 VO2max": 0.0
+      }
+    },
+    {
+      "date": "2026-05-12",
+      "type": "VirtualRide",
+      "is_indoor": true,
+      "duration": "31m 57s",
+      "distance_km": 15.82,
+      "elevation_m": 41,
+      "avg_hr": 133,
+      "max_hr": 164,
+      "avg_hrr_pct": 69.2,
+      "avg_cadence": 76,
+      "avg_power_w": 158.4,
+      "norm_power_w": 201.3,
+      "tss": 34.0,
+      "if": 0.799,
+      "avg_speed_kph": 29.7,
+      "avg_pace": null,
+      "hr_zones": {
+        "Z1 Recovery": 16.6,
+        "Z2 Endurance": 32.1,
+        "Z3 Tempo": 34.8,
+        "Z4 Threshold": 15.9,
+        "Z5 VO2max": 0.6
+      }
+    },
+    {
+      "date": "2026-05-12",
+      "type": "Run",
+      "is_indoor": false,
+      "duration": "36m 25s",
+      "distance_km": 5.21,
+      "elevation_m": 14,
+      "avg_hr": 94,
+      "max_hr": 121,
+      "avg_hrr_pct": 39.2,
+      "avg_cadence": 81,
+      "avg_power_w": null,
+      "norm_power_w": null,
+      "tss": 19.9,
+      "if": 0.573,
+      "avg_speed_kph": 8.6,
+      "avg_pace": "6:58 /km",
+      "hr_zones": {
+        "Z1 Recovery": 83.9,
+        "Z2 Endurance": 16.1,
+        "Z3 Tempo": 0.0,
+        "Z4 Threshold": 0.0,
+        "Z5 VO2max": 0.0
+      }
+    },
     {
       "date": "2026-05-11",
       "type": "Ride",
@@ -19729,115 +19855,15 @@
         "Z4 Threshold": 0.0,
         "Z5 VO2max": 0.0
       }
-    },
-    {
-      "date": "2026-05-09",
-      "type": "Ride",
-      "is_indoor": false,
-      "duration": "8m 56s",
-      "distance_km": 1.83,
-      "elevation_m": 6,
-      "avg_hr": 80,
-      "max_hr": 101,
-      "avg_hrr_pct": 28.5,
-      "avg_cadence": null,
-      "avg_power_w": null,
-      "norm_power_w": null,
-      "tss": null,
-      "if": null,
-      "avg_speed_kph": 12.3,
-      "avg_pace": null,
-      "hr_zones": {
-        "Z1 Recovery": 100.0,
-        "Z2 Endurance": 0.0,
-        "Z3 Tempo": 0.0,
-        "Z4 Threshold": 0.0,
-        "Z5 VO2max": 0.0
-      }
-    },
-    {
-      "date": "2026-05-08",
-      "type": "Ride",
-      "is_indoor": false,
-      "duration": "1h 09m 48s",
-      "distance_km": 32.22,
-      "elevation_m": 70,
-      "avg_hr": 120,
-      "max_hr": 147,
-      "avg_hrr_pct": 59.2,
-      "avg_cadence": 72,
-      "avg_power_w": 178.3,
-      "norm_power_w": 194.6,
-      "tss": 49.9,
-      "if": 0.655,
-      "avg_speed_kph": 27.7,
-      "avg_pace": null,
-      "hr_zones": {
-        "Z1 Recovery": 34.6,
-        "Z2 Endurance": 45.9,
-        "Z3 Tempo": 19.4,
-        "Z4 Threshold": 0.0,
-        "Z5 VO2max": 0.0
-      }
-    },
-    {
-      "date": "2026-05-08",
-      "type": "Run",
-      "is_indoor": false,
-      "duration": "35m 17s",
-      "distance_km": 5.01,
-      "elevation_m": 12,
-      "avg_hr": 107,
-      "max_hr": 134,
-      "avg_hrr_pct": 49.2,
-      "avg_cadence": 79,
-      "avg_power_w": null,
-      "norm_power_w": null,
-      "tss": 19.0,
-      "if": 0.568,
-      "avg_speed_kph": 8.5,
-      "avg_pace": "7:02 /km",
-      "hr_zones": {
-        "Z1 Recovery": 55.4,
-        "Z2 Endurance": 44.6,
-        "Z3 Tempo": 0.0,
-        "Z4 Threshold": 0.0,
-        "Z5 VO2max": 0.0
-      }
-    },
-    {
-      "date": "2026-05-07",
-      "type": "VirtualRide",
-      "is_indoor": true,
-      "duration": "30m 03s",
-      "distance_km": 13.45,
-      "elevation_m": 120,
-      "avg_hr": 125,
-      "max_hr": 156,
-      "avg_hrr_pct": 63.1,
-      "avg_cadence": 72,
-      "avg_power_w": 150.3,
-      "norm_power_w": 179.0,
-      "tss": 25.3,
-      "if": 0.71,
-      "avg_speed_kph": 26.8,
-      "avg_pace": null,
-      "hr_zones": {
-        "Z1 Recovery": 29.8,
-        "Z2 Endurance": 46.6,
-        "Z3 Tempo": 18.3,
-        "Z4 Threshold": 5.2,
-        "Z5 VO2max": 0.0
-      }
     }
   ],
   "indoor_outdoor_delta": {
     "indoor": {
-      "n": 272,
+      "n": 273,
       "avg_power_w": 165.7,
-      "avg_np_w": 188.3,
-      "avg_hr_bpm": 118.3,
-      "avg_cei": 0.7139
+      "avg_np_w": 188.4,
+      "avg_hr_bpm": 118.4,
+      "avg_cei": 0.7145
     },
     "outdoor": {
       "n": 110,
@@ -21109,16 +21135,16 @@
           "40": {
             "pace_sec": 382.5,
             "pace_label": "6:22",
-            "avg_hr": 110.5,
+            "avg_hr": 110.47,
             "std_hr": 8.42,
-            "count": 363
+            "count": 364
           },
           "43": {
             "pace_sec": 397.5,
             "pace_label": "6:37",
-            "avg_hr": 105.44,
+            "avg_hr": 105.4,
             "std_hr": 9.62,
-            "count": 197
+            "count": 198
           },
           "44": {
             "pace_sec": 402.5,
@@ -21179,9 +21205,9 @@
           "36": {
             "pace_sec": 362.5,
             "pace_label": "6:02",
-            "avg_hr": 112.47,
-            "std_hr": 7.69,
-            "count": 493
+            "avg_hr": 112.44,
+            "std_hr": 7.72,
+            "count": 494
           },
           "13": {
             "pace_sec": 247.5,
@@ -21193,16 +21219,16 @@
           "38": {
             "pace_sec": 372.5,
             "pace_label": "6:12",
-            "avg_hr": 111.84,
-            "std_hr": 8.44,
-            "count": 517
+            "avg_hr": 111.68,
+            "std_hr": 8.6,
+            "count": 521
           },
           "37": {
             "pace_sec": 367.5,
             "pace_label": "6:07",
-            "avg_hr": 111.64,
-            "std_hr": 7.62,
-            "count": 561
+            "avg_hr": 111.44,
+            "std_hr": 7.83,
+            "count": 567
           },
           "12": {
             "pace_sec": 242.5,
@@ -21228,9 +21254,9 @@
           "39": {
             "pace_sec": 377.5,
             "pace_label": "6:17",
-            "avg_hr": 111.41,
-            "std_hr": 8.43,
-            "count": 433
+            "avg_hr": 111.31,
+            "std_hr": 8.53,
+            "count": 435
           },
           "46": {
             "pace_sec": 412.5,
@@ -21519,23 +21545,23 @@
             }
           ]
         },
-        "n_windows": 9006
+        "n_windows": 9021
       },
       "recent": {
         "bucket_stats": {
           "36": {
             "pace_sec": 362.5,
             "pace_label": "6:02",
-            "avg_hr": 112.5,
-            "std_hr": 8.0,
-            "count": 371
+            "avg_hr": 112.45,
+            "std_hr": 8.04,
+            "count": 372
           },
           "40": {
             "pace_sec": 382.5,
             "pace_label": "6:22",
-            "avg_hr": 110.26,
+            "avg_hr": 110.22,
             "std_hr": 8.42,
-            "count": 259
+            "count": 260
           },
           "41": {
             "pace_sec": 387.5,
@@ -21547,9 +21573,9 @@
           "38": {
             "pace_sec": 372.5,
             "pace_label": "6:12",
-            "avg_hr": 112.19,
-            "std_hr": 8.9,
-            "count": 372
+            "avg_hr": 111.97,
+            "std_hr": 9.12,
+            "count": 376
           },
           "35": {
             "pace_sec": 357.5,
@@ -21561,16 +21587,16 @@
           "37": {
             "pace_sec": 367.5,
             "pace_label": "6:07",
-            "avg_hr": 111.56,
-            "std_hr": 7.64,
-            "count": 411
+            "avg_hr": 111.29,
+            "std_hr": 7.92,
+            "count": 417
           },
           "39": {
             "pace_sec": 377.5,
             "pace_label": "6:17",
-            "avg_hr": 111.58,
-            "std_hr": 9.16,
-            "count": 314
+            "avg_hr": 111.45,
+            "std_hr": 9.28,
+            "count": 316
           },
           "34": {
             "pace_sec": 352.5,
@@ -21617,9 +21643,9 @@
           "43": {
             "pace_sec": 397.5,
             "pace_label": "6:37",
-            "avg_hr": 103.35,
-            "std_hr": 11.07,
-            "count": 102
+            "avg_hr": 103.29,
+            "std_hr": 11.04,
+            "count": 103
           },
           "45": {
             "pace_sec": 407.5,
@@ -21962,6 +21988,81 @@
             "date": "2026-05-08",
             "pace_sec": 368.4,
             "hr": 119.0
+          },
+          {
+            "date": "2026-05-12",
+            "pace_sec": 397.3,
+            "hr": 96.4
+          },
+          {
+            "date": "2026-05-12",
+            "pace_sec": 384.3,
+            "hr": 100.5
+          },
+          {
+            "date": "2026-05-12",
+            "pace_sec": 368.7,
+            "hr": 99.9
+          },
+          {
+            "date": "2026-05-12",
+            "pace_sec": 364.5,
+            "hr": 94.6
+          },
+          {
+            "date": "2026-05-12",
+            "pace_sec": 369.5,
+            "hr": 91.3
+          },
+          {
+            "date": "2026-05-12",
+            "pace_sec": 373.7,
+            "hr": 91.9
+          },
+          {
+            "date": "2026-05-12",
+            "pace_sec": 377.6,
+            "hr": 91.2
+          },
+          {
+            "date": "2026-05-12",
+            "pace_sec": 379.0,
+            "hr": 89.9
+          },
+          {
+            "date": "2026-05-12",
+            "pace_sec": 373.2,
+            "hr": 88.8
+          },
+          {
+            "date": "2026-05-12",
+            "pace_sec": 368.3,
+            "hr": 88.6
+          },
+          {
+            "date": "2026-05-12",
+            "pace_sec": 367.1,
+            "hr": 89.2
+          },
+          {
+            "date": "2026-05-12",
+            "pace_sec": 366.6,
+            "hr": 90.1
+          },
+          {
+            "date": "2026-05-12",
+            "pace_sec": 370.6,
+            "hr": 91.0
+          },
+          {
+            "date": "2026-05-12",
+            "pace_sec": 373.5,
+            "hr": 92.2
+          },
+          {
+            "date": "2026-05-12",
+            "pace_sec": 368.7,
+            "hr": 98.6
           }
         ],
         "linear_fit": {
@@ -22214,7 +22315,7 @@
             }
           ]
         },
-        "n_windows": 6731
+        "n_windows": 6746
       },
       "year_2023": {
         "bucket_stats": {
@@ -22783,7 +22884,7 @@
       "vt1": 116.0,
       "threshold": 156.0
     },
-    "last_updated": "2026-05-11 23:58"
+    "last_updated": "2026-05-12 23:59"
   },
   "cycling_cloud": {
     "series": {
@@ -22797,9 +22898,9 @@
           },
           "15": {
             "power_w": 205.0,
-            "avg_hr": 125.11,
-            "std_hr": 9.51,
-            "count": 345
+            "avg_hr": 125.09,
+            "std_hr": 9.5,
+            "count": 346
           },
           "16": {
             "power_w": 215.0,
@@ -22809,33 +22910,33 @@
           },
           "24": {
             "power_w": 295.0,
-            "avg_hr": 138.98,
-            "std_hr": 10.12,
-            "count": 12
+            "avg_hr": 139.96,
+            "std_hr": 10.03,
+            "count": 15
           },
           "17": {
             "power_w": 225.0,
-            "avg_hr": 129.25,
-            "std_hr": 10.05,
-            "count": 150
+            "avg_hr": 129.75,
+            "std_hr": 10.41,
+            "count": 155
           },
           "9": {
             "power_w": 145.0,
-            "avg_hr": 110.56,
-            "std_hr": 11.52,
-            "count": 349
+            "avg_hr": 110.66,
+            "std_hr": 11.64,
+            "count": 350
           },
           "8": {
             "power_w": 135.0,
-            "avg_hr": 105.23,
-            "std_hr": 9.57,
-            "count": 246
+            "avg_hr": 105.37,
+            "std_hr": 9.78,
+            "count": 247
           },
           "18": {
             "power_w": 235.0,
-            "avg_hr": 130.59,
-            "std_hr": 10.25,
-            "count": 122
+            "avg_hr": 130.82,
+            "std_hr": 10.52,
+            "count": 123
           },
           "29": {
             "power_w": 345.0,
@@ -22845,27 +22946,27 @@
           },
           "13": {
             "power_w": 185.0,
-            "avg_hr": 119.71,
-            "std_hr": 9.06,
-            "count": 511
+            "avg_hr": 119.74,
+            "std_hr": 9.07,
+            "count": 512
           },
           "11": {
             "power_w": 165.0,
-            "avg_hr": 113.7,
-            "std_hr": 9.53,
-            "count": 458
+            "avg_hr": 113.77,
+            "std_hr": 9.63,
+            "count": 459
           },
           "12": {
             "power_w": 175.0,
-            "avg_hr": 116.63,
-            "std_hr": 9.04,
-            "count": 523
+            "avg_hr": 116.72,
+            "std_hr": 9.17,
+            "count": 525
           },
           "14": {
             "power_w": 195.0,
-            "avg_hr": 121.33,
-            "std_hr": 9.57,
-            "count": 327
+            "avg_hr": 122.0,
+            "std_hr": 10.17,
+            "count": 337
           },
           "25": {
             "power_w": 305.0,
@@ -22893,15 +22994,15 @@
           },
           "10": {
             "power_w": 155.0,
-            "avg_hr": 110.84,
-            "std_hr": 8.74,
-            "count": 394
+            "avg_hr": 111.17,
+            "std_hr": 9.49,
+            "count": 397
           },
           "20": {
             "power_w": 255.0,
-            "avg_hr": 132.06,
-            "std_hr": 10.85,
-            "count": 49
+            "avg_hr": 132.13,
+            "std_hr": 10.75,
+            "count": 50
           },
           "23": {
             "power_w": 285.0,
@@ -22935,15 +23036,15 @@
           },
           "6": {
             "power_w": 115.0,
-            "avg_hr": 102.89,
-            "std_hr": 10.09,
-            "count": 199
+            "avg_hr": 103.12,
+            "std_hr": 10.32,
+            "count": 201
           },
           "7": {
             "power_w": 125.0,
-            "avg_hr": 103.07,
-            "std_hr": 10.95,
-            "count": 213
+            "avg_hr": 103.56,
+            "std_hr": 11.46,
+            "count": 217
           },
           "2": {
             "power_w": 75.0,
@@ -22965,9 +23066,9 @@
           }
         },
         "linear_fit": {
-          "slope": 0.1471,
-          "intercept": 95.35,
-          "r2": 0.8659,
+          "slope": 0.1465,
+          "intercept": 95.69,
+          "r2": 0.8673,
           "fit_hr_range": [
             120.0,
             150.0
@@ -22976,272 +23077,272 @@
           "markers": {
             "50": {
               "hr": 108.0,
-              "power_w": 86.0
+              "power_w": 84.0
             },
             "60": {
               "hr": 121.0,
-              "power_w": 174.4
+              "power_w": 172.7
             },
             "70": {
               "hr": 134.0,
-              "power_w": 262.8
+              "power_w": 261.4
             },
             "80": {
               "hr": 147.0,
-              "power_w": 351.2
+              "power_w": 350.2
             },
             "90": {
               "hr": 160.0,
-              "power_w": 439.6
+              "power_w": 438.9
             },
             "vt1": {
               "hr": 116,
-              "power_w": 140.4
+              "power_w": 138.6
             },
             "threshold": {
               "hr": 156,
-              "power_w": 412.4
+              "power_w": 411.6
             }
           },
           "regression_line": [
             {
-              "power_w": 167.6,
+              "power_w": 165.9,
               "hr": 120.0
             },
             {
-              "power_w": 171.0,
+              "power_w": 169.4,
               "hr": 120.51
             },
             {
-              "power_w": 174.5,
+              "power_w": 172.9,
               "hr": 121.02
             },
             {
-              "power_w": 178.0,
+              "power_w": 176.3,
               "hr": 121.53
             },
             {
-              "power_w": 181.4,
+              "power_w": 179.8,
               "hr": 122.03
             },
             {
-              "power_w": 184.9,
+              "power_w": 183.3,
               "hr": 122.54
             },
             {
-              "power_w": 188.3,
+              "power_w": 186.7,
               "hr": 123.05
             },
             {
-              "power_w": 191.8,
+              "power_w": 190.2,
               "hr": 123.56
             },
             {
-              "power_w": 195.2,
+              "power_w": 193.7,
               "hr": 124.07
             },
             {
-              "power_w": 198.7,
+              "power_w": 197.1,
               "hr": 124.58
             },
             {
-              "power_w": 202.2,
+              "power_w": 200.6,
               "hr": 125.08
             },
             {
-              "power_w": 205.6,
+              "power_w": 204.1,
               "hr": 125.59
             },
             {
-              "power_w": 209.1,
+              "power_w": 207.6,
               "hr": 126.1
             },
             {
-              "power_w": 212.5,
+              "power_w": 211.0,
               "hr": 126.61
             },
             {
-              "power_w": 216.0,
+              "power_w": 214.5,
               "hr": 127.12
             },
             {
-              "power_w": 219.5,
+              "power_w": 218.0,
               "hr": 127.63
             },
             {
-              "power_w": 222.9,
+              "power_w": 221.4,
               "hr": 128.14
             },
             {
-              "power_w": 226.4,
+              "power_w": 224.9,
               "hr": 128.64
             },
             {
-              "power_w": 229.8,
+              "power_w": 228.4,
               "hr": 129.15
             },
             {
-              "power_w": 233.3,
+              "power_w": 231.8,
               "hr": 129.66
             },
             {
-              "power_w": 236.7,
+              "power_w": 235.3,
               "hr": 130.17
             },
             {
-              "power_w": 240.2,
+              "power_w": 238.8,
               "hr": 130.68
             },
             {
-              "power_w": 243.7,
+              "power_w": 242.2,
               "hr": 131.19
             },
             {
-              "power_w": 247.1,
+              "power_w": 245.7,
               "hr": 131.69
             },
             {
-              "power_w": 250.6,
+              "power_w": 249.2,
               "hr": 132.2
             },
             {
-              "power_w": 254.0,
+              "power_w": 252.7,
               "hr": 132.71
             },
             {
-              "power_w": 257.5,
+              "power_w": 256.1,
               "hr": 133.22
             },
             {
-              "power_w": 260.9,
+              "power_w": 259.6,
               "hr": 133.73
             },
             {
-              "power_w": 264.4,
+              "power_w": 263.1,
               "hr": 134.24
             },
             {
-              "power_w": 267.9,
+              "power_w": 266.5,
               "hr": 134.75
             },
             {
-              "power_w": 271.3,
+              "power_w": 270.0,
               "hr": 135.25
             },
             {
-              "power_w": 274.8,
+              "power_w": 273.5,
               "hr": 135.76
             },
             {
-              "power_w": 278.2,
+              "power_w": 276.9,
               "hr": 136.27
             },
             {
-              "power_w": 281.7,
+              "power_w": 280.4,
               "hr": 136.78
             },
             {
-              "power_w": 285.1,
+              "power_w": 283.9,
               "hr": 137.29
             },
             {
-              "power_w": 288.6,
+              "power_w": 287.4,
               "hr": 137.8
             },
             {
-              "power_w": 292.1,
+              "power_w": 290.8,
               "hr": 138.31
             },
             {
-              "power_w": 295.5,
+              "power_w": 294.3,
               "hr": 138.81
             },
             {
-              "power_w": 299.0,
+              "power_w": 297.8,
               "hr": 139.32
             },
             {
-              "power_w": 302.4,
+              "power_w": 301.2,
               "hr": 139.83
             },
             {
-              "power_w": 305.9,
+              "power_w": 304.7,
               "hr": 140.34
             },
             {
-              "power_w": 309.3,
+              "power_w": 308.2,
               "hr": 140.85
             },
             {
-              "power_w": 312.8,
+              "power_w": 311.6,
               "hr": 141.36
             },
             {
-              "power_w": 316.3,
+              "power_w": 315.1,
               "hr": 141.86
             },
             {
-              "power_w": 319.7,
+              "power_w": 318.6,
               "hr": 142.37
             },
             {
-              "power_w": 323.2,
+              "power_w": 322.1,
               "hr": 142.88
             },
             {
-              "power_w": 326.6,
+              "power_w": 325.5,
               "hr": 143.39
             },
             {
-              "power_w": 330.1,
+              "power_w": 329.0,
               "hr": 143.9
             },
             {
-              "power_w": 333.5,
+              "power_w": 332.5,
               "hr": 144.41
             },
             {
-              "power_w": 337.0,
+              "power_w": 335.9,
               "hr": 144.92
             },
             {
-              "power_w": 340.5,
+              "power_w": 339.4,
               "hr": 145.42
             },
             {
-              "power_w": 343.9,
+              "power_w": 342.9,
               "hr": 145.93
             },
             {
-              "power_w": 347.4,
+              "power_w": 346.3,
               "hr": 146.44
             },
             {
-              "power_w": 350.8,
+              "power_w": 349.8,
               "hr": 146.95
             },
             {
-              "power_w": 354.3,
+              "power_w": 353.3,
               "hr": 147.46
             },
             {
-              "power_w": 357.7,
+              "power_w": 356.7,
               "hr": 147.97
             },
             {
-              "power_w": 361.2,
+              "power_w": 360.2,
               "hr": 148.47
             },
             {
-              "power_w": 364.7,
+              "power_w": 363.7,
               "hr": 148.98
             },
             {
-              "power_w": 368.1,
+              "power_w": 367.2,
               "hr": 149.49
             },
             {
-              "power_w": 371.6,
+              "power_w": 370.6,
               "hr": 150.0
             }
           ]
@@ -34004,9 +34105,225 @@
             "power_w": 200.4,
             "hr": 121.2,
             "indoor": false
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 225.0,
+            "hr": 125.9,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 174.6,
+            "hr": 132.6,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 187.9,
+            "hr": 133.5,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 257.1,
+            "hr": 135.4,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 193.3,
+            "hr": 141.2,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 121.8,
+            "hr": 139.4,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 119.0,
+            "hr": 129.9,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 120.0,
+            "hr": 121.6,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 205.7,
+            "hr": 120.0,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 294.4,
+            "hr": 132.0,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 228.8,
+            "hr": 146.8,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 157.5,
+            "hr": 149.8,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 224.1,
+            "hr": 145.7,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 295.7,
+            "hr": 147.3,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 229.9,
+            "hr": 154.2,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 158.5,
+            "hr": 155.1,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 224.6,
+            "hr": 150.8,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 296.4,
+            "hr": 152.3,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 230.8,
+            "hr": 159.2,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 159.2,
+            "hr": 158.3,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 173.3,
+            "hr": 150.3,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 191.7,
+            "hr": 145.5,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 193.0,
+            "hr": 143.9,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 193.2,
+            "hr": 142.6,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 192.9,
+            "hr": 142.9,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 192.6,
+            "hr": 143.8,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 193.0,
+            "hr": 144.0,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 193.2,
+            "hr": 145.0,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 193.0,
+            "hr": 144.9,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 193.2,
+            "hr": 144.6,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 169.0,
+            "hr": 145.2,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 140.2,
+            "hr": 144.3,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 132.7,
+            "hr": 138.4,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 126.2,
+            "hr": 131.1,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 120.2,
+            "hr": 126.5,
+            "indoor": true
+          },
+          {
+            "date": "2026-05-12",
+            "power_w": 114.2,
+            "hr": 123.9,
+            "indoor": true
           }
         ],
-        "n_windows": 4897
+        "n_windows": 4933
       },
       "outdoor_2023": {
         "bucket_stats": {
@@ -36214,21 +36531,21 @@
         "bucket_stats": {
           "15": {
             "power_w": 205.0,
-            "avg_hr": 130.24,
-            "std_hr": 8.43,
-            "count": 267
+            "avg_hr": 130.2,
+            "std_hr": 8.44,
+            "count": 268
           },
           "13": {
             "power_w": 185.0,
-            "avg_hr": 124.38,
+            "avg_hr": 124.41,
             "std_hr": 10.01,
-            "count": 426
+            "count": 427
           },
           "14": {
             "power_w": 195.0,
-            "avg_hr": 129.03,
-            "std_hr": 10.34,
-            "count": 208
+            "avg_hr": 129.71,
+            "std_hr": 10.57,
+            "count": 218
           },
           "19": {
             "power_w": 245.0,
@@ -36238,9 +36555,9 @@
           },
           "18": {
             "power_w": 235.0,
-            "avg_hr": 138.51,
-            "std_hr": 13.4,
-            "count": 121
+            "avg_hr": 138.68,
+            "std_hr": 13.48,
+            "count": 122
           },
           "16": {
             "power_w": 215.0,
@@ -36256,45 +36573,45 @@
           },
           "20": {
             "power_w": 255.0,
-            "avg_hr": 142.07,
-            "std_hr": 11.72,
-            "count": 75
+            "avg_hr": 141.98,
+            "std_hr": 11.66,
+            "count": 76
           },
           "10": {
             "power_w": 155.0,
-            "avg_hr": 115.05,
-            "std_hr": 10.26,
-            "count": 311
+            "avg_hr": 115.43,
+            "std_hr": 10.91,
+            "count": 314
           },
           "17": {
             "power_w": 225.0,
-            "avg_hr": 137.25,
-            "std_hr": 10.96,
-            "count": 101
+            "avg_hr": 137.6,
+            "std_hr": 11.02,
+            "count": 106
           },
           "12": {
             "power_w": 175.0,
-            "avg_hr": 121.82,
-            "std_hr": 10.48,
-            "count": 431
+            "avg_hr": 121.91,
+            "std_hr": 10.55,
+            "count": 433
           },
           "9": {
             "power_w": 145.0,
-            "avg_hr": 113.74,
-            "std_hr": 11.99,
-            "count": 309
+            "avg_hr": 113.84,
+            "std_hr": 12.1,
+            "count": 310
           },
           "8": {
             "power_w": 135.0,
-            "avg_hr": 109.5,
-            "std_hr": 11.37,
-            "count": 209
+            "avg_hr": 109.64,
+            "std_hr": 11.51,
+            "count": 210
           },
           "24": {
             "power_w": 295.0,
-            "avg_hr": 145.31,
-            "std_hr": 11.76,
-            "count": 22
+            "avg_hr": 145.14,
+            "std_hr": 11.44,
+            "count": 25
           },
           "28": {
             "power_w": 335.0,
@@ -36310,21 +36627,21 @@
           },
           "7": {
             "power_w": 125.0,
-            "avg_hr": 105.43,
-            "std_hr": 12.47,
-            "count": 167
+            "avg_hr": 105.99,
+            "std_hr": 12.89,
+            "count": 171
           },
           "6": {
             "power_w": 115.0,
-            "avg_hr": 105.27,
-            "std_hr": 10.73,
-            "count": 155
+            "avg_hr": 105.55,
+            "std_hr": 10.94,
+            "count": 157
           },
           "11": {
             "power_w": 165.0,
-            "avg_hr": 116.47,
-            "std_hr": 10.55,
-            "count": 397
+            "avg_hr": 116.54,
+            "std_hr": 10.63,
+            "count": 398
           },
           "25": {
             "power_w": 305.0,
@@ -36400,9 +36717,9 @@
           }
         },
         "linear_fit": {
-          "slope": 0.2606,
-          "intercept": 77.09,
-          "r2": 0.9803,
+          "slope": 0.2582,
+          "intercept": 77.74,
+          "r2": 0.9724,
           "fit_hr_range": [
             120.0,
             150.0
@@ -36411,15 +36728,15 @@
           "markers": {
             "50": {
               "hr": 108.0,
-              "power_w": 118.6
+              "power_w": 117.2
             },
             "60": {
               "hr": 121.0,
-              "power_w": 168.5
+              "power_w": 167.5
             },
             "70": {
               "hr": 134.0,
-              "power_w": 218.4
+              "power_w": 217.9
             },
             "80": {
               "hr": 147.0,
@@ -36427,220 +36744,220 @@
             },
             "90": {
               "hr": 160.0,
-              "power_w": 318.1
+              "power_w": 318.6
             },
             "vt1": {
               "hr": 116,
-              "power_w": 149.3
+              "power_w": 148.2
             },
             "threshold": {
               "hr": 156,
-              "power_w": 302.8
+              "power_w": 303.1
             }
           },
           "regression_line": [
             {
-              "power_w": 164.6,
+              "power_w": 163.7,
               "hr": 120.0
             },
             {
-              "power_w": 166.6,
+              "power_w": 165.6,
               "hr": 120.51
             },
             {
-              "power_w": 168.5,
+              "power_w": 167.6,
               "hr": 121.02
             },
             {
-              "power_w": 170.5,
+              "power_w": 169.6,
               "hr": 121.53
             },
             {
-              "power_w": 172.4,
+              "power_w": 171.5,
               "hr": 122.03
             },
             {
-              "power_w": 174.4,
+              "power_w": 173.5,
               "hr": 122.54
             },
             {
-              "power_w": 176.3,
+              "power_w": 175.5,
               "hr": 123.05
             },
             {
-              "power_w": 178.3,
+              "power_w": 177.4,
               "hr": 123.56
             },
             {
-              "power_w": 180.3,
+              "power_w": 179.4,
               "hr": 124.07
             },
             {
-              "power_w": 182.2,
+              "power_w": 181.4,
               "hr": 124.58
             },
             {
-              "power_w": 184.2,
+              "power_w": 183.4,
               "hr": 125.08
             },
             {
-              "power_w": 186.1,
+              "power_w": 185.3,
               "hr": 125.59
             },
             {
-              "power_w": 188.1,
+              "power_w": 187.3,
               "hr": 126.1
             },
             {
-              "power_w": 190.0,
+              "power_w": 189.3,
               "hr": 126.61
             },
             {
-              "power_w": 192.0,
+              "power_w": 191.2,
               "hr": 127.12
             },
             {
-              "power_w": 193.9,
+              "power_w": 193.2,
               "hr": 127.63
             },
             {
-              "power_w": 195.9,
+              "power_w": 195.2,
               "hr": 128.14
             },
             {
-              "power_w": 197.8,
+              "power_w": 197.1,
               "hr": 128.64
             },
             {
-              "power_w": 199.8,
+              "power_w": 199.1,
               "hr": 129.15
             },
             {
-              "power_w": 201.7,
+              "power_w": 201.1,
               "hr": 129.66
             },
             {
-              "power_w": 203.7,
+              "power_w": 203.0,
               "hr": 130.17
             },
             {
-              "power_w": 205.6,
+              "power_w": 205.0,
               "hr": 130.68
             },
             {
-              "power_w": 207.6,
+              "power_w": 207.0,
               "hr": 131.19
             },
             {
-              "power_w": 209.5,
+              "power_w": 209.0,
               "hr": 131.69
             },
             {
-              "power_w": 211.5,
+              "power_w": 210.9,
               "hr": 132.2
             },
             {
-              "power_w": 213.4,
+              "power_w": 212.9,
               "hr": 132.71
             },
             {
-              "power_w": 215.4,
+              "power_w": 214.9,
               "hr": 133.22
             },
             {
-              "power_w": 217.3,
+              "power_w": 216.8,
               "hr": 133.73
             },
             {
-              "power_w": 219.3,
+              "power_w": 218.8,
               "hr": 134.24
             },
             {
-              "power_w": 221.2,
+              "power_w": 220.8,
               "hr": 134.75
             },
             {
-              "power_w": 223.2,
+              "power_w": 222.7,
               "hr": 135.25
             },
             {
-              "power_w": 225.1,
+              "power_w": 224.7,
               "hr": 135.76
             },
             {
-              "power_w": 227.1,
+              "power_w": 226.7,
               "hr": 136.27
             },
             {
-              "power_w": 229.0,
+              "power_w": 228.6,
               "hr": 136.78
             },
             {
-              "power_w": 231.0,
+              "power_w": 230.6,
               "hr": 137.29
             },
             {
-              "power_w": 232.9,
+              "power_w": 232.6,
               "hr": 137.8
             },
             {
-              "power_w": 234.9,
+              "power_w": 234.5,
               "hr": 138.31
             },
             {
-              "power_w": 236.8,
+              "power_w": 236.5,
               "hr": 138.81
             },
             {
-              "power_w": 238.8,
+              "power_w": 238.5,
               "hr": 139.32
             },
             {
-              "power_w": 240.7,
+              "power_w": 240.5,
               "hr": 139.83
             },
             {
-              "power_w": 242.7,
+              "power_w": 242.4,
               "hr": 140.34
             },
             {
-              "power_w": 244.6,
+              "power_w": 244.4,
               "hr": 140.85
             },
             {
-              "power_w": 246.6,
+              "power_w": 246.4,
               "hr": 141.36
             },
             {
-              "power_w": 248.5,
+              "power_w": 248.3,
               "hr": 141.86
             },
             {
-              "power_w": 250.5,
+              "power_w": 250.3,
               "hr": 142.37
             },
             {
-              "power_w": 252.4,
+              "power_w": 252.3,
               "hr": 142.88
             },
             {
-              "power_w": 254.4,
+              "power_w": 254.2,
               "hr": 143.39
             },
             {
-              "power_w": 256.3,
+              "power_w": 256.2,
               "hr": 143.9
             },
             {
-              "power_w": 258.3,
+              "power_w": 258.2,
               "hr": 144.41
             },
             {
-              "power_w": 260.2,
+              "power_w": 260.1,
               "hr": 144.92
             },
             {
-              "power_w": 262.2,
+              "power_w": 262.1,
               "hr": 145.42
             },
             {
@@ -36660,7 +36977,7 @@
               "hr": 147.46
             },
             {
-              "power_w": 271.9,
+              "power_w": 272.0,
               "hr": 147.97
             },
             {
@@ -36668,21 +36985,21 @@
               "hr": 148.47
             },
             {
-              "power_w": 275.8,
+              "power_w": 275.9,
               "hr": 148.98
             },
             {
-              "power_w": 277.8,
+              "power_w": 277.9,
               "hr": 149.49
             },
             {
-              "power_w": 279.7,
+              "power_w": 279.8,
               "hr": 150.0
             }
           ]
         },
         "recent_points": [],
-        "n_windows": 4186
+        "n_windows": 4222
       },
       "outdoor_2026": {
         "bucket_stats": {
@@ -37102,7 +37419,7 @@
       "vt1": 116,
       "threshold": 156
     },
-    "last_updated": "2026-05-11 23:58"
+    "last_updated": "2026-05-12 23:59"
   },
   "cycling_curve": {
     "series": {
@@ -40380,9 +40697,12 @@
       "2026-05-09_14_41_14_cycling_i146754214.fit",
       "2026-05-11_07_52_09_cycling_i147139289.fit",
       "2026-05-11_10_24_03_cycling_i147158651.fit",
-      "2026-05-11_17_09_00_cycling_i147266348.fit"
+      "2026-05-11_17_09_00_cycling_i147266348.fit",
+      "2026-05-12_11_33_25_cycling_i147460802.fit",
+      "2026-05-12_14_35_19_cycling_i147513039.fit",
+      "2026-05-12_17_32_13_cycling_i147582591.fit"
     ],
-    "last_updated": "2026-05-11 23:58"
+    "last_updated": "2026-05-12 23:59"
   },
   "running_bests": {
     "series": {
@@ -40549,7 +40869,7 @@
           "peak_hr_bpm": 157.0,
           "peak_hrr_pct": 87.7
         },
-        "total_distance_km": 1244.1
+        "total_distance_km": 1249.3
       },
       "recent": {
         "best_times": {
@@ -40590,7 +40910,7 @@
           "peak_hr_bpm": 157.0,
           "peak_hrr_pct": 87.7
         },
-        "total_distance_km": 922.3
+        "total_distance_km": 927.5
       },
       "year_2023": {
         "best_times": {
@@ -41718,8 +42038,9 @@
       "2026-05-06_10_08_31_running_i145845190.fit",
       "2026-05-07_12_19_23_running_i146148456.fit",
       "2026-05-08_12_07_18_running_i146436632.fit",
-      "2026-05-09_09_07_10_running_i146648494.fit"
+      "2026-05-09_09_07_10_running_i146648494.fit",
+      "2026-05-12_09_11_57_running_i147433967.fit"
     ],
-    "last_updated": "2026-05-11 23:58"
+    "last_updated": "2026-05-12 23:59"
   }
 }
