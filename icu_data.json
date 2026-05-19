@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-17 23:57",
+  "generated": "2026-05-19 00:05",
   "athlete_id": "i128043",
   "wellness": [
     {
@@ -9865,6 +9865,22 @@
       "rampRate": 0.7837639,
       "ctlLoad": 63.0,
       "atlLoad": 63.0
+    },
+    {
+      "id": "2026-05-18",
+      "ctl": 52.017376,
+      "atl": 48.14889,
+      "rampRate": 0.57709503,
+      "ctlLoad": 14.0,
+      "atlLoad": 14.0
+    },
+    {
+      "id": "2026-05-19",
+      "ctl": 50.793495,
+      "atl": 41.73921,
+      "rampRate": -1.1305199,
+      "ctlLoad": 0.0,
+      "atlLoad": 0.0
     }
   ],
   "power_hr_curves": {
@@ -10747,7 +10763,7 @@
     "2026": {
       "athleteId": "i128043",
       "start": "2026-01-01",
-      "end": "2026-05-17",
+      "end": "2026-05-19",
       "minWatts": 0,
       "maxWatts": 495,
       "bucketSize": 5,
@@ -11060,14 +11076,14 @@
     },
     "recent": {
       "athleteId": "i128043",
-      "start": "2026-04-05",
-      "end": "2026-05-17",
+      "start": "2026-04-07",
+      "end": "2026-05-19",
       "minWatts": 5,
       "maxWatts": 370,
       "bucketSize": 5,
       "bpm": [
         98,
-        98,
+        0,
         104,
         70,
         69,
@@ -11076,7 +11092,7 @@
         76,
         77,
         77,
-        87,
+        86,
         88,
         85,
         93,
@@ -11096,10 +11112,10 @@
         104,
         107,
         109,
-        114,
+        115,
         116,
-        116,
-        120,
+        117,
+        121,
         120,
         121,
         122,
@@ -11142,7 +11158,7 @@
       ],
       "cadence": [
         34,
-        28,
+        0,
         57,
         42,
         54,
@@ -11151,7 +11167,7 @@
         59,
         62,
         64,
-        62,
+        63,
         62,
         64,
         66,
@@ -11172,11 +11188,11 @@
         73,
         73,
         77,
-        75,
+        74,
         76,
         76,
         75,
-        75,
+        74,
         77,
         78,
         78,
@@ -11217,7 +11233,7 @@
       ],
       "minutes": [
         3,
-        1,
+        0,
         2,
         6,
         31,
@@ -11226,33 +11242,33 @@
         36,
         30,
         18,
-        17,
+        16,
         23,
         30,
         28,
         17,
         35,
-        64,
-        46,
+        63,
+        45,
         65,
         64,
         70,
-        75,
+        74,
         54,
         59,
         52,
         56,
         46,
         74,
-        93,
-        81,
-        75,
-        82,
-        69,
-        71,
-        71,
-        54,
-        46,
+        92,
+        80,
+        74,
+        80,
+        63,
+        55,
+        53,
+        43,
+        45,
         50,
         27,
         33,
@@ -18768,7 +18784,7 @@
     "indoor_2026": {
       "list": [
         {
-          "id": "r.2026-01-01.2026-05-17-f1",
+          "id": "r.2026-01-01.2026-05-19-f1",
           "after_kj": 0,
           "filters": [
             {
@@ -18779,11 +18795,11 @@
               "not": false
             }
           ],
-          "label": "1-Jan 17-May-2026",
+          "label": "1-Jan 19-May-2026",
           "filter_label": "Indoor / Outdoor is indoor",
           "start_date_local": "2026-01-01",
-          "end_date_local": "2026-05-17T23:59:59",
-          "days": 137,
+          "end_date_local": "2026-05-19T23:59:59",
+          "days": 139,
           "moving_time": 0,
           "training_load": 0,
           "weight": 65.8,
@@ -19950,7 +19966,7 @@
     "outdoor_2026": {
       "list": [
         {
-          "id": "r.2026-01-01.2026-05-17-f1",
+          "id": "r.2026-01-01.2026-05-19-f1",
           "after_kj": 0,
           "filters": [
             {
@@ -19961,11 +19977,11 @@
               "not": false
             }
           ],
-          "label": "1-Jan 17-May-2026",
+          "label": "1-Jan 19-May-2026",
           "filter_label": "Indoor / Outdoor is outdoor",
           "start_date_local": "2026-01-01",
-          "end_date_local": "2026-05-17T23:59:59",
-          "days": 137,
+          "end_date_local": "2026-05-19T23:59:59",
+          "days": 139,
           "moving_time": 0,
           "training_load": 0,
           "weight": 65.8,
@@ -21213,7 +21229,7 @@
     "indoor_recent": {
       "list": [
         {
-          "id": "r.2026-04-05.2026-05-17-f1",
+          "id": "r.2026-04-07.2026-05-19-f1",
           "after_kj": 0,
           "filters": [
             {
@@ -21224,10 +21240,10 @@
               "not": false
             }
           ],
-          "label": "5-Apr 17-May-2026",
+          "label": "7-Apr 19-May-2026",
           "filter_label": "Indoor / Outdoor is indoor",
-          "start_date_local": "2026-04-05",
-          "end_date_local": "2026-05-17T23:59:59",
+          "start_date_local": "2026-04-07",
+          "end_date_local": "2026-05-19T23:59:59",
           "days": 43,
           "moving_time": 0,
           "training_load": 0,
@@ -22219,6 +22235,16 @@
           "start_date_local": "2026-04-13T10:04:27",
           "race": false
         },
+        "i138665013": {
+          "id": "i138665013",
+          "name": "MyWhoosh - Hudayriyat Octopus Loop",
+          "distance": 29933.03,
+          "moving_time": 3682,
+          "training_load": 34,
+          "icu_weight": 68.199,
+          "start_date_local": "2026-04-10T13:53:04",
+          "race": false
+        },
         "i139689332": {
           "id": "i139689332",
           "name": "Indoor Cycling",
@@ -22227,6 +22253,16 @@
           "training_load": 2,
           "icu_weight": 68.199,
           "start_date_local": "2026-04-14T10:11:21",
+          "race": false
+        },
+        "i138077708": {
+          "id": "i138077708",
+          "name": "MyWhoosh - Al Wathba-S",
+          "distance": 31275.11,
+          "moving_time": 3829,
+          "training_load": 35,
+          "icu_weight": 68.199,
+          "start_date_local": "2026-04-08T12:31:46",
           "race": false
         },
         "i143403146": {
@@ -22247,16 +22283,6 @@
           "training_load": 13,
           "icu_weight": 68.199,
           "start_date_local": "2026-04-12T12:22:13",
-          "race": false
-        },
-        "i137609650": {
-          "id": "i137609650",
-          "name": "MyWhoosh - Hudayriyat Outer Loop",
-          "distance": 33086.13,
-          "moving_time": 3736,
-          "training_load": 47,
-          "icu_weight": 68.199,
-          "start_date_local": "2026-04-06T14:15:47",
           "race": false
         },
         "i147460802": {
@@ -22329,6 +22355,16 @@
           "start_date_local": "2026-05-07T18:27:03",
           "race": false
         },
+        "i144278969": {
+          "id": "i144278969",
+          "name": "MyWhoosh - Al Qudra",
+          "distance": 28149.58,
+          "moving_time": 3617,
+          "training_load": 30,
+          "icu_weight": 68.199,
+          "start_date_local": "2026-04-30T12:16:45",
+          "race": false
+        },
         "i145294027": {
           "id": "i145294027",
           "name": "Indoor Cycling",
@@ -22344,7 +22380,7 @@
     "outdoor_recent": {
       "list": [
         {
-          "id": "r.2026-04-05.2026-05-17-f1",
+          "id": "r.2026-04-07.2026-05-19-f1",
           "after_kj": 0,
           "filters": [
             {
@@ -22355,10 +22391,10 @@
               "not": false
             }
           ],
-          "label": "5-Apr 17-May-2026",
+          "label": "7-Apr 19-May-2026",
           "filter_label": "Indoor / Outdoor is outdoor",
-          "start_date_local": "2026-04-05",
-          "end_date_local": "2026-05-17T23:59:59",
+          "start_date_local": "2026-04-07",
+          "end_date_local": "2026-05-19T23:59:59",
           "days": 43,
           "moving_time": 0,
           "training_load": 0,
@@ -23516,6 +23552,40 @@
     }
   },
   "activities": [
+    {
+      "id": "i149424848",
+      "start_date_local": "2026-05-18T17:17:40",
+      "type": "Ride",
+      "icu_training_load": 6,
+      "icu_atl": 48.14889,
+      "icu_ctl": 52.017376,
+      "name": "Munich Cycling",
+      "distance": 7512.05,
+      "moving_time": 1517,
+      "total_elevation_gain": 10.0,
+      "max_heartrate": 108,
+      "average_heartrate": 86,
+      "calories": 139,
+      "trimp": 9.586925,
+      "icu_intensity": 36.753834
+    },
+    {
+      "id": "i149283207",
+      "start_date_local": "2026-05-18T08:16:29",
+      "type": "Ride",
+      "icu_training_load": 8,
+      "icu_atl": 48.14889,
+      "icu_ctl": 52.017376,
+      "name": "Munich Cycling",
+      "distance": 7568.97,
+      "moving_time": 1705,
+      "total_elevation_gain": 11.0,
+      "max_heartrate": 111,
+      "average_heartrate": 90,
+      "calories": 177,
+      "trimp": 12.557536,
+      "icu_intensity": 39.69247
+    },
     {
       "id": "i149045928",
       "start_date_local": "2026-05-17T13:04:43",
