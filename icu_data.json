@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-20 00:05",
+  "generated": "2026-05-21 00:07",
   "athlete_id": "i128043",
   "wellness": [
     {
@@ -9884,9 +9884,17 @@
     },
     {
       "id": "2026-05-20",
-      "ctl": 50.540375,
-      "atl": 40.914223,
-      "rampRate": -1.032505,
+      "ctl": 51.622677,
+      "atl": 47.03784,
+      "rampRate": 0.049797058,
+      "ctlLoad": 46.0,
+      "atlLoad": 46.0
+    },
+    {
+      "id": "2026-05-21",
+      "ctl": 50.40808,
+      "atl": 40.776066,
+      "rampRate": -1.9277534,
       "ctlLoad": 0.0,
       "atlLoad": 0.0
     }
@@ -10771,7 +10779,7 @@
     "2026": {
       "athleteId": "i128043",
       "start": "2026-01-01",
-      "end": "2026-05-20",
+      "end": "2026-05-21",
       "minWatts": 0,
       "maxWatts": 495,
       "bucketSize": 5,
@@ -11021,18 +11029,18 @@
         175,
         145,
         115,
-        142,
+        143,
         114,
-        142,
-        154,
-        195,
-        211,
-        239,
-        279,
-        361,
-        384,
-        424,
-        400,
+        143,
+        156,
+        197,
+        223,
+        243,
+        285,
+        365,
+        392,
+        428,
+        401,
         361,
         336,
         281,
@@ -11080,12 +11088,12 @@
       ],
       "lthr": 157,
       "max_hr": 173,
-      "ftp": 324
+      "ftp": 325
     },
     "recent": {
       "athleteId": "i128043",
-      "start": "2026-04-08",
-      "end": "2026-05-20",
+      "start": "2026-04-09",
+      "end": "2026-05-21",
       "minWatts": 5,
       "maxWatts": 370,
       "bucketSize": 5,
@@ -11104,8 +11112,8 @@
         88,
         85,
         93,
+        92,
         91,
-        90,
         92,
         90,
         89,
@@ -11114,7 +11122,7 @@
         94,
         96,
         100,
-        102,
+        103,
         105,
         103,
         104,
@@ -11132,16 +11140,16 @@
         122,
         124,
         126,
-        127,
+        126,
         128,
         127,
         118,
-        121,
+        120,
         114,
         116,
-        117,
+        116,
         118,
-        123,
+        121,
         123,
         123,
         125,
@@ -11179,7 +11187,7 @@
         62,
         64,
         66,
-        66,
+        65,
         62,
         64,
         63,
@@ -11187,17 +11195,17 @@
         63,
         64,
         67,
-        67,
+        66,
         68,
         70,
-        70,
+        69,
         70,
         71,
-        73,
-        73,
+        72,
+        72,
         77,
         74,
-        76,
+        75,
         76,
         75,
         74,
@@ -11213,11 +11221,11 @@
         84,
         84,
         85,
-        86,
+        85,
         85,
         86,
         86,
-        87,
+        86,
         87,
         86,
         84,
@@ -11251,29 +11259,29 @@
         30,
         18,
         16,
-        23,
+        22,
         30,
-        28,
-        17,
-        35,
+        27,
+        16,
+        34,
         63,
         45,
-        65,
+        63,
         64,
         70,
         74,
-        56,
+        53,
         60,
+        50,
         52,
-        57,
-        46,
-        75,
-        92,
-        80,
-        76,
-        80,
-        65,
-        56,
+        44,
+        72,
+        81,
+        71,
+        67,
+        74,
+        60,
+        55,
         53,
         43,
         46,
@@ -11282,18 +11290,18 @@
         34,
         51,
         17,
-        20,
-        24,
-        33,
-        24,
-        23,
-        30,
-        22,
-        19,
-        29,
-        26,
-        36,
         21,
+        24,
+        34,
+        26,
+        25,
+        42,
+        26,
+        25,
+        33,
+        34,
+        40,
+        22,
         16,
         16,
         12,
@@ -11316,7 +11324,7 @@
       ],
       "lthr": 157,
       "max_hr": 173,
-      "ftp": 293
+      "ftp": 295
     }
   },
   "mmp_curves": {
@@ -18792,7 +18800,7 @@
     "indoor_2026": {
       "list": [
         {
-          "id": "r.2026-01-01.2026-05-20-f1",
+          "id": "r.2026-01-01.2026-05-21-f1",
           "after_kj": 0,
           "filters": [
             {
@@ -18803,11 +18811,11 @@
               "not": false
             }
           ],
-          "label": "1-Jan 20-May-2026",
+          "label": "1-Jan 21-May-2026",
           "filter_label": "Indoor / Outdoor is indoor",
           "start_date_local": "2026-01-01",
-          "end_date_local": "2026-05-20T23:59:59",
-          "days": 140,
+          "end_date_local": "2026-05-21T23:59:59",
+          "days": 141,
           "moving_time": 0,
           "training_load": 0,
           "weight": 65.8,
@@ -19974,7 +19982,7 @@
     "outdoor_2026": {
       "list": [
         {
-          "id": "r.2026-01-01.2026-05-20-f1",
+          "id": "r.2026-01-01.2026-05-21-f1",
           "after_kj": 0,
           "filters": [
             {
@@ -19985,11 +19993,11 @@
               "not": false
             }
           ],
-          "label": "1-Jan 20-May-2026",
+          "label": "1-Jan 21-May-2026",
           "filter_label": "Indoor / Outdoor is outdoor",
           "start_date_local": "2026-01-01",
-          "end_date_local": "2026-05-20T23:59:59",
-          "days": 140,
+          "end_date_local": "2026-05-21T23:59:59",
+          "days": 141,
           "moving_time": 0,
           "training_load": 0,
           "weight": 65.8,
@@ -21237,7 +21245,7 @@
     "indoor_recent": {
       "list": [
         {
-          "id": "r.2026-04-08.2026-05-20-f1",
+          "id": "r.2026-04-09.2026-05-21-f1",
           "after_kj": 0,
           "filters": [
             {
@@ -21248,10 +21256,10 @@
               "not": false
             }
           ],
-          "label": "8-Apr 20-May-2026",
+          "label": "9-Apr 21-May-2026",
           "filter_label": "Indoor / Outdoor is indoor",
-          "start_date_local": "2026-04-08",
-          "end_date_local": "2026-05-20T23:59:59",
+          "start_date_local": "2026-04-09",
+          "end_date_local": "2026-05-21T23:59:59",
           "days": 43,
           "moving_time": 0,
           "training_load": 0,
@@ -22263,14 +22271,14 @@
           "start_date_local": "2026-04-14T10:11:21",
           "race": false
         },
-        "i138077708": {
-          "id": "i138077708",
-          "name": "MyWhoosh - Al Wathba-S",
-          "distance": 31275.11,
-          "moving_time": 3829,
-          "training_load": 35,
+        "i143767732": {
+          "id": "i143767732",
+          "name": "MyWhoosh - Amazonia",
+          "distance": 17445.09,
+          "moving_time": 2259,
+          "training_load": 20,
           "icu_weight": 68.199,
-          "start_date_local": "2026-04-08T12:31:46",
+          "start_date_local": "2026-04-28T18:32:29",
           "race": false
         },
         "i143403146": {
@@ -22301,6 +22309,16 @@
           "training_load": 33,
           "icu_weight": 65.8,
           "start_date_local": "2026-05-12T11:33:25",
+          "race": false
+        },
+        "i143433466": {
+          "id": "i143433466",
+          "name": "MyWhoosh - Anaerobic Capacity into Sweetspot #1",
+          "distance": 9106.03,
+          "moving_time": 1449,
+          "training_load": 18,
+          "icu_weight": 68.199,
+          "start_date_local": "2026-04-27T15:42:54",
           "race": false
         },
         "i141143775": {
@@ -22341,6 +22359,16 @@
           "training_load": 21,
           "icu_weight": 68.199,
           "start_date_local": "2026-05-05T09:07:07",
+          "race": false
+        },
+        "i139068098": {
+          "id": "i139068098",
+          "name": "MyWhoosh - Aus Outerloop",
+          "distance": 3624.57,
+          "moving_time": 399,
+          "training_load": 2,
+          "icu_weight": 68.199,
+          "start_date_local": "2026-04-12T10:11:49",
           "race": false
         },
         "i139381770": {
@@ -22388,7 +22416,7 @@
     "outdoor_recent": {
       "list": [
         {
-          "id": "r.2026-04-08.2026-05-20-f1",
+          "id": "r.2026-04-09.2026-05-21-f1",
           "after_kj": 0,
           "filters": [
             {
@@ -22399,10 +22427,10 @@
               "not": false
             }
           ],
-          "label": "8-Apr 20-May-2026",
+          "label": "9-Apr 21-May-2026",
           "filter_label": "Indoor / Outdoor is outdoor",
-          "start_date_local": "2026-04-08",
-          "end_date_local": "2026-05-20T23:59:59",
+          "start_date_local": "2026-04-09",
+          "end_date_local": "2026-05-21T23:59:59",
           "days": 43,
           "moving_time": 0,
           "training_load": 0,
@@ -23560,6 +23588,59 @@
     }
   },
   "activities": [
+    {
+      "id": "i150064011",
+      "start_date_local": "2026-05-20T18:03:24",
+      "type": "Run",
+      "icu_training_load": 29,
+      "icu_atl": 47.03784,
+      "icu_ctl": 51.622677,
+      "icu_weighted_avg_watts": 252,
+      "name": "Munich Running",
+      "distance": 7344.69,
+      "moving_time": 2710,
+      "total_elevation_gain": 17.310425,
+      "max_heartrate": 128,
+      "average_heartrate": 115,
+      "average_cadence": 84.52715,
+      "calories": 467,
+      "trimp": 44.573578,
+      "icu_intensity": 61.764706
+    },
+    {
+      "id": "i149999650",
+      "start_date_local": "2026-05-20T13:49:38",
+      "type": "Ride",
+      "icu_training_load": 8,
+      "icu_atl": 47.03784,
+      "icu_ctl": 51.622677,
+      "name": "Munich Cycling",
+      "distance": 7465.94,
+      "moving_time": 1475,
+      "total_elevation_gain": 9.0,
+      "max_heartrate": 109,
+      "average_heartrate": 95,
+      "calories": 171,
+      "trimp": 12.733066,
+      "icu_intensity": 42.816204
+    },
+    {
+      "id": "i149907140",
+      "start_date_local": "2026-05-20T07:19:20",
+      "type": "Ride",
+      "icu_training_load": 9,
+      "icu_atl": 47.03784,
+      "icu_ctl": 51.622677,
+      "name": "Munich Cycling",
+      "distance": 7407.81,
+      "moving_time": 1466,
+      "total_elevation_gain": 6.0,
+      "max_heartrate": 117,
+      "average_heartrate": 100,
+      "calories": 185,
+      "trimp": 15.041847,
+      "icu_intensity": 45.97285
+    },
     {
       "id": "i149751327",
       "start_date_local": "2026-05-19T17:47:18",
