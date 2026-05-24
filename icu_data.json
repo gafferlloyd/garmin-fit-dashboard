@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-23 23:57",
+  "generated": "2026-05-24 23:59",
   "athlete_id": "i128043",
   "wellness": [
     {
@@ -9913,6 +9913,14 @@
       "rampRate": 1.2342072,
       "ctlLoad": 30.0,
       "atlLoad": 30.0
+    },
+    {
+      "id": "2026-05-24",
+      "ctl": 53.973885,
+      "atl": 58.710438,
+      "rampRate": 1.0404701,
+      "ctlLoad": 56.0,
+      "atlLoad": 56.0
     }
   ],
   "power_hr_curves": {
@@ -10795,7 +10803,7 @@
     "2026": {
       "athleteId": "i128043",
       "start": "2026-01-01",
-      "end": "2026-05-23",
+      "end": "2026-05-24",
       "minWatts": 0,
       "maxWatts": 495,
       "bucketSize": 5,
@@ -10824,7 +10832,7 @@
         91,
         94,
         97,
-        100,
+        101,
         104,
         104,
         104,
@@ -10856,7 +10864,7 @@
         114,
         114,
         114,
-        116,
+        117,
         118,
         118,
         120,
@@ -10866,9 +10874,9 @@
         123,
         123,
         127,
-        124,
+        125,
         130,
-        132,
+        133,
         133,
         132,
         132,
@@ -11025,52 +11033,52 @@
         97,
         114,
         114,
-        98,
-        122,
+        100,
+        124,
         119,
-        120,
+        121,
         133,
         161,
         185,
         172,
-        184,
+        186,
         198,
-        200,
-        189,
+        202,
+        190,
         192,
         194,
-        220,
-        177,
+        222,
+        181,
         145,
         177,
-        148,
+        149,
         120,
         144,
-        117,
-        143,
-        161,
-        206,
-        227,
-        245,
-        288,
-        372,
-        399,
+        118,
+        148,
+        162,
+        208,
+        230,
+        248,
+        292,
+        381,
+        404,
         436,
         407,
-        368,
-        344,
+        369,
+        348,
         284,
-        239,
-        182,
-        140,
+        240,
+        184,
+        142,
         113,
         99,
         69,
-        49,
+        50,
         43,
-        53,
+        54,
         43,
-        49,
+        51,
         42,
         49,
         42,
@@ -11108,8 +11116,8 @@
     },
     "recent": {
       "athleteId": "i128043",
-      "start": "2026-04-11",
-      "end": "2026-05-23",
+      "start": "2026-04-12",
+      "end": "2026-05-24",
       "minWatts": 5,
       "maxWatts": 370,
       "bucketSize": 5,
@@ -11131,15 +11139,15 @@
         91,
         92,
         92,
-        90,
-        89,
         91,
         91,
-        94,
-        98,
+        93,
+        95,
+        99,
+        100,
         101,
         104,
-        105,
+        106,
         104,
         105,
         107,
@@ -11158,13 +11166,13 @@
         126,
         126,
         128,
-        127,
-        121,
+        129,
+        120,
         121,
         114,
-        116,
-        118,
-        120,
+        117,
+        119,
+        121,
         121,
         124,
         124,
@@ -11172,14 +11180,14 @@
         132,
         131,
         132,
-        132,
-        148,
+        131,
+        142,
         0,
         0,
         137,
+        140,
         0,
-        0,
-        0,
+        143,
         0,
         143,
         141,
@@ -11205,16 +11213,16 @@
         62,
         63,
         62,
+        64,
         63,
-        62,
-        62,
         63,
         64,
+        65,
+        68,
         67,
-        66,
         67,
         70,
-        70,
+        69,
         69,
         71,
         71,
@@ -11226,7 +11234,7 @@
         75,
         74,
         77,
-        77,
+        76,
         77,
         78,
         79,
@@ -11235,7 +11243,7 @@
         78,
         81,
         82,
-        83,
+        82,
         85,
         85,
         84,
@@ -11246,15 +11254,15 @@
         86,
         84,
         85,
-        83,
-        88,
-        73,
+        84,
+        87,
+        77,
         0,
         0,
         86,
+        85,
         0,
-        0,
-        0,
+        86,
         0,
         87,
         86,
@@ -11280,58 +11288,58 @@
         31,
         18,
         37,
-        64,
-        43,
+        63,
+        39,
+        57,
+        59,
         65,
-        69,
-        79,
-        76,
         61,
-        67,
         58,
-        56,
+        69,
+        58,
+        57,
         49,
         79,
         81,
         74,
-        60,
+        62,
         78,
-        78,
-        70,
+        80,
+        71,
         66,
         60,
-        56,
-        69,
+        58,
+        73,
         34,
         36,
-        54,
+        55,
         22,
         22,
-        27,
-        34,
+        28,
+        39,
+        32,
+        36,
+        49,
         31,
-        34,
+        32,
+        49,
         46,
-        28,
-        28,
-        40,
-        41,
         48,
         28,
-        23,
         24,
+        28,
         15,
-        10,
-        4,
-        3,
+        11,
+        6,
+        5,
         0,
         0,
         1,
+        1,
         0,
+        1,
         0,
-        0,
-        0,
-        4,
+        6,
         3,
         1,
         0,
@@ -12494,23 +12502,25 @@
             },
             {
               "type": "FFT_CURVES",
-              "criticalPower": 234,
-              "wPrime": 15840,
+              "criticalPower": 219,
+              "wPrime": 19440,
               "pMax": 922,
               "inputPointIndexes": [
-                83
+                83,
+                105
               ],
-              "ftp": 239
+              "ftp": 224
             },
             {
               "type": "ECP",
-              "criticalPower": 234,
-              "wPrime": 17040,
+              "criticalPower": 219,
+              "wPrime": 20640,
               "pMax": 922,
               "inputPointIndexes": [
-                83
+                83,
+                105
               ],
-              "ftp": 234
+              "ftp": 219
             }
           ],
           "ranks": {},
@@ -13737,24 +13747,25 @@
           "powerModels": [
             {
               "type": "FFT_CURVES",
-              "criticalPower": 218,
-              "wPrime": 15840,
+              "criticalPower": 211,
+              "wPrime": 18900,
               "pMax": 569,
               "inputPointIndexes": [
-                90
+                93,
+                99
               ],
-              "ftp": 223
+              "ftp": 215
             },
             {
               "type": "ECP",
-              "criticalPower": 218,
-              "wPrime": 17640,
+              "criticalPower": 211,
+              "wPrime": 20580,
               "pMax": 569,
               "inputPointIndexes": [
-                91,
-                90
+                93,
+                99
               ],
-              "ftp": 218
+              "ftp": 211
             }
           ],
           "ranks": {},
@@ -15279,7 +15290,7 @@
               "pMax": 867,
               "inputPointIndexes": [
                 98,
-                85
+                103
               ],
               "ftp": 230
             },
@@ -15290,7 +15301,7 @@
               "pMax": 867,
               "inputPointIndexes": [
                 98,
-                85
+                103
               ],
               "ftp": 225
             }
@@ -16620,25 +16631,24 @@
             },
             {
               "type": "FFT_CURVES",
-              "criticalPower": 236,
-              "wPrime": 16500,
+              "criticalPower": 235,
+              "wPrime": 16830,
               "pMax": 721,
               "inputPointIndexes": [
-                89,
-                86
+                90,
+                108
               ],
-              "ftp": 241
+              "ftp": 240
             },
             {
               "type": "ECP",
-              "criticalPower": 236,
-              "wPrime": 19380,
+              "criticalPower": 235,
+              "wPrime": 20520,
               "pMax": 721,
               "inputPointIndexes": [
-                108,
-                86
+                108
               ],
-              "ftp": 236
+              "ftp": 235
             }
           ],
           "ranks": {},
@@ -18334,25 +18344,25 @@
             },
             {
               "type": "FFT_CURVES",
-              "criticalPower": 291,
-              "wPrime": 19800,
+              "criticalPower": 257,
+              "wPrime": 27500,
               "pMax": 900,
               "inputPointIndexes": [
                 81,
-                80
+                99
               ],
-              "ftp": 297
+              "ftp": 262
             },
             {
               "type": "ECP",
-              "criticalPower": 291,
-              "wPrime": 21120,
+              "criticalPower": 257,
+              "wPrime": 28600,
               "pMax": 900,
               "inputPointIndexes": [
                 81,
-                80
+                99
               ],
-              "ftp": 291
+              "ftp": 257
             }
           ],
           "ranks": {},
@@ -18816,7 +18826,7 @@
     "indoor_2026": {
       "list": [
         {
-          "id": "r.2026-01-01.2026-05-23-f1",
+          "id": "r.2026-01-01.2026-05-24-f1",
           "after_kj": 0,
           "filters": [
             {
@@ -18827,11 +18837,11 @@
               "not": false
             }
           ],
-          "label": "1-Jan 23-May-2026",
+          "label": "1-Jan 24-May-2026",
           "filter_label": "Indoor / Outdoor is indoor",
           "start_date_local": "2026-01-01",
-          "end_date_local": "2026-05-23T23:59:59",
-          "days": 143,
+          "end_date_local": "2026-05-24T23:59:59",
+          "days": 144,
           "moving_time": 0,
           "training_load": 0,
           "weight": 65.8,
@@ -19640,25 +19650,24 @@
             },
             {
               "type": "FFT_CURVES",
-              "criticalPower": 246,
-              "wPrime": 16320,
+              "criticalPower": 243,
+              "wPrime": 17850,
               "pMax": 842,
               "inputPointIndexes": [
                 96,
-                81
+                102
               ],
-              "ftp": 251
+              "ftp": 248
             },
             {
               "type": "ECP",
-              "criticalPower": 246,
-              "wPrime": 18900,
+              "criticalPower": 243,
+              "wPrime": 21060,
               "pMax": 842,
               "inputPointIndexes": [
-                97,
-                81
+                102
               ],
-              "ftp": 246
+              "ftp": 243
             }
           ],
           "ranks": {},
@@ -19998,7 +20007,7 @@
     "outdoor_2026": {
       "list": [
         {
-          "id": "r.2026-01-01.2026-05-23-f1",
+          "id": "r.2026-01-01.2026-05-24-f1",
           "after_kj": 0,
           "filters": [
             {
@@ -20009,11 +20018,11 @@
               "not": false
             }
           ],
-          "label": "1-Jan 23-May-2026",
+          "label": "1-Jan 24-May-2026",
           "filter_label": "Indoor / Outdoor is outdoor",
           "start_date_local": "2026-01-01",
-          "end_date_local": "2026-05-23T23:59:59",
-          "days": 143,
+          "end_date_local": "2026-05-24T23:59:59",
+          "days": 144,
           "moving_time": 0,
           "training_load": 0,
           "weight": 65.8,
@@ -20964,24 +20973,25 @@
             },
             {
               "type": "FFT_CURVES",
-              "criticalPower": 252,
-              "wPrime": 15800,
+              "criticalPower": 230,
+              "wPrime": 22440,
               "pMax": 772,
               "inputPointIndexes": [
-                79
+                90,
+                99
               ],
-              "ftp": 257
+              "ftp": 235
             },
             {
               "type": "ECP",
-              "criticalPower": 252,
-              "wPrime": 17100,
+              "criticalPower": 230,
+              "wPrime": 24120,
               "pMax": 772,
               "inputPointIndexes": [
-                89,
-                79
+                91,
+                99
               ],
-              "ftp": 252
+              "ftp": 230
             }
           ],
           "ranks": {},
@@ -21261,7 +21271,7 @@
     "indoor_recent": {
       "list": [
         {
-          "id": "r.2026-04-11.2026-05-23-f1",
+          "id": "r.2026-04-12.2026-05-24-f1",
           "after_kj": 0,
           "filters": [
             {
@@ -21272,10 +21282,10 @@
               "not": false
             }
           ],
-          "label": "11-Apr 23-May-2026",
+          "label": "12-Apr 24-May-2026",
           "filter_label": "Indoor / Outdoor is indoor",
-          "start_date_local": "2026-04-11",
-          "end_date_local": "2026-05-23T23:59:59",
+          "start_date_local": "2026-04-12",
+          "end_date_local": "2026-05-24T23:59:59",
           "days": 43,
           "moving_time": 0,
           "training_load": 0,
@@ -22076,23 +22086,25 @@
             },
             {
               "type": "FFT_CURVES",
-              "criticalPower": 222,
-              "wPrime": 16320,
-              "pMax": 691,
-              "inputPointIndexes": [
-                95
-              ],
-              "ftp": 227
-            },
-            {
-              "type": "ECP",
-              "criticalPower": 222,
+              "criticalPower": 217,
               "wPrime": 18720,
               "pMax": 691,
               "inputPointIndexes": [
-                95
+                95,
+                100
               ],
               "ftp": 222
+            },
+            {
+              "type": "ECP",
+              "criticalPower": 217,
+              "wPrime": 21120,
+              "pMax": 691,
+              "inputPointIndexes": [
+                95,
+                100
+              ],
+              "ftp": 217
             }
           ],
           "ranks": {},
@@ -22462,7 +22474,7 @@
     "outdoor_recent": {
       "list": [
         {
-          "id": "r.2026-04-11.2026-05-23-f1",
+          "id": "r.2026-04-12.2026-05-24-f1",
           "after_kj": 0,
           "filters": [
             {
@@ -22473,10 +22485,10 @@
               "not": false
             }
           ],
-          "label": "11-Apr 23-May-2026",
+          "label": "12-Apr 24-May-2026",
           "filter_label": "Indoor / Outdoor is outdoor",
-          "start_date_local": "2026-04-11",
-          "end_date_local": "2026-05-23T23:59:59",
+          "start_date_local": "2026-04-12",
+          "end_date_local": "2026-05-24T23:59:59",
           "days": 43,
           "moving_time": 0,
           "training_load": 0,
@@ -23642,6 +23654,45 @@
     }
   },
   "activities": [
+    {
+      "id": "i151150076",
+      "start_date_local": "2026-05-24T18:17:07",
+      "type": "VirtualRide",
+      "icu_training_load": 24,
+      "icu_atl": 58.710438,
+      "icu_ctl": 53.973885,
+      "icu_weighted_avg_watts": 202,
+      "name": "MyWhoosh - Anaerobic Capacity into Sweetspot #1",
+      "distance": 10180.64,
+      "moving_time": 1414,
+      "total_elevation_gain": 142.8,
+      "trainer": true,
+      "max_heartrate": 153,
+      "average_heartrate": 127,
+      "average_cadence": 71.31471,
+      "calories": 252,
+      "trimp": 33.05706,
+      "icu_intensity": 78.90625
+    },
+    {
+      "id": "i151031535",
+      "start_date_local": "2026-05-24T11:30:44",
+      "type": "Run",
+      "icu_training_load": 32,
+      "icu_atl": 58.710438,
+      "icu_ctl": 53.973885,
+      "icu_weighted_avg_watts": 273,
+      "name": "Munich Running",
+      "distance": 7327.79,
+      "moving_time": 2567,
+      "total_elevation_gain": 15.9782715,
+      "max_heartrate": 150,
+      "average_heartrate": 126,
+      "average_cadence": 84.44088,
+      "calories": 483,
+      "trimp": 58.397926,
+      "icu_intensity": 66.911766
+    },
     {
       "id": "i150748317",
       "start_date_local": "2026-05-23T10:05:58",
