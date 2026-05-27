@@ -1,16 +1,16 @@
 {
-  "generated": "2026-05-26 00:06",
+  "generated": "2026-05-27 00:04",
   "summary": {
-    "total_sessions": 2580,
+    "total_sessions": 2581,
     "cycling_sessions": 1321,
     "running_sessions": 969,
-    "current_ctl": 55.6,
-    "current_atl": 64.7,
-    "current_tsb": -9.1,
-    "ramp_rate": 3.8,
+    "current_ctl": 55.0,
+    "current_atl": 59.6,
+    "current_tsb": -4.7,
+    "ramp_rate": 3.34,
     "date_range": {
       "from": "2023-01-01",
-      "to": "2026-05-25"
+      "to": "2026-05-26"
     },
     "calories": {
       "by_year": {
@@ -9953,10 +9953,18 @@
     },
     {
       "date": "2026-05-26",
-      "ctl": 55.6,
-      "atl": 64.7,
-      "tsb": -9.1,
-      "rampRate": 3.8,
+      "ctl": 56.3,
+      "atl": 68.8,
+      "tsb": -12.5,
+      "rampRate": 4.52,
+      "load": 31.0
+    },
+    {
+      "date": "2026-05-27",
+      "ctl": 55.0,
+      "atl": 59.6,
+      "tsb": -4.7,
+      "rampRate": 3.34,
       "load": 0.0
     }
   ],
@@ -17350,14 +17358,19 @@
       "date": "2026-05-25",
       "stss": 123.7,
       "type": "Ride"
+    },
+    {
+      "date": "2026-05-26",
+      "stss": 30.8,
+      "type": "Run"
     }
   ],
   "icu_summary": {
-    "ctl": 55.6,
-    "atl": 64.7,
-    "tsb": -9.1,
-    "rampRate": 3.8,
-    "as_of": "2026-05-26"
+    "ctl": 55.0,
+    "atl": 59.6,
+    "tsb": -4.7,
+    "rampRate": 3.34,
+    "as_of": "2026-05-27"
   },
   "cei_series": [
     {
@@ -19891,6 +19904,31 @@
   ],
   "recent_sessions": [
     {
+      "date": "2026-05-26",
+      "type": "Run",
+      "is_indoor": false,
+      "duration": "46m 35s",
+      "distance_km": 7.34,
+      "elevation_m": 22,
+      "avg_hr": 118,
+      "max_hr": 144,
+      "avg_hrr_pct": 57.7,
+      "avg_cadence": 82,
+      "avg_power_w": null,
+      "norm_power_w": null,
+      "tss": 30.8,
+      "if": 0.63,
+      "avg_speed_kph": 9.5,
+      "avg_pace": "6:20 /km",
+      "hr_zones": {
+        "Z1 Recovery": 37.7,
+        "Z2 Endurance": 55.0,
+        "Z3 Tempo": 7.3,
+        "Z4 Threshold": 0.0,
+        "Z5 VO2max": 0.0
+      }
+    },
+    {
       "date": "2026-05-25",
       "type": "Ride",
       "is_indoor": false,
@@ -20110,31 +20148,6 @@
       "hr_zones": {
         "Z1 Recovery": 10.5,
         "Z2 Endurance": 89.5,
-        "Z3 Tempo": 0.0,
-        "Z4 Threshold": 0.0,
-        "Z5 VO2max": 0.0
-      }
-    },
-    {
-      "date": "2026-05-22",
-      "type": "Ride",
-      "is_indoor": false,
-      "duration": "26m 59s",
-      "distance_km": 7.53,
-      "elevation_m": 13,
-      "avg_hr": 92,
-      "max_hr": 112,
-      "avg_hrr_pct": 37.7,
-      "avg_cadence": null,
-      "avg_power_w": null,
-      "norm_power_w": null,
-      "tss": null,
-      "if": null,
-      "avg_speed_kph": 16.7,
-      "avg_pace": null,
-      "hr_zones": {
-        "Z1 Recovery": 100.0,
-        "Z2 Endurance": 0.0,
         "Z3 Tempo": 0.0,
         "Z4 Threshold": 0.0,
         "Z5 VO2max": 0.0
@@ -21314,16 +21327,16 @@
           "25": {
             "pace_sec": 307.5,
             "pace_label": "5:07",
-            "avg_hr": 126.32,
-            "std_hr": 10.25,
-            "count": 81
+            "avg_hr": 126.33,
+            "std_hr": 10.19,
+            "count": 82
           },
           "23": {
             "pace_sec": 297.5,
             "pace_label": "4:57",
-            "avg_hr": 127.99,
-            "std_hr": 9.85,
-            "count": 83
+            "avg_hr": 128.25,
+            "std_hr": 9.88,
+            "count": 85
           },
           "24": {
             "pace_sec": 302.5,
@@ -21356,9 +21369,9 @@
           "19": {
             "pace_sec": 277.5,
             "pace_label": "4:37",
-            "avg_hr": 129.18,
-            "std_hr": 9.95,
-            "count": 90
+            "avg_hr": 129.29,
+            "std_hr": 9.94,
+            "count": 91
           },
           "16": {
             "pace_sec": 262.5,
@@ -21384,9 +21397,9 @@
           "35": {
             "pace_sec": 357.5,
             "pace_label": "5:57",
-            "avg_hr": 113.7,
-            "std_hr": 8.76,
-            "count": 564
+            "avg_hr": 113.74,
+            "std_hr": 8.78,
+            "count": 566
           },
           "32": {
             "pace_sec": 342.5,
@@ -21398,9 +21411,9 @@
           "33": {
             "pace_sec": 347.5,
             "pace_label": "5:47",
-            "avg_hr": 115.68,
-            "std_hr": 8.44,
-            "count": 520
+            "avg_hr": 115.73,
+            "std_hr": 8.48,
+            "count": 522
           },
           "42": {
             "pace_sec": 392.5,
@@ -21419,9 +21432,9 @@
           "40": {
             "pace_sec": 382.5,
             "pace_label": "6:22",
-            "avg_hr": 111.18,
+            "avg_hr": 111.2,
             "std_hr": 8.53,
-            "count": 399
+            "count": 400
           },
           "43": {
             "pace_sec": 397.5,
@@ -21433,23 +21446,23 @@
           "44": {
             "pace_sec": 402.5,
             "pace_label": "6:42",
-            "avg_hr": 106.72,
-            "std_hr": 9.29,
-            "count": 208
+            "avg_hr": 106.92,
+            "std_hr": 9.38,
+            "count": 211
           },
           "45": {
             "pace_sec": 407.5,
             "pace_label": "6:47",
-            "avg_hr": 105.09,
-            "std_hr": 8.13,
-            "count": 136
+            "avg_hr": 105.25,
+            "std_hr": 8.18,
+            "count": 138
           },
           "41": {
             "pace_sec": 387.5,
             "pace_label": "6:27",
-            "avg_hr": 109.81,
+            "avg_hr": 109.84,
             "std_hr": 8.26,
-            "count": 332
+            "count": 333
           },
           "9": {
             "pace_sec": 227.5,
@@ -21482,16 +21495,16 @@
           "29": {
             "pace_sec": 327.5,
             "pace_label": "5:27",
-            "avg_hr": 117.71,
-            "std_hr": 7.74,
-            "count": 327
+            "avg_hr": 117.77,
+            "std_hr": 7.8,
+            "count": 328
           },
           "36": {
             "pace_sec": 362.5,
             "pace_label": "6:02",
-            "avg_hr": 112.91,
-            "std_hr": 8.01,
-            "count": 514
+            "avg_hr": 112.97,
+            "std_hr": 8.05,
+            "count": 516
           },
           "13": {
             "pace_sec": 247.5,
@@ -21503,16 +21516,16 @@
           "38": {
             "pace_sec": 372.5,
             "pace_label": "6:12",
-            "avg_hr": 112.29,
+            "avg_hr": 112.31,
             "std_hr": 8.74,
-            "count": 562
+            "count": 563
           },
           "37": {
             "pace_sec": 367.5,
             "pace_label": "6:07",
-            "avg_hr": 112.24,
+            "avg_hr": 112.25,
             "std_hr": 8.26,
-            "count": 617
+            "count": 618
           },
           "12": {
             "pace_sec": 242.5,
@@ -21545,9 +21558,9 @@
           "46": {
             "pace_sec": 412.5,
             "pace_label": "6:52",
-            "avg_hr": 105.16,
-            "std_hr": 7.25,
-            "count": 78
+            "avg_hr": 105.52,
+            "std_hr": 7.35,
+            "count": 81
           },
           "18": {
             "pace_sec": 272.5,
@@ -21580,9 +21593,9 @@
         },
         "recent_points": [],
         "linear_fit": {
-          "slope": -0.2849,
-          "intercept": 211.93,
-          "r2": 0.9589,
+          "slope": -0.2845,
+          "intercept": 211.82,
+          "r2": 0.959,
           "plateau_pace_sec": 417.5,
           "fit_hr_range": [
             120.0,
@@ -21591,17 +21604,17 @@
           "fit_tier": "primary",
           "markers": {
             "50": {
-              "pace_sec": 364.7,
+              "pace_sec": 365.0,
               "pace_label": "6:04",
               "hr": 108.0
             },
             "60": {
-              "pace_sec": 319.1,
+              "pace_sec": 319.3,
               "pace_label": "5:19",
               "hr": 121.0
             },
             "70": {
-              "pace_sec": 273.5,
+              "pace_sec": 273.6,
               "pace_label": "4:33",
               "hr": 134.0
             },
@@ -21616,95 +21629,95 @@
               "hr": 160.0
             },
             "vt1": {
-              "pace_sec": 336.7,
+              "pace_sec": 336.8,
               "pace_label": "5:36",
               "hr": 116
             },
             "threshold": {
-              "pace_sec": 196.3,
+              "pace_sec": 196.2,
               "pace_label": "3:16",
               "hr": 156
             }
           },
           "regression_line": [
             {
-              "pace_sec": 322.6,
+              "pace_sec": 322.8,
               "hr": 120.0
             },
             {
-              "pace_sec": 320.5,
+              "pace_sec": 320.6,
               "hr": 120.61
             },
             {
-              "pace_sec": 318.3,
+              "pace_sec": 318.5,
               "hr": 121.22
             },
             {
-              "pace_sec": 316.2,
+              "pace_sec": 316.3,
               "hr": 121.84
             },
             {
-              "pace_sec": 314.0,
+              "pace_sec": 314.2,
               "hr": 122.45
             },
             {
-              "pace_sec": 311.9,
+              "pace_sec": 312.0,
               "hr": 123.06
             },
             {
-              "pace_sec": 309.7,
+              "pace_sec": 309.9,
               "hr": 123.67
             },
             {
-              "pace_sec": 307.6,
+              "pace_sec": 307.7,
               "hr": 124.29
             },
             {
-              "pace_sec": 305.4,
+              "pace_sec": 305.6,
               "hr": 124.9
             },
             {
-              "pace_sec": 303.3,
+              "pace_sec": 303.4,
               "hr": 125.51
             },
             {
-              "pace_sec": 301.1,
+              "pace_sec": 301.3,
               "hr": 126.12
             },
             {
-              "pace_sec": 299.0,
+              "pace_sec": 299.1,
               "hr": 126.73
             },
             {
-              "pace_sec": 296.8,
+              "pace_sec": 297.0,
               "hr": 127.35
             },
             {
-              "pace_sec": 294.7,
+              "pace_sec": 294.8,
               "hr": 127.96
             },
             {
-              "pace_sec": 292.5,
+              "pace_sec": 292.6,
               "hr": 128.57
             },
             {
-              "pace_sec": 290.4,
+              "pace_sec": 290.5,
               "hr": 129.18
             },
             {
-              "pace_sec": 288.2,
+              "pace_sec": 288.3,
               "hr": 129.8
             },
             {
-              "pace_sec": 286.1,
+              "pace_sec": 286.2,
               "hr": 130.41
             },
             {
-              "pace_sec": 283.9,
+              "pace_sec": 284.0,
               "hr": 131.02
             },
             {
-              "pace_sec": 281.8,
+              "pace_sec": 281.9,
               "hr": 131.63
             },
             {
@@ -21712,7 +21725,7 @@
               "hr": 132.24
             },
             {
-              "pace_sec": 277.5,
+              "pace_sec": 277.6,
               "hr": 132.86
             },
             {
@@ -21720,7 +21733,7 @@
               "hr": 133.47
             },
             {
-              "pace_sec": 273.2,
+              "pace_sec": 273.3,
               "hr": 134.08
             },
             {
@@ -21728,7 +21741,7 @@
               "hr": 134.69
             },
             {
-              "pace_sec": 268.9,
+              "pace_sec": 269.0,
               "hr": 135.31
             },
             {
@@ -21736,7 +21749,7 @@
               "hr": 135.92
             },
             {
-              "pace_sec": 264.6,
+              "pace_sec": 264.7,
               "hr": 136.53
             },
             {
@@ -21744,7 +21757,7 @@
               "hr": 137.14
             },
             {
-              "pace_sec": 260.3,
+              "pace_sec": 260.4,
               "hr": 137.76
             },
             {
@@ -21752,7 +21765,7 @@
               "hr": 138.37
             },
             {
-              "pace_sec": 256.0,
+              "pace_sec": 256.1,
               "hr": 138.98
             },
             {
@@ -21760,7 +21773,7 @@
               "hr": 139.59
             },
             {
-              "pace_sec": 251.7,
+              "pace_sec": 251.8,
               "hr": 140.2
             },
             {
@@ -21829,51 +21842,51 @@
             }
           ]
         },
-        "n_windows": 9572
+        "n_windows": 9595
       },
       "recent": {
         "bucket_stats": {
           "36": {
             "pace_sec": 362.5,
             "pace_label": "6:02",
-            "avg_hr": 113.07,
-            "std_hr": 8.37,
-            "count": 392
+            "avg_hr": 113.14,
+            "std_hr": 8.43,
+            "count": 394
           },
           "40": {
             "pace_sec": 382.5,
             "pace_label": "6:22",
-            "avg_hr": 111.21,
-            "std_hr": 8.58,
-            "count": 295
+            "avg_hr": 111.24,
+            "std_hr": 8.57,
+            "count": 296
           },
           "41": {
             "pace_sec": 387.5,
             "pace_label": "6:27",
-            "avg_hr": 109.52,
+            "avg_hr": 109.56,
             "std_hr": 7.85,
-            "count": 234
+            "count": 235
           },
           "38": {
             "pace_sec": 372.5,
             "pace_label": "6:12",
-            "avg_hr": 112.76,
+            "avg_hr": 112.78,
             "std_hr": 9.21,
-            "count": 417
+            "count": 418
           },
           "35": {
             "pace_sec": 357.5,
             "pace_label": "5:57",
-            "avg_hr": 113.42,
-            "std_hr": 9.16,
-            "count": 431
+            "avg_hr": 113.48,
+            "std_hr": 9.19,
+            "count": 433
           },
           "37": {
             "pace_sec": 367.5,
             "pace_label": "6:07",
-            "avg_hr": 112.36,
+            "avg_hr": 112.37,
             "std_hr": 8.47,
-            "count": 467
+            "count": 468
           },
           "39": {
             "pace_sec": 377.5,
@@ -21892,9 +21905,9 @@
           "33": {
             "pace_sec": 347.5,
             "pace_label": "5:47",
-            "avg_hr": 115.29,
-            "std_hr": 8.55,
-            "count": 426
+            "avg_hr": 115.36,
+            "std_hr": 8.6,
+            "count": 428
           },
           "32": {
             "pace_sec": 342.5,
@@ -21913,9 +21926,9 @@
           "29": {
             "pace_sec": 327.5,
             "pace_label": "5:27",
-            "avg_hr": 117.35,
-            "std_hr": 7.87,
-            "count": 282
+            "avg_hr": 117.42,
+            "std_hr": 7.94,
+            "count": 283
           },
           "28": {
             "pace_sec": 322.5,
@@ -21934,16 +21947,16 @@
           "45": {
             "pace_sec": 407.5,
             "pace_label": "6:47",
-            "avg_hr": 105.28,
-            "std_hr": 9.55,
-            "count": 80
+            "avg_hr": 105.54,
+            "std_hr": 9.58,
+            "count": 82
           },
           "44": {
             "pace_sec": 402.5,
             "pace_label": "6:42",
-            "avg_hr": 106.84,
-            "std_hr": 10.0,
-            "count": 144
+            "avg_hr": 107.13,
+            "std_hr": 10.1,
+            "count": 147
           },
           "42": {
             "pace_sec": 392.5,
@@ -21969,9 +21982,9 @@
           "19": {
             "pace_sec": 277.5,
             "pace_label": "4:37",
-            "avg_hr": 128.4,
-            "std_hr": 10.7,
-            "count": 60
+            "avg_hr": 128.58,
+            "std_hr": 10.69,
+            "count": 61
           },
           "18": {
             "pace_sec": 272.5,
@@ -22053,9 +22066,9 @@
           "23": {
             "pace_sec": 297.5,
             "pace_label": "4:57",
-            "avg_hr": 128.46,
-            "std_hr": 10.17,
-            "count": 60
+            "avg_hr": 128.81,
+            "std_hr": 10.18,
+            "count": 62
           },
           "14": {
             "pace_sec": 252.5,
@@ -22089,15 +22102,15 @@
             "pace_sec": 307.5,
             "pace_label": "5:07",
             "avg_hr": 127.2,
-            "std_hr": 9.88,
-            "count": 60
+            "std_hr": 9.8,
+            "count": 61
           },
           "46": {
             "pace_sec": 412.5,
             "pace_label": "6:52",
-            "avg_hr": 105.43,
-            "std_hr": 7.57,
-            "count": 53
+            "avg_hr": 105.93,
+            "std_hr": 7.66,
+            "count": 56
           },
           "47": {
             "pace_sec": 417.5,
@@ -24217,12 +24230,127 @@
             "date": "2026-05-24",
             "pace_sec": 372.8,
             "hr": 129.6
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 369.4,
+            "hr": 117.7
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 370.2,
+            "hr": 122.9
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 404.3,
+            "hr": 122.7
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 359.7,
+            "hr": 120.0
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 348.7,
+            "hr": 121.2
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 387.3,
+            "hr": 118.5
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 361.2,
+            "hr": 120.0
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 297.0,
+            "hr": 138.6
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 359.2,
+            "hr": 133.0
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 299.7,
+            "hr": 139.6
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 361.2,
+            "hr": 134.5
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 404.6,
+            "hr": 123.5
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 384.9,
+            "hr": 118.2
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 305.2,
+            "hr": 126.6
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 279.2,
+            "hr": 139.0
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 349.9,
+            "hr": 137.5
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 326.2,
+            "hr": 137.1
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 405.9,
+            "hr": 116.6
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 403.8,
+            "hr": 116.2
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 408.1,
+            "hr": 115.9
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 411.3,
+            "hr": 114.8
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 412.6,
+            "hr": 115.3
+          },
+          {
+            "date": "2026-05-26",
+            "pace_sec": 410.7,
+            "hr": 114.4
           }
         ],
         "linear_fit": {
-          "slope": -0.2756,
-          "intercept": 209.48,
-          "r2": 0.9191,
+          "slope": -0.2747,
+          "intercept": 209.27,
+          "r2": 0.9194,
           "plateau_pace_sec": 417.5,
           "fit_hr_range": [
             120.0,
@@ -24231,17 +24359,17 @@
           "fit_tier": "primary",
           "markers": {
             "50": {
-              "pace_sec": 368.2,
+              "pace_sec": 368.6,
               "pace_label": "6:08",
               "hr": 108.0
             },
             "60": {
-              "pace_sec": 321.0,
+              "pace_sec": 321.3,
               "pace_label": "5:21",
               "hr": 121.0
             },
             "70": {
-              "pace_sec": 273.9,
+              "pace_sec": 274.0,
               "pace_label": "4:33",
               "hr": 134.0
             },
@@ -24251,132 +24379,132 @@
               "hr": 147.0
             },
             "90": {
-              "pace_sec": 179.5,
+              "pace_sec": 179.3,
               "pace_label": "2:59",
               "hr": 160.0
             },
             "vt1": {
-              "pace_sec": 339.2,
+              "pace_sec": 339.5,
               "pace_label": "5:39",
               "hr": 116
             },
             "threshold": {
-              "pace_sec": 194.0,
-              "pace_label": "3:14",
+              "pace_sec": 193.9,
+              "pace_label": "3:13",
               "hr": 156
             }
           },
           "regression_line": [
             {
-              "pace_sec": 324.7,
+              "pace_sec": 324.9,
               "hr": 120.0
             },
             {
-              "pace_sec": 322.4,
+              "pace_sec": 322.7,
               "hr": 120.61
             },
             {
-              "pace_sec": 320.2,
+              "pace_sec": 320.5,
               "hr": 121.22
             },
             {
-              "pace_sec": 318.0,
+              "pace_sec": 318.3,
               "hr": 121.84
             },
             {
-              "pace_sec": 315.8,
+              "pace_sec": 316.0,
               "hr": 122.45
             },
             {
-              "pace_sec": 313.6,
+              "pace_sec": 313.8,
               "hr": 123.06
             },
             {
-              "pace_sec": 311.3,
+              "pace_sec": 311.6,
               "hr": 123.67
             },
             {
-              "pace_sec": 309.1,
+              "pace_sec": 309.3,
               "hr": 124.29
             },
             {
-              "pace_sec": 306.9,
+              "pace_sec": 307.1,
               "hr": 124.9
             },
             {
-              "pace_sec": 304.7,
+              "pace_sec": 304.9,
               "hr": 125.51
             },
             {
-              "pace_sec": 302.4,
+              "pace_sec": 302.7,
               "hr": 126.12
             },
             {
-              "pace_sec": 300.2,
+              "pace_sec": 300.4,
               "hr": 126.73
             },
             {
-              "pace_sec": 298.0,
+              "pace_sec": 298.2,
               "hr": 127.35
             },
             {
-              "pace_sec": 295.8,
+              "pace_sec": 296.0,
               "hr": 127.96
             },
             {
-              "pace_sec": 293.6,
+              "pace_sec": 293.7,
               "hr": 128.57
             },
             {
-              "pace_sec": 291.3,
+              "pace_sec": 291.5,
               "hr": 129.18
             },
             {
-              "pace_sec": 289.1,
+              "pace_sec": 289.3,
               "hr": 129.8
             },
             {
-              "pace_sec": 286.9,
+              "pace_sec": 287.1,
               "hr": 130.41
             },
             {
-              "pace_sec": 284.7,
+              "pace_sec": 284.8,
               "hr": 131.02
             },
             {
-              "pace_sec": 282.5,
+              "pace_sec": 282.6,
               "hr": 131.63
             },
             {
-              "pace_sec": 280.2,
+              "pace_sec": 280.4,
               "hr": 132.24
             },
             {
-              "pace_sec": 278.0,
+              "pace_sec": 278.1,
               "hr": 132.86
             },
             {
-              "pace_sec": 275.8,
+              "pace_sec": 275.9,
               "hr": 133.47
             },
             {
-              "pace_sec": 273.6,
+              "pace_sec": 273.7,
               "hr": 134.08
             },
             {
-              "pace_sec": 271.3,
+              "pace_sec": 271.5,
               "hr": 134.69
             },
             {
-              "pace_sec": 269.1,
+              "pace_sec": 269.2,
               "hr": 135.31
             },
             {
-              "pace_sec": 266.9,
+              "pace_sec": 267.0,
               "hr": 135.92
             },
             {
-              "pace_sec": 264.7,
+              "pace_sec": 264.8,
               "hr": 136.53
             },
             {
@@ -24384,15 +24512,15 @@
               "hr": 137.14
             },
             {
-              "pace_sec": 260.2,
+              "pace_sec": 260.3,
               "hr": 137.76
             },
             {
-              "pace_sec": 258.0,
+              "pace_sec": 258.1,
               "hr": 138.37
             },
             {
-              "pace_sec": 255.8,
+              "pace_sec": 255.9,
               "hr": 138.98
             },
             {
@@ -24404,7 +24532,7 @@
               "hr": 140.2
             },
             {
-              "pace_sec": 249.1,
+              "pace_sec": 249.2,
               "hr": 140.82
             },
             {
@@ -24420,7 +24548,7 @@
               "hr": 142.65
             },
             {
-              "pace_sec": 240.2,
+              "pace_sec": 240.3,
               "hr": 143.27
             },
             {
@@ -24436,7 +24564,7 @@
               "hr": 145.1
             },
             {
-              "pace_sec": 231.4,
+              "pace_sec": 231.3,
               "hr": 145.71
             },
             {
@@ -24452,11 +24580,11 @@
               "hr": 147.55
             },
             {
-              "pace_sec": 222.5,
+              "pace_sec": 222.4,
               "hr": 148.16
             },
             {
-              "pace_sec": 220.3,
+              "pace_sec": 220.2,
               "hr": 148.78
             },
             {
@@ -24464,12 +24592,12 @@
               "hr": 149.39
             },
             {
-              "pace_sec": 215.8,
+              "pace_sec": 215.7,
               "hr": 150.0
             }
           ]
         },
-        "n_windows": 7297
+        "n_windows": 7320
       },
       "year_2023": {
         "bucket_stats": {
@@ -25038,7 +25166,7 @@
       "vt1": 116.0,
       "threshold": 156.0
     },
-    "last_updated": "2026-05-26 00:05"
+    "last_updated": "2026-05-27 00:04"
   },
   "cycling_cloud": {
     "series": {
@@ -25508,138 +25636,6 @@
           ]
         },
         "recent_points": [
-          {
-            "date": "2026-04-14",
-            "power_w": 53.6,
-            "hr": 72.9,
-            "indoor": true
-          },
-          {
-            "date": "2026-04-14",
-            "power_w": 53.8,
-            "hr": 75.9,
-            "indoor": true
-          },
-          {
-            "date": "2026-04-14",
-            "power_w": 87.6,
-            "hr": 87.0,
-            "indoor": true
-          },
-          {
-            "date": "2026-04-14",
-            "power_w": 93.3,
-            "hr": 87.6,
-            "indoor": true
-          },
-          {
-            "date": "2026-04-14",
-            "power_w": 90.9,
-            "hr": 88.3,
-            "indoor": true
-          },
-          {
-            "date": "2026-04-14",
-            "power_w": 93.3,
-            "hr": 89.7,
-            "indoor": true
-          },
-          {
-            "date": "2026-04-14",
-            "power_w": 92.2,
-            "hr": 89.8,
-            "indoor": true
-          },
-          {
-            "date": "2026-04-14",
-            "power_w": 92.6,
-            "hr": 89.8,
-            "indoor": true
-          },
-          {
-            "date": "2026-04-14",
-            "power_w": 94.8,
-            "hr": 91.1,
-            "indoor": true
-          },
-          {
-            "date": "2026-04-14",
-            "power_w": 95.3,
-            "hr": 91.8,
-            "indoor": true
-          },
-          {
-            "date": "2026-04-14",
-            "power_w": 95.6,
-            "hr": 93.2,
-            "indoor": true
-          },
-          {
-            "date": "2026-04-14",
-            "power_w": 95.1,
-            "hr": 94.5,
-            "indoor": true
-          },
-          {
-            "date": "2026-04-14",
-            "power_w": 103.0,
-            "hr": 94.7,
-            "indoor": true
-          },
-          {
-            "date": "2026-04-14",
-            "power_w": 89.2,
-            "hr": 91.1,
-            "indoor": true
-          },
-          {
-            "date": "2026-04-14",
-            "power_w": 89.8,
-            "hr": 96.7,
-            "indoor": true
-          },
-          {
-            "date": "2026-04-14",
-            "power_w": 90.5,
-            "hr": 98.0,
-            "indoor": true
-          },
-          {
-            "date": "2026-04-14",
-            "power_w": 91.8,
-            "hr": 95.9,
-            "indoor": true
-          },
-          {
-            "date": "2026-04-14",
-            "power_w": 88.8,
-            "hr": 93.9,
-            "indoor": true
-          },
-          {
-            "date": "2026-04-14",
-            "power_w": 76.0,
-            "hr": 93.6,
-            "indoor": true
-          },
-          {
-            "date": "2026-04-14",
-            "power_w": 62.8,
-            "hr": 90.5,
-            "indoor": true
-          },
-          {
-            "date": "2026-04-14",
-            "power_w": 60.7,
-            "hr": 87.2,
-            "indoor": true
-          },
-          {
-            "date": "2026-04-14",
-            "power_w": 60.2,
-            "hr": 86.5,
-            "indoor": true
-          },
           {
             "date": "2026-04-15",
             "power_w": 90.1,
@@ -37797,7 +37793,7 @@
       "vt1": 116,
       "threshold": 156
     },
-    "last_updated": "2026-05-26 00:06"
+    "last_updated": "2026-05-27 00:04"
   },
   "cycling_curve": {
     "series": {
@@ -41106,7 +41102,7 @@
       "2026-05-24_18_17_07_cycling_i151150076.fit",
       "2026-05-25_09_50_25_cycling_i151320404.fit"
     ],
-    "last_updated": "2026-05-26 00:06"
+    "last_updated": "2026-05-27 00:04"
   },
   "running_bests": {
     "series": {
@@ -41273,7 +41269,7 @@
           "peak_hr_bpm": 157.0,
           "peak_hrr_pct": 87.7
         },
-        "total_distance_km": 1314.4
+        "total_distance_km": 1321.7
       },
       "recent": {
         "best_times": {
@@ -41314,7 +41310,7 @@
           "peak_hr_bpm": 157.0,
           "peak_hrr_pct": 87.7
         },
-        "total_distance_km": 992.6
+        "total_distance_km": 999.9
       },
       "year_2023": {
         "best_times": {
@@ -42453,8 +42449,9 @@
       "2026-05-22_13_47_22_running_i150556896.fit",
       "2026-05-23_09_01_28_running_i150748334.fit",
       "2026-05-23_09_32_17_running_i150748324.fit",
-      "2026-05-24_11_30_44_running_i151031535.fit"
+      "2026-05-24_11_30_44_running_i151031535.fit",
+      "2026-05-26_18_14_26_running_i151683220.fit"
     ],
-    "last_updated": "2026-05-26 00:06"
+    "last_updated": "2026-05-27 00:04"
   }
 }
