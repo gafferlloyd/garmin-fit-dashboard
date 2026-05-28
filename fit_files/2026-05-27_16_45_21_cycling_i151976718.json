@@ -1,0 +1,38 @@
+{
+  "file": "2026-05-27_16_45_21_cycling_i151976718.fit",
+  "activity_type": "Ride",
+  "is_indoor": false,
+  "duration": "1h 09m 38s",
+  "duration_s": 4178,
+  "distance_km": 32.64,
+  "elevation_m": 75,
+  "calories_kcal": null,
+  "heart_rate": {
+    "avg_bpm": 119,
+    "max_bpm": 143,
+    "min_bpm": 77,
+    "avg_hrr_pct": 58.5
+  },
+  "hr_zones_pct": {
+    "Z1 Recovery": 33.2,
+    "Z2 Endurance": 62.4,
+    "Z3 Tempo": 4.4,
+    "Z4 Threshold": 0.0,
+    "Z5 VO2max": 0.0
+  },
+  "cadence": {
+    "avg_rpm": 72,
+    "max_rpm": 105
+  },
+  "avg_speed_kph": 28.2,
+  "max_speed_kph": 43.3,
+  "avg_power_w": 180.4,
+  "max_power_w": 688,
+  "norm_power_w": 193.5,
+  "intensity_factor": 0.652,
+  "tss": 49.3,
+  "ftp_used_w": 297,
+  "w_per_kg": 2.65,
+  "np_per_kg": 2.85,
+  "icu_activity_id": "i151976718"
+}
